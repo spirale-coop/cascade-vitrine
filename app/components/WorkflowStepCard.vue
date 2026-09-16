@@ -4,20 +4,44 @@ defineProps<{
   label: string
   example: string
   automation: string
-  available?: boolean
-  comingSoonLabel?: string
+  status?: 'available' | 'in-progress' | 'upcoming'
+  availableLabel?: string
+  inProgressLabel?: string
+  upcomingLabel?: string
 }>()
 </script>
 
 <template>
   <div class="relative flex flex-col items-center gap-3 rounded-lg border border-default bg-default px-4 py-6 text-center">
     <UBadge
-      v-if="available === false && comingSoonLabel"
+      v-if="status === 'in-progress'"
+      variant="subtle"
+      size="sm"
+      color="warning"
+      class="absolute top-2 right-2 gap-1.5"
+    >
+      <span class="relative flex size-1.5">
+        <span class="absolute inline-flex size-full animate-ping rounded-full bg-current opacity-75" />
+        <span class="relative inline-flex size-1.5 rounded-full bg-current" />
+      </span>
+      {{ inProgressLabel }}
+    </UBadge>
+    <UBadge
+      v-else-if="status === 'upcoming'"
       variant="subtle"
       size="sm"
       class="absolute top-2 right-2 bg-violet-500/10 text-violet-600 ring-violet-500/25 dark:text-violet-400"
     >
-      {{ comingSoonLabel }}
+      {{ upcomingLabel }}
+    </UBadge>
+    <UBadge
+      v-else
+      variant="subtle"
+      size="sm"
+      color="success"
+      class="absolute top-2 right-2"
+    >
+      {{ availableLabel }}
     </UBadge>
     <div class="icon-badge-primary flex size-11 shrink-0 items-center justify-center rounded-full text-primary">
       <UIcon :name="icon" class="size-5" />

@@ -4,7 +4,7 @@ interface Step {
   label: string
   example: string
   automation: string
-  available?: boolean
+  status?: 'available' | 'in-progress' | 'upcoming'
 }
 
 withDefaults(defineProps<{
@@ -12,7 +12,9 @@ withDefaults(defineProps<{
   title?: string
   description?: string
   steps?: Step[]
-  comingSoonLabel?: string
+  availableLabel?: string
+  inProgressLabel?: string
+  upcomingLabel?: string
   ctaCardText?: string
   ctaLabel?: string
   ctaTo?: string
@@ -30,7 +32,9 @@ const localePath = useLocalePath()
         v-for="step in steps"
         :key="step.label"
         v-bind="step"
-        :coming-soon-label="comingSoonLabel"
+        :available-label="availableLabel"
+        :in-progress-label="inProgressLabel"
+        :upcoming-label="upcomingLabel"
       />
 
       <div class="flex flex-col items-center justify-center gap-3 rounded-lg border border-primary/30 bg-primary/10 px-4 py-5 text-center">

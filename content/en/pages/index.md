@@ -9,6 +9,8 @@ headline: For alternative, non-profit management.
 title: Your contribution model in a single tool.
 description: "Define your own management rules precisely, and Cascade automates the rest: contracts, amendments, subscriptions, invoicing, payment, and internal resource management."
 ctaLabel: Book a call
+secondaryCtaLabel: Read the manifesto
+secondaryCtaTo: /manifeste
 ---
 ::
 
@@ -81,7 +83,9 @@ features:
 headline: Features
 title: What the platform already does — and what's coming.
 description: A concrete look at Cascade's modules, built or in progress.
-comingSoonLabel: Coming soon
+availableLabel: Available
+inProgressLabel: In development
+upcomingLabel: Upcoming
 ctaCardText: That was just a preview. The rest is waiting for you.
 ctaLabel: See all features
 ctaTo: /fonctionnalites
@@ -90,72 +94,72 @@ steps:
     label: Subscription models
     example: 'E.g.: Office — monthly, €340, billed per invoice'
     automation: Defined once by the manager, applied to every new subscription
-    available: true
+    status: available
   - icon: i-lucide-file-signature
     label: Subscription & invitation
     example: 'E.g.: Subscription — Atelier Nomade, 12 months'
     automation: Guided flow, electronic signature, and bulk invitation via CSV import
-    available: true
+    status: available
   - icon: i-lucide-file-check
     label: Contracting
     example: 'E.g.: Contract #1520455 — Office, workshop'
     automation: Automatic contract generation and status tracking through to signature
-    available: true
+    status: available
   - icon: i-lucide-file-diff
     label: Amendments
     example: 'E.g.: +10% on the contribution amount'
     automation: Change detection and automatic contract regeneration
-    available: true
+    status: available
   - icon: i-lucide-shield-check
     label: Documents to review
     example: 'E.g.: Proof of address'
     automation: Documents collected at signature, accepted or rejected with reason by the manager
-    available: true
+    status: available
   - icon: i-lucide-hand-coins
     label: Contributions
     example: 'E.g.: €340 / month + shared costs'
     automation: Automatically generated at each due date, special cases handled by hand
-    available: true
+    status: available
   - icon: i-lucide-receipt-text
     label: Invoicing
     example: 'E.g.: Invoice #2024-114 — La Filature Coop'
     automation: Compliant invoice generated automatically with every payment
-    available: true
+    status: available
   - icon: i-lucide-credit-card
     label: Payments
     example: 'E.g.: SEPA direct debit, on the 5th of the month'
     automation: Multi-method tracking of collections and outstanding balances
-    available: false
+    status: in-progress
   - icon: i-lucide-box
     label: Resource booking
     example: 'E.g.: Office 12 — 18 m², La Grange shared space'
     automation: Physical resource modeling and real-time occupancy tracking
-    available: false
+    status: upcoming
   - icon: i-lucide-plug
     label: API connections
     example: 'E.g.: Pennylane, Stripe, e-invoicing'
     automation: Sync accounting, payments, and e-invoicing with your existing tools
-    available: false
+    status: upcoming
   - icon: i-lucide-heart-handshake
     label: Nonprofit mode
     example: 'E.g.: Tax receipt, public donation page'
     automation: Issue tax receipts and collect online donations, tailored to nonprofit structures
-    available: false
+    status: upcoming
   - icon: i-lucide-scale
     label: Fee adjustments
     example: 'E.g.: Overage fee, credit note, one-time adjustment'
     automation: Handle special billing cases without losing the link to the original subscription
-    available: false
+    status: upcoming
   - icon: i-lucide-network
     label: Cross-entity management
     example: 'E.g.: A federation oversees several local cascades'
     automation: Connect multiple cascades together to automate shared management processes across entities
-    available: false
+    status: upcoming
   - icon: i-lucide-target
     label: Adaptive contribution
     example: 'E.g.: €145 collective target, split according to each person''s means'
     automation: Automatically adjust amounts charged to reach a collectively defined target
-    available: false
+    status: upcoming
 ---
 ::
 

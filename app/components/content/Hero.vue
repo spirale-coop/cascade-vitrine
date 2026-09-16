@@ -4,9 +4,12 @@ defineProps<{
   title?: string
   description?: string
   ctaLabel?: string
+  secondaryCtaLabel?: string
+  secondaryCtaTo?: string
 }>()
 
 const { t } = useI18n()
+const localePath = useLocalePath()
 </script>
 
 <template>
@@ -25,6 +28,15 @@ const { t } = useI18n()
           data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
         >
           {{ ctaLabel }}
+        </UButton>
+        <UButton
+          v-if="secondaryCtaLabel"
+          :to="localePath(secondaryCtaTo ?? '/manifeste')"
+          color="neutral"
+          variant="subtle"
+          size="lg"
+        >
+          {{ secondaryCtaLabel }}
         </UButton>
       </template>
 
