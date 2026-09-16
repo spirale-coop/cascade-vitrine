@@ -5,8 +5,8 @@ description: Cascade est porté par une fédération d'acteurs de l'urbanisme tr
 
 ::page-header
 ---
-title: La fédération
-description: Cascade n'est pas édité par une entreprise qui vend un logiciel aux lieux et collectifs — c'est un outil mutualisé, gouverné par celles et ceux qui l'utilisent au quotidien.
+backTo: /
+backLabel: Retour
 ---
 ::
 
@@ -68,6 +68,6 @@ description: ''
 ---
 title: Une question, un projet ?
 description: Écrivez-nous pour en discuter.
-ctaLabel: Demander une démo
+ctaLabel: Réserver un échange
 ---
 ::

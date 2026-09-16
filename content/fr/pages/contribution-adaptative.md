@@ -5,8 +5,8 @@ description: Le cœur du modèle Cascade — comment le prix peut s'adapter aux 
 
 ::page-header
 ---
-title: La contribution adaptative
-description: Le cœur du modèle Cascade. Plutôt qu'un tarif unique décidé d'avance, chaque collectif définit sa propre règle de répartition — et Cascade l'applique et la recalcule automatiquement.
+backTo: /
+backLabel: Retour
 ---
 ::
 
@@ -85,6 +85,6 @@ examples:
 ---
 title: Vous gérez un lieu ou des ressources collectivement ?
 description: Découvrez si Cascade peut répondre à vos besoins.
-ctaLabel: Demander une démo
+ctaLabel: Réserver un échange
 ---
 ::

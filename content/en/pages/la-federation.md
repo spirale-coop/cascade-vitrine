@@ -5,8 +5,8 @@ description: Cascade is run by a federation of transitional urbanism players, un
 
 ::page-header
 ---
-title: The federation
-description: Cascade is not published by a company that sells software to venues and collectives — it's a shared tool, governed by the people who use it every day.
+backTo: /
+backLabel: Back
 ---
 ::
 
@@ -68,6 +68,6 @@ description: ''
 ---
 title: Have a question or a project?
 description: Write to us to talk about it.
-ctaLabel: Request a demo
+ctaLabel: Book a call
 ---
 ::

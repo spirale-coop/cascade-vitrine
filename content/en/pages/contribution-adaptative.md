@@ -5,8 +5,8 @@ description: The heart of the Cascade model — how price can adapt to the group
 
 ::page-header
 ---
-title: Adaptive Contribution
-description: The heart of the Cascade model. Instead of a single rate decided in advance, each group defines its own distribution rule — and Cascade applies and recalculates it automatically.
+backTo: /
+backLabel: Back
 ---
 ::
 
@@ -85,6 +85,6 @@ examples:
 ---
 title: Do you manage a space or resources collectively?
 description: Find out if Cascade can meet your needs.
-ctaLabel: Request a demo
+ctaLabel: Book a call
 ---
 ::

@@ -8,7 +8,7 @@ description: Cascade helps venues, collectives, and organizations manage their s
 headline: For alternative, non-profit management.
 title: Your contribution model in a single tool.
 description: "Define your own management rules precisely, and Cascade automates the rest: contracts, amendments, subscriptions, invoicing, payment, and internal resource management."
-ctaLabel: Request a demo
+ctaLabel: Book a call
 ---
 ::
 
@@ -54,61 +54,108 @@ symptoms:
 headline: The product
 title: Everything you need to manage a collective, in one place.
 description: Cascade centralizes what's currently scattered across spreadsheets, emails, and invoicing software.
-showMockups: true
 features:
-  - icon: i-lucide-layout-template
-    title: Subscription models
-    description: Define recurrence, amount, and membership rules once.
-  - icon: i-lucide-file-signature
-    title: Subscriptions
-    description: Centralize subscriptions, resources, and their terms of use.
-  - icon: i-lucide-hand-coins
-    title: Contributions
-    description: Set up one-time or recurring contributions, fixed as of today.
-  - icon: i-lucide-receipt-text
-    title: Invoicing
-    description: Generate invoices and credit notes and track their status.
-  - icon: i-lucide-credit-card
-    title: Payments
-    description: Track payments and, over time, automate the flows.
-  - icon: i-lucide-line-chart
-    title: Insights
-    description: Understand the collective's resources, contributions, and flows.
+  - icon: i-lucide-files
+    title: Management is lighter
+    description: Find your subscriber base and the full management history in one place.
+  - icon: i-lucide-notebook-pen
+    title: Tracking is centralized
+    description: "Change one value: it automatically ripples through everything else."
+  - icon: i-lucide-file-diff
+    title: Resource pooling is built in
+    description: The most original contribution models plug directly into the management process — for example, pooling resources within a collective.
+  - icon: i-lucide-receipt
+    title: One connected process
+    description: "Every part of the management stays linked and follows each update: raising a price by 10% automatically generates the amendments and prorated invoices for every affected subscriber."
+  - icon: i-lucide-users
+    title: Transparency, under control
+    description: Share reliable, up-to-date management indicators with the collective.
+  - icon: i-lucide-table
+    title: An innovative pricing system
+    description: Adaptive contribution lets you automate management that's structurally non-profit.
 ---
 ::
 
 ::workflow
 ---
-headline: One thread, start to finish
-title: From resource to payment.
-description: Cascade connects items that are currently scattered across multiple tools, with no gaps between them.
+headline: Features
+title: What the platform already does — and what's coming.
+description: A concrete look at Cascade's modules, built or in progress.
+comingSoonLabel: Coming soon
+ctaCardText: That was just a preview. The rest is waiting for you.
 ctaLabel: See all features
 ctaTo: /fonctionnalites
 steps:
-  - icon: i-lucide-box
-    label: Resource
-    example: 'E.g.: Office 12 — 18 m², La Grange community space'
-    automation: Availability automatically recalculated based on active subscriptions
   - icon: i-lucide-layout-template
-    label: Subscription model
-    example: 'E.g.: Office — monthly, 340 €, billed per invoice'
+    label: Subscription models
+    example: 'E.g.: Office — monthly, €340, billed per invoice'
     automation: Defined once by the manager, applied to every new subscription
+    available: true
   - icon: i-lucide-file-signature
-    label: Subscription
+    label: Subscription & invitation
     example: 'E.g.: Subscription — Atelier Nomade, 12 months'
-    automation: Amendment and new version automatically generated with every change
+    automation: Guided flow, electronic signature, and bulk invitation via CSV import
+    available: true
+  - icon: i-lucide-file-check
+    label: Contracting
+    example: 'E.g.: Contract #1520455 — Office, workshop'
+    automation: Automatic contract generation and status tracking through to signature
+    available: true
+  - icon: i-lucide-file-diff
+    label: Amendments
+    example: 'E.g.: +10% on the contribution amount'
+    automation: Change detection and automatic contract regeneration
+    available: true
+  - icon: i-lucide-shield-check
+    label: Documents to review
+    example: 'E.g.: Proof of address'
+    automation: Documents collected at signature, accepted or rejected with reason by the manager
+    available: true
   - icon: i-lucide-hand-coins
-    label: Contribution
-    example: 'E.g.: 340 € / month + shared costs'
-    automation: Automatically calculated according to the chosen subscription model
+    label: Contributions
+    example: 'E.g.: €340 / month + shared costs'
+    automation: Automatically generated at each due date, special cases handled by hand
+    available: true
   - icon: i-lucide-receipt-text
-    label: Invoice
+    label: Invoicing
     example: 'E.g.: Invoice #2024-114 — La Filature Coop'
-    automation: Automatically generated and sent when due
+    automation: Compliant invoice generated automatically with every payment
+    available: true
   - icon: i-lucide-credit-card
-    label: Payment
+    label: Payments
     example: 'E.g.: SEPA direct debit, on the 5th of the month'
-    automation: Automatically reconciled with the corresponding invoice
+    automation: Multi-method tracking of collections and outstanding balances
+    available: false
+  - icon: i-lucide-box
+    label: Resource booking
+    example: 'E.g.: Office 12 — 18 m², La Grange shared space'
+    automation: Physical resource modeling and real-time occupancy tracking
+    available: false
+  - icon: i-lucide-plug
+    label: API connections
+    example: 'E.g.: Pennylane, Stripe, e-invoicing'
+    automation: Sync accounting, payments, and e-invoicing with your existing tools
+    available: false
+  - icon: i-lucide-heart-handshake
+    label: Nonprofit mode
+    example: 'E.g.: Tax receipt, public donation page'
+    automation: Issue tax receipts and collect online donations, tailored to nonprofit structures
+    available: false
+  - icon: i-lucide-scale
+    label: Fee adjustments
+    example: 'E.g.: Overage fee, credit note, one-time adjustment'
+    automation: Handle special billing cases without losing the link to the original subscription
+    available: false
+  - icon: i-lucide-network
+    label: Cross-entity management
+    example: 'E.g.: A federation oversees several local cascades'
+    automation: Connect multiple cascades together to automate shared management processes across entities
+    available: false
+  - icon: i-lucide-target
+    label: Adaptive contribution
+    example: 'E.g.: €145 collective target, split according to each person''s means'
+    automation: Automatically adjust amounts charged to reach a collectively defined target
+    available: false
 ---
 ::
 
@@ -151,6 +198,6 @@ linkLabel: View the code on GitHub
 ---
 title: Do you manage a venue or resources collectively?
 description: Find out if Cascade can meet your needs.
-ctaLabel: Request a demo
+ctaLabel: Book a call
 ---
 ::

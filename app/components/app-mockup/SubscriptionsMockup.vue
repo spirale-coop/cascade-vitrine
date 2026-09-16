@@ -1,5 +1,5 @@
 <script setup lang="ts">
-type Row = { occupant: string, ressource: string, contribution: string, statut: string, color: 'success' | 'warning' | 'neutral' }
+type Row = { occupant: string, model: string, contribution: string, statut: string, color: 'success' | 'warning' | 'neutral' }
 
 // Row colors are purely visual and stay out of i18n — text content lives in
 // i18n/locales/{fr,en}.json under mockups.subscriptionsMockup.<scenario>.
@@ -49,7 +49,7 @@ const data = computed(() => {
           <thead class="bg-elevated/50 text-xs text-muted">
             <tr>
               <th class="px-3 py-2 font-medium">{{ t('mockups.subscriptionsMockup.columns.occupant') }}</th>
-              <th class="hidden px-3 py-2 font-medium sm:table-cell">{{ t('mockups.subscriptionsMockup.columns.resource') }}</th>
+              <th class="hidden px-3 py-2 font-medium sm:table-cell">{{ t('mockups.subscriptionsMockup.columns.model') }}</th>
               <th class="px-3 py-2 font-medium">{{ t('mockups.subscriptionsMockup.columns.contribution') }}</th>
               <th class="px-3 py-2 font-medium">{{ t('mockups.subscriptionsMockup.columns.status') }}</th>
             </tr>
@@ -57,7 +57,7 @@ const data = computed(() => {
           <tbody class="divide-y divide-default">
             <tr v-for="row in data.rows" :key="row.occupant">
               <td class="px-3 py-2.5 font-medium text-highlighted">{{ row.occupant }}</td>
-              <td class="hidden px-3 py-2.5 text-muted sm:table-cell">{{ row.ressource }}</td>
+              <td class="hidden px-3 py-2.5 text-muted sm:table-cell">{{ row.model }}</td>
               <td class="px-3 py-2.5 text-muted">{{ row.contribution }}</td>
               <td class="px-3 py-2.5">
                 <UBadge :color="row.color" variant="subtle" size="sm">{{ row.statut }}</UBadge>

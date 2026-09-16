@@ -4,17 +4,38 @@ defineProps<{
   label: string
   example: string
   automation: string
+  available?: boolean
+  comingSoonLabel?: string
 }>()
 </script>
 
 <template>
-  <div class="flex flex-1 flex-col items-center gap-2 rounded-lg border border-default bg-default px-4 py-5 text-center">
-    <UIcon :name="icon" class="size-6 text-primary" />
-    <p class="text-sm font-medium text-highlighted">{{ label }}</p>
-    <p class="text-xs text-muted">{{ example }}</p>
-    <div class="mt-auto flex items-start gap-1 pt-1 text-xs font-medium text-primary">
-      <UIcon name="i-lucide-zap" class="mt-0.5 size-3.5 shrink-0" />
-      <span>{{ automation }}</span>
+  <div class="relative flex flex-col items-center gap-3 rounded-lg border border-default bg-default px-4 py-6 text-center">
+    <UBadge
+      v-if="available === false && comingSoonLabel"
+      variant="subtle"
+      size="sm"
+      class="absolute top-2 right-2 bg-violet-500/10 text-violet-600 ring-violet-500/25 dark:text-violet-400"
+    >
+      {{ comingSoonLabel }}
+    </UBadge>
+    <div class="icon-badge-primary flex size-11 shrink-0 items-center justify-center rounded-full text-primary">
+      <UIcon :name="icon" class="size-5" />
+    </div>
+    <p class="text-sm font-semibold text-highlighted">{{ label }}</p>
+    <div class="flex flex-col gap-1">
+      <p class="text-xs text-muted">{{ example }}</p>
+      <p class="text-xs text-muted">{{ automation }}</p>
     </div>
   </div>
 </template>
+
+<style scoped>
+/* bg-primary/10 silently fails to render: `primary` is remapped at runtime
+   via app.config and isn't in Tailwind's build-time palette, so opacity
+   modifiers on it don't work. color-mix against the CSS var is the
+   reliable workaround. */
+.icon-badge-primary {
+  background-color: color-mix(in oklch, var(--ui-primary) 12%, transparent);
+}
+</style>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-type Item = { label: string, type: string, amount: string, period: string }
+type Item = { subscription: string, date: string, paymentMethod: string, amount: string, status: string, color: 'neutral' | 'warning' }
 
 const { t, tm, rt } = useI18n()
 const scenario = useFeatureScenario()
@@ -20,19 +20,17 @@ const data = computed(() => resolveI18nMessages<{ subtitle: string, items: Item[
 
       <div
         v-for="item in data.items"
-        :key="item.label"
+        :key="item.subscription"
         class="flex items-center justify-between gap-3 rounded-lg border border-default px-3 py-2.5"
       >
         <div class="min-w-0">
-          <p class="truncate text-sm font-medium text-highlighted">{{ item.label }}</p>
-          <div class="mt-1 flex flex-wrap gap-1.5">
-            <UBadge color="neutral" variant="subtle" size="sm">{{ item.type }}</UBadge>
-            <UBadge v-if="item.type === 'Adaptative' || item.type === 'Adaptive'" color="warning" variant="subtle" size="sm">{{ t('mockups.contributionsMockup.comingSoonBadge') }}</UBadge>
-          </div>
+          <p class="truncate text-sm font-medium text-highlighted">{{ item.subscription }}</p>
+          <p class="truncate text-xs text-muted">{{ item.date }} · {{ item.paymentMethod }}</p>
         </div>
-        <p class="shrink-0 text-sm text-muted">
-          <span class="font-medium text-highlighted">{{ item.amount }}</span> {{ item.period }}
-        </p>
+        <div class="flex shrink-0 items-center gap-3">
+          <span class="text-sm font-medium text-highlighted">{{ item.amount }}</span>
+          <UBadge :color="item.color" variant="subtle" size="sm">{{ item.status }}</UBadge>
+        </div>
       </div>
     </div>
   </div>

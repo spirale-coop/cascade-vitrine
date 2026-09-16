@@ -3,6 +3,13 @@ title: Understanding the Cascade Model — Manifesto
 description: The Cascade manifesto — contribution, redistribution, and cycles, the three notions that form a system, and why they open a path beyond capitalist logics.
 ---
 
+::page-header
+---
+backTo: /
+backLabel: Back
+---
+::
+
 ::manifesto-intro
 ---
 headline: The manifesto

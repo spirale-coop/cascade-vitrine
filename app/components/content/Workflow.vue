@@ -4,68 +4,41 @@ interface Step {
   label: string
   example: string
   automation: string
+  available?: boolean
 }
 
-const props = withDefaults(defineProps<{
+withDefaults(defineProps<{
   headline?: string
   title?: string
   description?: string
   steps?: Step[]
+  comingSoonLabel?: string
+  ctaCardText?: string
   ctaLabel?: string
   ctaTo?: string
 }>(), {
   steps: () => []
 })
 
-const firstRow = computed(() => props.steps.slice(0, 3))
-const secondRow = computed(() => props.steps.slice(3))
-
 const localePath = useLocalePath()
 </script>
 
 <template>
   <UPageSection :headline="headline" :title="title" :description="description">
-    <!-- Mobile / narrow: single vertical column -->
-    <div class="flex flex-col items-stretch gap-2 xl:hidden">
-      <template v-for="(step, index) in steps" :key="step.label">
-        <WorkflowStepCard v-bind="step" />
-        <UIcon
-          v-if="index < steps.length - 1"
-          name="i-lucide-arrow-right"
-          class="size-4 shrink-0 self-center text-dimmed rotate-90"
-        />
-      </template>
-    </div>
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <WorkflowStepCard
+        v-for="step in steps"
+        :key="step.label"
+        v-bind="step"
+        :coming-soon-label="comingSoonLabel"
+      />
 
-    <!-- xl and up: two rows of three, so each card gets more room to breathe -->
-    <div class="hidden xl:flex xl:flex-col xl:items-stretch xl:gap-4">
-      <div class="flex items-stretch justify-between gap-2">
-        <template v-for="(step, index) in firstRow" :key="step.label">
-          <WorkflowStepCard v-bind="step" />
-          <UIcon
-            v-if="index < firstRow.length - 1"
-            name="i-lucide-arrow-right"
-            class="size-4 shrink-0 self-center text-dimmed"
-          />
-        </template>
+      <div class="flex flex-col items-center justify-center gap-3 rounded-lg border border-primary/30 bg-primary/10 px-4 py-5 text-center">
+        <p class="text-sm font-medium text-highlighted">{{ ctaCardText }}</p>
+        <UButton :to="localePath(ctaTo ?? '/')" trailing-icon="i-lucide-arrow-right" size="sm">
+          {{ ctaLabel }}
+        </UButton>
       </div>
-      <UIcon name="i-lucide-arrow-down" class="size-4 shrink-0 self-center text-dimmed" />
-      <div class="flex items-stretch justify-between gap-2">
-        <template v-for="(step, index) in secondRow" :key="step.label">
-          <WorkflowStepCard v-bind="step" />
-          <UIcon
-            v-if="index < secondRow.length - 1"
-            name="i-lucide-arrow-right"
-            class="size-4 shrink-0 self-center text-dimmed"
-          />
-        </template>
-      </div>
-    </div>
-
-    <div class="mt-10 flex justify-center">
-      <UButton :to="localePath(ctaTo ?? '/')" color="neutral" variant="subtle" trailing-icon="i-lucide-arrow-right">
-        {{ ctaLabel }}
-      </UButton>
     </div>
   </UPageSection>
 </template>

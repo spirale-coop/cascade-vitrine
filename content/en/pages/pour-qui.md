@@ -5,8 +5,8 @@ description: Cascade is designed for collective organizations — associations, 
 
 ::page-header
 ---
-title: Who is it for?
-description: "Cascade isn't for every organization. It's designed specifically for those that operate differently."
+backTo: /
+backLabel: Back
 ---
 ::
 
@@ -19,14 +19,14 @@ conventional:
   title: Ordinary business
   points:
     - A management team that decides
-    - A price set per unit sold
+    - A single pricing model, imposed on everyone
     - Governance closed to stakeholders
     - Profitability as the end goal
 collective:
   title: Collective organization
   points:
     - Governance shared among members
-    - Contributions adjusted to needs and means
+    - A model chosen collectively — fixed, pooled, or adaptive
     - Rules decided collectively, upfront
     - Resource pooling as the end goal
 ---
@@ -62,17 +62,19 @@ types:
 headline: What Cascade supports
 title: The levers specific to collective organizations.
 description: Cascade doesn't replicate conventional management logic — it provides the tools for what makes collective organizations distinctive.
-showMockups: false
 features:
   - icon: i-lucide-users-round
     title: Resource pooling
     description: Share resources and costs among multiple members, without having to recalculate everything by hand.
-  - icon: i-lucide-shield-check
-    title: Ex ante regulation
-    description: Decide on rules before they apply, rather than negotiating case by case.
   - icon: i-lucide-sliders-horizontal
-    title: Differentiated pricing
-    description: Adjust contributions according to each member's needs, means, or usage.
+    title: Adaptive contribution
+    description: Automatically adjust everyone's share to a collective target, rather than a fixed price built for profit.
+  - icon: i-lucide-layers
+    title: Plural contribution
+    description: Recognize time, skills, or materials on equal footing with money.
+  - icon: i-lucide-scale
+    title: Redistribution
+    description: Regulate surpluses and deficits collectively, cycle after cycle, instead of letting them pile up.
   - icon: i-lucide-vote
     title: Governance
     description: Bring collective decisions to life within the software's own rules.
@@ -86,6 +88,6 @@ features:
 ---
 title: Do you manage a collective organization?
 description: Find out how Cascade can adapt to the way you work.
-ctaLabel: Request a demo
+ctaLabel: Book a call
 ---
 ::

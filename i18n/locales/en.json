@@ -7,25 +7,10 @@
     "laFederation": "The federation",
     "documentation": "Documentation",
     "seConnecter": "Sign in",
-    "testerCascade": "Request a demo"
+    "testerCascade": "Book a call"
   },
   "footer": {
     "copyright": "© {year} Cascade — under the Coopyleft license."
-  },
-  "contactModal": {
-    "title": "Request a demo",
-    "description": "Tell us about your space or collective, we'll get back to you quickly.",
-    "nameLabel": "Name",
-    "namePlaceholder": "Your name",
-    "organizationLabel": "Organization",
-    "organizationPlaceholder": "Space, collective, cooperative…",
-    "emailLabel": "Email",
-    "emailPlaceholder": "you{'@'}example.org",
-    "messageLabel": "Message",
-    "messagePlaceholder": "A few words about your needs…",
-    "submit": "Send request",
-    "toastTitle": "Thank you!",
-    "toastDescription": "Your request has been received, we'll get back to you shortly."
   },
   "error": {
     "pageNotFound": "Page not found"
@@ -41,32 +26,8 @@
     },
     "scenarioSwitcher": {
       "headline": "One scenario, many uses",
-      "description": "Cascade applied to use cases beyond temporary occupancy."
-    },
-    "lifecycleTiles": {
-      "resource": {
-        "badge": "Resource",
-        "title": "Office 12 — 18 m²",
-        "subtitle": "La Grange shared space",
-        "occupancyBadge": "92% occupied"
-      },
-      "model": {
-        "badge": "Model",
-        "title": "Monthly rent",
-        "badges": ["Recurring", "Invoice", "Contract"]
-      },
-      "contribution": {
-        "badge": "Contribution",
-        "title": "Common charges",
-        "adaptiveBadge": "Adaptive",
-        "comingSoonBadge": "Coming soon",
-        "amountNote": "/ month, based on actual needs"
-      },
-      "invoice": {
-        "badge": "Invoice",
-        "amount": "25,44 € incl. tax",
-        "statusBadge": "Invoiced"
-      }
+      "description": "Cascade applied to use cases beyond temporary occupancy.",
+      "moreBadge": "and much more"
     },
     "repoMockup": {
       "stats": {
@@ -194,53 +155,52 @@
     },
     "contributionsMockup": {
       "windowTitle": "Contributions",
-      "comingSoonBadge": "Coming soon",
       "tiers-lieux": {
         "subtitle": "Contributions — Atelier Nomade",
         "items": [
-          { "label": "Base rent", "type": "Fixed", "amount": "340 €", "period": "/ month" },
-          { "label": "Common charges", "type": "Adaptive", "amount": "38 — 62 €", "period": "/ month" },
-          { "label": "Woodshop — usage", "type": "One-time", "amount": "15 €", "period": "/ session" }
+          { "subscription": "Atelier Nomade — Monthly rent", "date": "1 March 2026", "paymentMethod": "Bank transfer", "amount": "340 €", "status": "Invoiced", "color": "neutral" },
+          { "subscription": "Studio Kerne — Monthly rent", "date": "1 April 2026", "paymentMethod": "SEPA direct debit", "amount": "260 €", "status": "To invoice", "color": "warning" },
+          { "subscription": "Atelier Nomade — Woodshop usage", "date": "14 March 2026", "paymentMethod": "Card payment", "amount": "15 €", "status": "Invoiced", "color": "neutral" }
         ]
       },
       "cooperatives": {
         "subtitle": "Contributions — Lucas Martin",
         "items": [
-          { "label": "Membership share", "type": "Fixed", "amount": "50 €", "period": "/ year" },
-          { "label": "Shared fund", "type": "Adaptive", "amount": "10 — 25 €", "period": "/ month" },
-          { "label": "Room booking", "type": "One-time", "amount": "25 €", "period": "/ half-day" }
+          { "subscription": "Lucas Martin — Membership share", "date": "1 January 2026", "paymentMethod": "Bank transfer", "amount": "50 €", "status": "Invoiced", "color": "neutral" },
+          { "subscription": "Sophie Dubois — Membership share", "date": "1 January 2027", "paymentMethod": "SEPA direct debit", "amount": "50 €", "status": "To invoice", "color": "warning" },
+          { "subscription": "Atelier Nomade — Share ×3", "date": "1 January 2026", "paymentMethod": "Bank transfer", "amount": "150 €", "status": "Invoiced", "color": "neutral" }
         ]
       },
       "ateliers": {
         "subtitle": "Contributions — Marie Petit",
         "items": [
-          { "label": "Workshop membership", "type": "Fixed", "amount": "18 €", "period": "/ month" },
-          { "label": "Shared supplies", "type": "Adaptive", "amount": "5 — 12 €", "period": "/ month" },
-          { "label": "Woodworking machine — usage", "type": "One-time", "amount": "6 €", "period": "/ hour" }
+          { "subscription": "Marie Petit — Workshop membership", "date": "1 March 2026", "paymentMethod": "Card payment", "amount": "18 €", "status": "Invoiced", "color": "neutral" },
+          { "subscription": "Thomas Roy — Woodworking machine", "date": "1 April 2026", "paymentMethod": "SEPA direct debit", "amount": "24 €", "status": "To invoice", "color": "warning" },
+          { "subscription": "Léa Fontaine — Membership + locker", "date": "5 March 2026", "paymentMethod": "Cash", "amount": "30 €", "status": "Invoiced", "color": "neutral" }
         ]
       },
       "amap": {
         "subtitle": "Contributions — Camille Vidal",
         "items": [
-          { "label": "Vegetable basket", "type": "Fixed", "amount": "18 €", "period": "/ week" },
-          { "label": "Solidarity basket", "type": "Adaptive", "amount": "8 — 16 €", "period": "/ week" },
-          { "label": "Eggs — add-on", "type": "One-time", "amount": "3 €", "period": "/ week" }
+          { "subscription": "Nguyen Family — Vegetable basket", "date": "10 March 2026", "paymentMethod": "SEPA direct debit", "amount": "18 €", "status": "Invoiced", "color": "neutral" },
+          { "subscription": "Camille Vidal — Basket + eggs", "date": "17 March 2026", "paymentMethod": "Cash", "amount": "24 €", "status": "To invoice", "color": "warning" },
+          { "subscription": "Marc Aubert — Solidarity basket", "date": "10 March 2026", "paymentMethod": "Bank transfer", "amount": "12 €", "status": "Invoiced", "color": "neutral" }
         ]
       },
       "creche": {
         "subtitle": "Contributions — Haddad Family",
         "items": [
-          { "label": "Regular care", "type": "Fixed", "amount": "780 €", "period": "/ month" },
-          { "label": "Missed care compensation", "type": "Adaptive", "amount": "15 — 45 €", "period": "/ month" },
-          { "label": "Early learning activity", "type": "One-time", "amount": "8 €", "period": "/ session" }
+          { "subscription": "Haddad Family — Regular care", "date": "1 March 2026", "paymentMethod": "SEPA direct debit", "amount": "780 €", "status": "Invoiced", "color": "neutral" },
+          { "subscription": "Rousseau Family — Regular care", "date": "1 April 2026", "paymentMethod": "Bank transfer", "amount": "480 €", "status": "To invoice", "color": "warning" },
+          { "subscription": "Morel Family — Regular care", "date": "1 March 2026", "paymentMethod": "Card payment", "amount": "320 €", "status": "Invoiced", "color": "neutral" }
         ]
       },
       "fanfare": {
         "subtitle": "Contributions — Inès Lambert",
         "items": [
-          { "label": "Annual dues", "type": "Fixed", "amount": "90 €", "period": "/ year" },
-          { "label": "Tuba rental", "type": "Adaptive", "amount": "10 — 20 €", "period": "/ month" },
-          { "label": "Festival concert — fee", "type": "One-time", "amount": "12 €", "period": "/ session" }
+          { "subscription": "Nora Benali — Annual dues", "date": "1 January 2026", "paymentMethod": "Bank transfer", "amount": "90 €", "status": "Invoiced", "color": "neutral" },
+          { "subscription": "Julien Costa — Annual dues", "date": "1 January 2027", "paymentMethod": "Cash", "amount": "70 €", "status": "To invoice", "color": "warning" },
+          { "subscription": "Inès Lambert — Tuba rental", "date": "5 March 2026", "paymentMethod": "SEPA direct debit", "amount": "20 €", "status": "Invoiced", "color": "neutral" }
         ]
       }
     },
@@ -306,62 +266,62 @@
       "newButton": "New subscription",
       "columns": {
         "occupant": "Contributor",
-        "resource": "Resource",
+        "model": "Subscription model",
         "contribution": "Contribution",
         "status": "Status"
       },
       "tiers-lieux": {
         "subtitle": "La Grange shared space — 4 active occupants",
         "rows": [
-          { "occupant": "Atelier Nomade", "ressource": "Office 12 — 18m²", "contribution": "340 € / month", "statut": "Up to date" },
-          { "occupant": "Collectif Lisière", "ressource": "Common room", "contribution": "210 € / month", "statut": "Amendment in progress" },
-          { "occupant": "La Filature Coop", "ressource": "Wood workshop", "contribution": "480 € / month", "statut": "Up to date" },
-          { "occupant": "Studio Kerne", "ressource": "Office 4 — 12m²", "contribution": "260 € / month", "statut": "Pending" }
+          { "occupant": "Atelier Nomade", "model": "Shared office", "contribution": "340 € / month", "statut": "Up to date" },
+          { "occupant": "Collectif Lisière", "model": "Shared office", "contribution": "210 € / month", "statut": "Amendment in progress" },
+          { "occupant": "La Filature Coop", "model": "Shared office", "contribution": "480 € / month", "statut": "Up to date" },
+          { "occupant": "Studio Kerne", "model": "Shared office", "contribution": "260 € / month", "statut": "Pending" }
         ]
       },
       "cooperatives": {
         "subtitle": "Lieux Vivants Cooperative — 4 active co-op members",
         "rows": [
-          { "occupant": "Lucas Martin", "ressource": "Share ×2", "contribution": "100 € / year", "statut": "Up to date" },
-          { "occupant": "Sophie Dubois", "ressource": "Share ×1", "contribution": "50 € / year", "statut": "Amendment in progress" },
-          { "occupant": "Atelier Nomade", "ressource": "Share ×3", "contribution": "150 € / year", "statut": "Up to date" },
-          { "occupant": "Studio Kerne", "ressource": "Share ×1", "contribution": "50 € / year", "statut": "Pending" }
+          { "occupant": "Lucas Martin", "model": "Cooperative member share", "contribution": "100 € / year", "statut": "Up to date" },
+          { "occupant": "Sophie Dubois", "model": "Cooperative member share", "contribution": "50 € / year", "statut": "Amendment in progress" },
+          { "occupant": "Atelier Nomade", "model": "Cooperative member share", "contribution": "150 € / year", "statut": "Up to date" },
+          { "occupant": "Studio Kerne", "model": "Cooperative member share", "contribution": "50 € / year", "statut": "Pending" }
         ]
       },
       "ateliers": {
         "subtitle": "Les Mains Vertes Workshop — 4 active members",
         "rows": [
-          { "occupant": "Marie Petit", "ressource": "Workbench 3", "contribution": "18 € / month", "statut": "Up to date" },
-          { "occupant": "Thomas Roy", "ressource": "Woodworking machine", "contribution": "24 € / month", "statut": "Amendment in progress" },
-          { "occupant": "Léa Fontaine", "ressource": "Locker + workbench 5", "contribution": "30 € / month", "statut": "Up to date" },
-          { "occupant": "Studio Kerne", "ressource": "Workbench 1", "contribution": "18 € / month", "statut": "Pending" }
+          { "occupant": "Marie Petit", "model": "Workshop membership", "contribution": "18 € / month", "statut": "Up to date" },
+          { "occupant": "Thomas Roy", "model": "Workshop membership", "contribution": "24 € / month", "statut": "Amendment in progress" },
+          { "occupant": "Léa Fontaine", "model": "Workshop membership", "contribution": "30 € / month", "statut": "Up to date" },
+          { "occupant": "Studio Kerne", "model": "Workshop membership", "contribution": "18 € / month", "statut": "Pending" }
         ]
       },
       "amap": {
         "subtitle": "Trois Sillons CSA — 4 active members",
         "rows": [
-          { "occupant": "Nguyen Family", "ressource": "Vegetable basket ×1", "contribution": "18 € / week", "statut": "Up to date" },
-          { "occupant": "Camille Vidal", "ressource": "Vegetable + egg basket", "contribution": "24 € / week", "statut": "Up to date" },
-          { "occupant": "Marc Aubert", "ressource": "Solidarity basket", "contribution": "12 € / week", "statut": "Amendment in progress" },
-          { "occupant": "Yasmine Foucher", "ressource": "Egg basket ×1", "contribution": "6 € / week", "statut": "Pending" }
+          { "occupant": "Nguyen Family", "model": "Weekly vegetable basket", "contribution": "18 € / week", "statut": "Up to date" },
+          { "occupant": "Camille Vidal", "model": "Weekly vegetable basket", "contribution": "24 € / week", "statut": "Up to date" },
+          { "occupant": "Marc Aubert", "model": "Weekly vegetable basket", "contribution": "12 € / week", "statut": "Amendment in progress" },
+          { "occupant": "Yasmine Foucher", "model": "Weekly vegetable basket", "contribution": "6 € / week", "statut": "Pending" }
         ]
       },
       "creche": {
         "subtitle": "Daycare \"Les petits fripons\" — 4 active families",
         "rows": [
-          { "occupant": "Rousseau Family", "ressource": "Spot 3 days / week", "contribution": "480 € / month", "statut": "Up to date" },
-          { "occupant": "Haddad Family", "ressource": "Spot 5 days / week", "contribution": "780 € / month", "statut": "Up to date" },
-          { "occupant": "Morel Family", "ressource": "Spot 2 days / week", "contribution": "320 € / month", "statut": "Amendment in progress" },
-          { "occupant": "Petit Family", "ressource": "Spot 1 day / week", "contribution": "160 € / month", "statut": "Pending" }
+          { "occupant": "Rousseau Family", "model": "Regular childcare", "contribution": "480 € / month", "statut": "Up to date" },
+          { "occupant": "Haddad Family", "model": "Regular childcare", "contribution": "780 € / month", "statut": "Up to date" },
+          { "occupant": "Morel Family", "model": "Regular childcare", "contribution": "320 € / month", "statut": "Amendment in progress" },
+          { "occupant": "Petit Family", "model": "Regular childcare", "contribution": "160 € / month", "statut": "Pending" }
         ]
       },
       "fanfare": {
         "subtitle": "Faubourg Marching Band — 4 active musicians",
         "rows": [
-          { "occupant": "Nora Benali", "ressource": "Trumpet + rehearsal room", "contribution": "90 € / year", "statut": "Up to date" },
-          { "occupant": "Julien Costa", "ressource": "Percussion", "contribution": "70 € / year", "statut": "Up to date" },
-          { "occupant": "Inès Lambert", "ressource": "Tuba (on loan)", "contribution": "110 € / year", "statut": "Amendment in progress" },
-          { "occupant": "Yanis Roche", "ressource": "Junior membership fee", "contribution": "40 € / year", "statut": "Pending" }
+          { "occupant": "Nora Benali", "model": "Musician's dues", "contribution": "90 € / year", "statut": "Up to date" },
+          { "occupant": "Julien Costa", "model": "Musician's dues", "contribution": "70 € / year", "statut": "Up to date" },
+          { "occupant": "Inès Lambert", "model": "Musician's dues", "contribution": "110 € / year", "statut": "Amendment in progress" },
+          { "occupant": "Yanis Roche", "model": "Musician's dues", "contribution": "40 € / year", "statut": "Pending" }
         ]
       }
     },
@@ -461,8 +421,6 @@
     "adaptiveContributionDiagram": {
       "conventionalLabel": "Conventional system",
       "cascadeLabel": "Cascade system",
-      "hint": "You can drag the objective line to adjust it",
-      "comingSoon": "Coming soon",
       "objective": "Objective: €{amount}",
       "totalLabel": "Total {label}:",
       "savedMessage": "€{amount} saved collectively",
@@ -486,6 +444,300 @@
         { "label": "Network activity share", "hint": "contribution to connected cascades" },
         { "label": "Over-contribution", "hint": "voluntary" }
       ]
+    },
+    "contractsMockup": {
+      "windowTitle": "Contract",
+      "tiers-lieux": {
+        "subtitle": "Shared office — Atelier Nomade",
+        "ref": "#1520455",
+        "steps": [
+          { "label": "Contract generated from the model", "state": "done" },
+          { "label": "Sent for electronic signature", "state": "done" },
+          { "label": "Contributor signature", "state": "current" }
+        ]
+      },
+      "cooperatives": {
+        "subtitle": "Cooperative member share — Lucas Martin",
+        "ref": "#2240",
+        "steps": [
+          { "label": "Contract generated from the model", "state": "done" },
+          { "label": "Sent for electronic signature", "state": "done" },
+          { "label": "Co-op member signature", "state": "current" }
+        ]
+      },
+      "ateliers": {
+        "subtitle": "Workshop membership — Marie Petit",
+        "ref": "#3312",
+        "steps": [
+          { "label": "Contract generated from the model", "state": "done" },
+          { "label": "Sent for electronic signature", "state": "done" },
+          { "label": "Member signature", "state": "current" }
+        ]
+      },
+      "amap": {
+        "subtitle": "Weekly vegetable basket — Camille Vidal",
+        "ref": "#4405",
+        "steps": [
+          { "label": "Contract generated from the model", "state": "done" },
+          { "label": "Sent for electronic signature", "state": "done" },
+          { "label": "Member signature", "state": "current" }
+        ]
+      },
+      "creche": {
+        "subtitle": "Regular childcare — Haddad Family",
+        "ref": "#5108",
+        "steps": [
+          { "label": "Contract generated from the model", "state": "done" },
+          { "label": "Sent for electronic signature", "state": "done" },
+          { "label": "Parents' signature", "state": "current" }
+        ]
+      },
+      "fanfare": {
+        "subtitle": "Musician's dues — Inès Lambert",
+        "ref": "#6021",
+        "steps": [
+          { "label": "Contract generated from the model", "state": "done" },
+          { "label": "Sent for electronic signature", "state": "done" },
+          { "label": "Musician's signature", "state": "current" }
+        ]
+      }
+    },
+    "amendmentsMockup": {
+      "windowTitle": "Amendment",
+      "changeLabel": "Change detected",
+      "note": "Amendment and contract updated automatically, with no re-entry.",
+      "tiers-lieux": { "ref": "Amendment #2 — Contract #1520455", "fieldLabel": "Monthly amount", "before": "€340", "after": "€374" },
+      "cooperatives": { "ref": "Amendment #1 — Contract #2240", "fieldLabel": "Number of shares", "before": "1 share", "after": "2 shares" },
+      "ateliers": { "ref": "Amendment #1 — Contract #3312", "fieldLabel": "Workbench slots", "before": "Workbench 3", "after": "Workbench 3 + 5" },
+      "amap": { "ref": "Amendment #1 — Contract #4405", "fieldLabel": "Basket composition", "before": "Vegetables only", "after": "Vegetables + eggs" },
+      "creche": { "ref": "Amendment #1 — Contract #5108", "fieldLabel": "Care days", "before": "3 days / week", "after": "5 days / week" },
+      "fanfare": { "ref": "Amendment #2 — Contract #6021", "fieldLabel": "Instrument on loan", "before": "Percussion", "after": "Percussion + tuba" }
+    },
+    "documentsMockup": {
+      "windowTitle": "Documents to review",
+      "tiers-lieux": {
+        "subtitle": "Atelier Nomade — Subscription #482",
+        "rows": [
+          { "label": "Proof of identity", "status": "Approved", "color": "success" },
+          { "label": "Proof of address", "status": "To review", "color": "warning" },
+          { "label": "Bank details", "status": "Approved", "color": "success" }
+        ]
+      },
+      "cooperatives": {
+        "subtitle": "Lucas Martin — Subscription #212",
+        "rows": [
+          { "label": "Proof of identity", "status": "Approved", "color": "success" },
+          { "label": "Signed cooperative commitment", "status": "To review", "color": "warning" },
+          { "label": "Bank details", "status": "Approved", "color": "success" }
+        ]
+      },
+      "ateliers": {
+        "subtitle": "Marie Petit — Subscription #318",
+        "rows": [
+          { "label": "Proof of identity", "status": "Approved", "color": "success" },
+          { "label": "Signed workshop charter", "status": "To review", "color": "warning" },
+          { "label": "Liability insurance", "status": "Approved", "color": "success" }
+        ]
+      },
+      "amap": {
+        "subtitle": "Camille Vidal — Subscription #440",
+        "rows": [
+          { "label": "Signed CSA charter", "status": "Approved", "color": "success" },
+          { "label": "Bank details for direct debit", "status": "To review", "color": "warning" },
+          { "label": "Seasonal commitment", "status": "Approved", "color": "success" }
+        ]
+      },
+      "creche": {
+        "subtitle": "Haddad Family — Subscription #510",
+        "rows": [
+          { "label": "Up-to-date health record", "status": "Approved", "color": "success" },
+          { "label": "Proof of address", "status": "To review", "color": "warning" },
+          { "label": "Insurance certificate", "status": "Approved", "color": "success" }
+        ]
+      },
+      "fanfare": {
+        "subtitle": "Inès Lambert — Subscription #602",
+        "rows": [
+          { "label": "Proof of identity", "status": "Approved", "color": "success" },
+          { "label": "Instrument loan authorization", "status": "To review", "color": "warning" },
+          { "label": "Bank details", "status": "Approved", "color": "success" }
+        ]
+      }
+    },
+    "apiConnectionsMockup": {
+      "windowTitle": "Connections",
+      "tiers-lieux": {
+        "rows": [
+          { "label": "Pennylane", "sub": "Accounting", "status": "Connected", "color": "success" },
+          { "label": "Stripe", "sub": "Payments", "status": "Connected", "color": "success" },
+          { "label": "E-invoicing", "sub": "Chorus Pro", "status": "Coming soon", "color": "neutral" }
+        ]
+      },
+      "cooperatives": {
+        "rows": [
+          { "label": "Pennylane", "sub": "Accounting", "status": "Connected", "color": "success" },
+          { "label": "GoCardless", "sub": "Co-op member direct debits", "status": "Connected", "color": "success" },
+          { "label": "E-invoicing", "sub": "Chorus Pro", "status": "Coming soon", "color": "neutral" }
+        ]
+      },
+      "ateliers": {
+        "rows": [
+          { "label": "Pennylane", "sub": "Accounting", "status": "Connected", "color": "success" },
+          { "label": "Stripe", "sub": "Online payments", "status": "Connected", "color": "success" },
+          { "label": "HelloAsso", "sub": "Memberships", "status": "Coming soon", "color": "neutral" }
+        ]
+      },
+      "amap": {
+        "rows": [
+          { "label": "Stripe", "sub": "Basket direct debits", "status": "Connected", "color": "success" },
+          { "label": "Pennylane", "sub": "Accounting", "status": "Connected", "color": "success" },
+          { "label": "HelloAsso", "sub": "One-off donations", "status": "Coming soon", "color": "neutral" }
+        ]
+      },
+      "creche": {
+        "rows": [
+          { "label": "Pennylane", "sub": "Accounting", "status": "Connected", "color": "success" },
+          { "label": "GoCardless", "sub": "Monthly direct debits", "status": "Connected", "color": "success" },
+          { "label": "CAF Pro", "sub": "Benefits and subsidies", "status": "Coming soon", "color": "neutral" }
+        ]
+      },
+      "fanfare": {
+        "rows": [
+          { "label": "HelloAsso", "sub": "Memberships & donations", "status": "Connected", "color": "success" },
+          { "label": "Pennylane", "sub": "Accounting", "status": "Connected", "color": "success" },
+          { "label": "Stripe", "sub": "Ticket sales", "status": "Coming soon", "color": "neutral" }
+        ]
+      }
+    },
+    "nonprofitModeMockup": {
+      "windowTitle": "Tax receipt",
+      "donorLabel": "Donor",
+      "amountLabel": "Donation amount",
+      "status": "Sent",
+      "tiers-lieux": { "receiptLabel": "Tax receipt", "receipt": "Receipt #2024-118", "donor": "Julie Marchand", "amount": "€80" },
+      "cooperatives": { "receiptLabel": "Donation receipt", "receipt": "#2024-118", "donor": "Camille Roussel", "amount": "€150" },
+      "ateliers": { "receiptLabel": "Tax receipt", "receipt": "Receipt #2024-118", "donor": "Hugo Lefèvre", "amount": "€50" },
+      "amap": { "receiptLabel": "Tax receipt", "receipt": "Receipt #2024-118", "donor": "Nadia Belkacem", "amount": "€30" },
+      "creche": { "receiptLabel": "Tax receipt", "receipt": "Receipt #2024-118", "donor": "Karim Haddad", "amount": "€100" },
+      "fanfare": { "receiptLabel": "Tax receipt", "receipt": "Receipt #2024-118", "donor": "Pauline Girard", "amount": "€60" }
+    },
+    "feeAdjustmentsMockup": {
+      "windowTitle": "Adjustment",
+      "provisionedLabel": "Provisioned",
+      "regularizedLabel": "Regularized",
+      "note": "Split pro rata to usage, then regularized for each contributor once the real invoice is received.",
+      "tiers-lieux": {
+        "subtitle": "Electricity — Shared office",
+        "provisioned": "€1,000 / month",
+        "regularized": "€950 / month",
+        "rowLabel": "Occupant 1 — 65 m²",
+        "rowBefore": "€100 / month",
+        "rowAfter": "€40 (last month)"
+      },
+      "cooperatives": {
+        "subtitle": "Co-ownership charges — Lieux Vivants Cooperative",
+        "provisioned": "€600 / quarter",
+        "regularized": "€540 / quarter",
+        "rowLabel": "Lucas Martin — 2 shares",
+        "rowBefore": "€60 / quarter",
+        "rowAfter": "€48 (last quarter)"
+      },
+      "ateliers": {
+        "subtitle": "Supplies (wood, glue, varnish) — Les Mains Vertes Workshop",
+        "provisioned": "€300 / month",
+        "regularized": "€260 / month",
+        "rowLabel": "Marie Petit — average usage",
+        "rowBefore": "€15 / month",
+        "rowAfter": "€11 (last month)"
+      },
+      "amap": {
+        "subtitle": "Losses and unsold produce — Trois Sillons CSA",
+        "provisioned": "€80 / week",
+        "regularized": "€55 / week",
+        "rowLabel": "Standard basket",
+        "rowBefore": "€3 / week",
+        "rowAfter": "€1.50 (last week)"
+      },
+      "creche": {
+        "subtitle": "Meals and snacks — Daycare \"Les petits fripons\"",
+        "provisioned": "€450 / month",
+        "regularized": "€410 / month",
+        "rowLabel": "Haddad Family — 3 days / week",
+        "rowBefore": "€90 / month",
+        "rowAfter": "€75 (last month)"
+      },
+      "fanfare": {
+        "subtitle": "Rehearsal room rental — Faubourg Marching Band",
+        "provisioned": "€240 / quarter",
+        "regularized": "€210 / quarter",
+        "rowLabel": "Inès Lambert",
+        "rowBefore": "€20 / quarter",
+        "rowAfter": "€17 (last quarter)"
+      }
+    },
+    "crossEntityMockup": {
+      "windowTitle": "Connected cascades",
+      "tiers-lieux": {
+        "root": "Shared-space federation",
+        "rows": [
+          { "label": "Cascade — Atelier Nomade", "amount": "€1,240 / month" },
+          { "label": "Cascade — Studio Kerne", "amount": "€860 / month" },
+          { "label": "Cascade — Collectif Lisière", "amount": "€640 / month" }
+        ]
+      },
+      "cooperatives": {
+        "root": "Lieux Vivants Cooperative Union",
+        "rows": [
+          { "label": "Cascade — Lieux Vivants Cooperative", "amount": "€3,200 / month" },
+          { "label": "Cascade — Les Arcades Cooperative", "amount": "€2,100 / month" },
+          { "label": "Cascade — Bord de Seine Cooperative", "amount": "€1,450 / month" }
+        ]
+      },
+      "ateliers": {
+        "root": "Shared workshop network",
+        "rows": [
+          { "label": "Cascade — Les Mains Vertes Workshop", "amount": "€860 / month" },
+          { "label": "Cascade — Canal Workshop", "amount": "€540 / month" },
+          { "label": "Cascade — Belleville Workshop", "amount": "€410 / month" }
+        ]
+      },
+      "amap": {
+        "root": "Regional CSA federation",
+        "rows": [
+          { "label": "Cascade — Trois Sillons CSA", "amount": "€620 / week" },
+          { "label": "Cascade — Plateau CSA", "amount": "€480 / week" },
+          { "label": "Cascade — Verte Vallée CSA", "amount": "€390 / week" }
+        ]
+      },
+      "creche": {
+        "root": "Parent-run daycare network",
+        "rows": [
+          { "label": "Cascade — Daycare \"Les petits fripons\"", "amount": "€6,100 / month" },
+          { "label": "Cascade — Petits Pas Daycare", "amount": "€4,200 / month" },
+          { "label": "Cascade — Arc-en-Ciel Daycare", "amount": "€3,400 / month" }
+        ]
+      },
+      "fanfare": {
+        "root": "Community marching band federation",
+        "rows": [
+          { "label": "Cascade — Faubourg Marching Band", "amount": "€540 / month" },
+          { "label": "Cascade — Ateliers Marching Band", "amount": "€380 / month" },
+          { "label": "Cascade — Au Détour Marching Band", "amount": "€290 / month" }
+        ]
+      }
+    },
+    "adaptiveTargetMockup": {
+      "windowTitle": "Adaptive contribution",
+      "objectiveLabel": "Cycle objective",
+      "contributorsLabel": "Active contributors",
+      "perPersonLabel": "Contribution / person",
+      "autoAdjusted": "Automatically adjusted",
+      "tiers-lieux": { "purpose": "Common charges for the month", "objective": "€1,200", "contributors": "12", "perPerson": "€100" },
+      "cooperatives": { "purpose": "Annual mutualization fund", "objective": "€3,400", "contributors": "34", "perPerson": "€100" },
+      "ateliers": { "purpose": "Supplies for the month", "objective": "€540", "contributors": "27", "perPerson": "€20" },
+      "amap": { "purpose": "Solidarity basket for the week", "objective": "€900", "contributors": "45", "perPerson": "€20" },
+      "creche": { "purpose": "Shared position for the month", "objective": "€1,600", "contributors": "16", "perPerson": "€100" },
+      "fanfare": { "purpose": "Rehearsal room rental for the quarter", "objective": "€560", "contributors": "28", "perPerson": "€20" }
     }
   }
 }

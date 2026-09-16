@@ -5,8 +5,8 @@ description: Cascade s'adresse aux organisations collectives — associations, c
 
 ::page-header
 ---
-title: Pour qui ?
-description: "Cascade ne s'adresse pas à toutes les organisations. Il s'adresse précisément à celles qui fonctionnent autrement."
+backTo: /
+backLabel: Retour
 ---
 ::
 
@@ -14,29 +14,29 @@ description: "Cascade ne s'adresse pas à toutes les organisations. Il s'adresse
 ---
 headline: Une autre façon de faire
 title: "Les entreprises ordinaires et les organisations collectives ne fonctionnent pas pareil."
-description: "Les outils de gestion classiques encodent les règles du premier modèle. Cascade outille le second."
+description: "Les outils de gestion classiques ne sont pas adaptées aux logiques de organisations collectives. Cascade propose un ensemble d'outils permettant une gestion alternative à travers les pratiques concrêtes qui fondent ces modèles."
 conventional:
   title: Entreprise ordinaire
   points:
     - Une direction qui décide
-    - Un prix fixé par unité vendue
-    - Une gouvernance fermée aux parties prenantes
+    - Un modèle de prix opaque
+    - Une gouvernance privée et capitaliste
     - La rentabilité comme finalité
 collective:
   title: Organisation collective
   points:
     - Une gouvernance partagée entre membres
-    - Une contribution ajustée aux besoins et aux moyens
-    - Des règles décidées collectivement, en amont
-    - La mutualisation comme finalité
+    - Un modèle choisi non-lucratif
+    - Des règles décidées collectivement et coopéaratives
+    - La mutualisation et la satisfaction des besoins comme finalité
 ---
 ::
 
 ::audience-types
 ---
-headline: "Qui s'adresse à Cascade"
+headline: "À qui s'adresse Cascade ?"
 title: "Toute organisation qui sort du cadre de l'entreprise ordinaire."
-description: "Associations, coopératives, collectifs informels, syndicats, tiers-lieux… si vous gérez des ressources collectivement, Cascade est fait pour vous."
+description: "Si vous avez une approche collective de la gestion de vos activités, Cascade est fait pour vous."
 types:
   - icon: i-lucide-heart-handshake
     label: Associations
@@ -61,18 +61,20 @@ types:
 ---
 headline: Ce que Cascade outille
 title: Les leviers propres aux organisations collectives.
-description: Cascade ne reproduit pas les logiques de gestion classiques — il outille ce qui fait la spécificité des organisations collectives.
-showMockups: false
+description: Cascade ne reproduit pas les logiques de gestion classiques, il outille ce qui fait la spécificité des organisations collectives.
 features:
   - icon: i-lucide-users-round
     title: Mutualisation
-    description: Partager des ressources et des coûts entre plusieurs membres, sans tout recalculer à la main.
-  - icon: i-lucide-shield-check
-    title: Régulation ex ante
-    description: Décider des règles avant qu'elles s'appliquent, plutôt que négocier au cas par cas.
+    description: Partager des ressources et des coûts entre plusieurs membres en fonctionne de règles collectives.
   - icon: i-lucide-sliders-horizontal
-    title: Tarification différenciée
-    description: Ajuster les contributions selon les besoins, les moyens ou les usages de chacun.
+    title: Contribution adaptative
+    description: Ajuster automatiquement l'effort de chacun à un objectif collectif, plutôt qu'à un prix fixe pensé pour le profit.
+  - icon: i-lucide-layers
+    title: Contribution plurielle
+    description: Reconnaître le temps, les compétences ou le matériel au même titre que l'argent.
+  - icon: i-lucide-scale
+    title: Redistribution
+    description: Réguler collectivement les surplus et les déficits plutôt que de les laisser s'accumuler.
   - icon: i-lucide-vote
     title: Gouvernance
     description: Faire vivre des décisions collectives dans les règles mêmes du logiciel.
@@ -86,6 +88,6 @@ features:
 ---
 title: Vous gérez une organisation collective ?
 description: Découvrez comment Cascade peut s'adapter à votre fonctionnement.
-ctaLabel: Demander une démo
+ctaLabel: Réserver un échange
 ---
 ::

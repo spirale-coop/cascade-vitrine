@@ -18,6 +18,11 @@ withDefaults(defineProps<{
 
 <template>
   <UPageSection :headline="headline" :title="title" :description="description">
+    <template #top>
+      <WaveDecoration side="left" />
+      <WaveDecoration side="right" />
+    </template>
+
     <div class="grid gap-6 sm:grid-cols-2">
       <div class="rounded-xl border border-default bg-elevated/30 p-6">
         <p class="text-sm font-medium text-dimmed">{{ conventional.title }}</p>

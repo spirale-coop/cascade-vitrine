@@ -8,7 +8,7 @@ description: Cascade aide les lieux, collectifs et organisations à gérer leurs
 headline: Pour une gestion alternative et non-lucrative.
 title: Votre modèle contributif dans un seul outil.
 description: "Définissez précisément vos propres règles de gestion, Cascade automatise le reste : contractualisation, avenants, souscription, facturation, paiement et gestion des ressources internes."
-ctaLabel: Demander une démo
+ctaLabel: Réserver un échange
 ---
 ::
 
@@ -54,61 +54,108 @@ symptoms:
 headline: Le produit
 title: Tout ce qu'il faut pour gérer un collectif, au même endroit.
 description: Cascade centralise ce qui est aujourd'hui dispersé entre tableurs, emails et logiciels de facturation.
-showMockups: true
 features:
-  - icon: i-lucide-layout-template
-    title: Modèles de souscription
-    description: Définir une fois les règles de récurrence, de montant et d'adhésion.
-  - icon: i-lucide-file-signature
-    title: Souscriptions
-    description: Centraliser les souscriptions, les ressources et leurs conditions d'utilisation.
-  - icon: i-lucide-hand-coins
-    title: Contributions
-    description: Définir des contributions ponctuelles ou récurrentes, fixes dès aujourd'hui.
-  - icon: i-lucide-receipt-text
-    title: Facturation
-    description: Générer factures et avoirs et suivre leur état.
-  - icon: i-lucide-credit-card
-    title: Paiements
-    description: Suivre les paiements et, progressivement, automatiser les flux.
-  - icon: i-lucide-line-chart
-    title: Pilotage
-    description: Comprendre les ressources, contributions et flux du collectif.
+  - icon: i-lucide-files
+    title: La gestion est allégée
+    description: Retrouvez votre base de souscripteurs et tout l'historique de gestion au même endroit.
+  - icon: i-lucide-notebook-pen
+    title: Le suivi est centralisé
+    description: "Modifiez une seule valeur : elle se répercute automatiquement sur le reste."
+  - icon: i-lucide-file-diff
+    title: La mutualisation fait système
+    description: Les modèles contributifs les plus originaux s'intègrent directement à la gestion — par exemple, la mutualisation de ressources au sein d'un collectif.
+  - icon: i-lucide-receipt
+    title: Un processus unique
+    description: "Les éléments de la gestion restent liés entre eux et suivent chaque mise à jour : augmenter un prix de 10 % crée automatiquement les avenants et factures proratisées pour tous les souscripteurs concernés."
+  - icon: i-lucide-users
+    title: Transparence maîtrisée
+    description: Partagez avec le collectif des indicateurs de gestion fiables et à jour.
+  - icon: i-lucide-table
+    title: Un système de prix innovant
+    description: La contribution adaptative permet d'automatiser une gestion structurellement non-lucrative.
 ---
 ::
 
 ::workflow
 ---
-headline: Un seul fil, du début à la fin
-title: De la ressource au paiement.
-description: Cascade relie des objets aujourd'hui dispersés entre plusieurs outils, sans rupture entre eux.
+headline: Fonctionnalités
+title: Ce que la plateforme fait déjà — et ce qui arrive.
+description: Un aperçu concret des modules Cascade, construits ou en cours de construction.
+comingSoonLabel: Bientôt disponible
+ctaCardText: Ce n'était qu'un aperçu. La suite vous attend.
 ctaLabel: Voir toutes les fonctionnalités
 ctaTo: /fonctionnalites
 steps:
-  - icon: i-lucide-box
-    label: Ressource
-    example: 'Ex : Bureau 12 — 18 m², Tiers-lieu La Grange'
-    automation: Disponibilité recalculée automatiquement selon les souscriptions en cours
   - icon: i-lucide-layout-template
-    label: Modèle de souscription
+    label: Modèles de souscription
     example: 'Ex : Bureau — mensuel, 340 €, facturé par facture'
     automation: Défini une fois par le gestionnaire, appliqué à chaque nouvelle souscription
+    available: true
   - icon: i-lucide-file-signature
-    label: Souscription
+    label: Souscription & invitation
     example: 'Ex : Souscription — Atelier Nomade, 12 mois'
-    automation: Avenant et nouvelle version générés automatiquement à chaque changement
+    automation: Parcours guidé, signature électronique, et invitation en masse par import CSV
+    available: true
+  - icon: i-lucide-file-check
+    label: Contractualisation
+    example: 'Ex : Contrat #1520455 — Bureau, atelier'
+    automation: Génération automatique du contrat et suivi des statuts jusqu'à la signature
+    available: true
+  - icon: i-lucide-file-diff
+    label: Avenants
+    example: 'Ex : +10 % sur le montant de la contribution'
+    automation: Détection des changements et régénération automatique du contrat
+    available: true
+  - icon: i-lucide-shield-check
+    label: Documents à valider
+    example: 'Ex : Justificatif de domicile'
+    automation: Collecte des pièces à la signature, validation ou rejet motivé par le gestionnaire
+    available: true
   - icon: i-lucide-hand-coins
-    label: Contribution
+    label: Contributions
     example: 'Ex : 340 € / mois + charges communes'
-    automation: Calculée automatiquement selon le modèle de souscription choisi
+    automation: Génération automatique à chaque échéance, cas particuliers gérés à la main
+    available: true
   - icon: i-lucide-receipt-text
-    label: Facture
+    label: Facturation
     example: 'Ex : Facture #2024-114 — La Filature Coop'
-    automation: Générée et envoyée automatiquement à échéance
+    automation: Facture conforme générée automatiquement à chaque paiement
+    available: true
   - icon: i-lucide-credit-card
-    label: Paiement
+    label: Paiements
     example: 'Ex : Prélèvement SEPA, le 5 du mois'
-    automation: Rapproché automatiquement de la facture correspondante
+    automation: Suivi multi-méthodes des encaissements et du reste à payer
+    available: false
+  - icon: i-lucide-box
+    label: Réservation des ressources
+    example: 'Ex : Bureau 12 — 18 m², Tiers-lieu La Grange'
+    automation: Modélisation des ressources physiques et pilotage de l'occupation en temps réel
+    available: false
+  - icon: i-lucide-plug
+    label: Connexions API
+    example: 'Ex : Pennylane, Stripe, facturation électronique'
+    automation: Synchronisez comptabilité, paiements et facturation électronique avec vos outils existants
+    available: false
+  - icon: i-lucide-heart-handshake
+    label: Mode association
+    example: 'Ex : Reçu fiscal, page de don publique'
+    automation: Émettez des reçus fiscaux et collectez des dons en ligne, adaptés aux structures associatives
+    available: false
+  - icon: i-lucide-scale
+    label: Régulation des frais
+    example: 'Ex : Frais de dépassement, avoir, régularisation ponctuelle'
+    automation: Gérez les cas particuliers de facturation sans perdre le lien avec la souscription d'origine
+    available: false
+  - icon: i-lucide-network
+    label: Gestion inter-entité
+    example: 'Ex : Une fédération pilote plusieurs cascades locales'
+    automation: Connectez plusieurs cascades entre elles pour automatiser des processus de gestion partagés entre structures
+    available: false
+  - icon: i-lucide-target
+    label: Contribution adaptative
+    example: 'Ex : Objectif collectif à 145 €, réparti selon les moyens de chacun'
+    automation: Ajustez automatiquement les montants prélevés pour atteindre un objectif défini collectivement
+    available: false
 ---
 ::
 
@@ -151,6 +198,6 @@ linkLabel: Voir le code sur GitHub
 ---
 title: Vous gérez un lieu ou des ressources collectivement ?
 description: Découvrez si Cascade peut répondre à vos besoins.
-ctaLabel: Demander une démo
+ctaLabel: Réserver un échange
 ---
 ::

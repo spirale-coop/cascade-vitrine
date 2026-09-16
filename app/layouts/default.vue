@@ -9,10 +9,8 @@ const links = computed(() => [
   { label: t('nav.contributionAdaptative'), to: localePath('/contribution-adaptative') },
   { label: t('nav.manifeste'), to: localePath('/manifeste') },
   { label: t('nav.laFederation'), to: localePath('/la-federation') },
-  { label: t('nav.documentation'), to: 'https://github.com/cascade-coop', target: '_blank' }
+  { label: t('nav.documentation'), to: 'https://app.notion.com/p/spiralecoop/Documentation-publique-3d8f99b79d278091b3f1dfcf25b90327?source=copy_link', target: '_blank' }
 ])
-
-const { open: openContactModal } = useContactModal()
 
 const otherLocale = computed(() => locales.value.find(l => l.code !== locale.value))
 
@@ -51,7 +49,13 @@ const otherLocalePath = computed(() => {
         <UButton to="https://app.cascade.coop/login" external color="neutral" variant="ghost" class="hidden whitespace-nowrap sm:flex">
           {{ t('nav.seConnecter') }}
         </UButton>
-        <UButton trailing-icon="i-lucide-arrow-right" class="whitespace-nowrap" @click="openContactModal">
+        <UButton
+          trailing-icon="i-lucide-arrow-right"
+          class="whitespace-nowrap"
+          data-cal-link="paul-balmet-ybl5no/cascade"
+          data-cal-namespace="cascade"
+          data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
+        >
           {{ t('nav.testerCascade') }}
         </UButton>
       </template>

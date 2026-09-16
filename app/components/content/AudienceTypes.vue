@@ -15,7 +15,7 @@ withDefaults(defineProps<{
 </script>
 
 <template>
-  <UPageSection :headline="headline" :title="title" :description="description">
+  <UPageSection :headline="headline" :title="title" :description="description" :ui="{ root: 'bg-elevated/50' }">
     <div class="flex flex-wrap justify-center gap-3">
       <UBadge
         v-for="type in types"
