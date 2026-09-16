@@ -189,8 +189,8 @@ description: Cascade isn't just about optimizing administrative management. The 
 headline: Coopyleft
 title: Open code, under a Coopyleft license.
 description: "Cascade's code is open and auditable by everyone. The Coopyleft license goes further than a standard open-source license: it reserves commercial use for cooperatives and nonprofit organizations. A way of staying true to what the project stands for — pooling resources rather than extracting value."
-repo: https://github.com/cascade-coop
-linkLabel: View the code on GitHub
+linkTo: https://coopcycle.org/coopyleft/
+linkLabel: Learn more about Coopyleft
 ---
 ::
 

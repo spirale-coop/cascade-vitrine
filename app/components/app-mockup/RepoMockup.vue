@@ -38,7 +38,6 @@ const stats = computed(() => [
       <div class="flex flex-wrap gap-2">
         <UBadge color="neutral" variant="subtle" size="sm">TypeScript</UBadge>
         <UBadge color="neutral" variant="subtle" size="sm">Laravel</UBadge>
-        <UBadge color="neutral" variant="subtle" size="sm">{{ t('mockups.repoMockup.contributionsWelcome') }}</UBadge>
       </div>
     </div>
   </div>

@@ -8,8 +8,7 @@ const links = computed(() => [
   { label: t('nav.fonctionnalites'), to: localePath('/fonctionnalites') },
   { label: t('nav.contributionAdaptative'), to: localePath('/contribution-adaptative') },
   { label: t('nav.manifeste'), to: localePath('/manifeste') },
-  { label: t('nav.laFederation'), to: localePath('/la-federation') },
-  { label: t('nav.documentation'), to: 'https://app.notion.com/p/spiralecoop/Documentation-publique-3d8f99b79d278091b3f1dfcf25b90327?source=copy_link', target: '_blank' }
+  { label: t('nav.laFederation'), to: localePath('/la-federation') }
 ])
 
 const otherLocale = computed(() => locales.value.find(l => l.code !== locale.value))
@@ -92,9 +91,12 @@ const otherLocalePath = computed(() => {
 
     <UFooter>
       <template #left>
-        <p class="text-sm text-muted">
-          {{ t('footer.copyright', { year: new Date().getFullYear() }) }}
-        </p>
+        <div class="flex items-center gap-2">
+          <CoopyleftLogo class="size-4 shrink-0 text-muted" />
+          <p class="text-sm text-muted">
+            {{ t('footer.copyright', { year: new Date().getFullYear() }) }}
+          </p>
+        </div>
       </template>
 
       <template #right>

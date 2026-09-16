@@ -5,12 +5,11 @@
     "contributionAdaptative": "Contribution adaptative",
     "manifeste": "Manifeste",
     "laFederation": "La fédération",
-    "documentation": "Documentation",
     "seConnecter": "Se connecter",
     "testerCascade": "Réserver un échange"
   },
   "footer": {
-    "copyright": "© {year} Cascade — sous licence Coopyleft."
+    "copyright": "{year} Cascade — sous licence Coopyleft."
   },
   "error": {
     "pageNotFound": "Page non trouvée"
@@ -35,8 +34,7 @@
         "forks": "Forks",
         "license": "Licence"
       },
-      "description": "Infrastructure numérique pour la gestion collective de ressources — contrats, contributions, facturation, paiements.",
-      "contributionsWelcome": "Contributions bienvenues"
+      "description": "Infrastructure numérique pour la gestion collective de ressources — contrats, contributions, facturation, paiements."
     },
     "pilotageMockup": {
       "windowTitle": "Pilotage",

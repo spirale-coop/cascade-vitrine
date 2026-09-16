@@ -5,12 +5,11 @@
     "contributionAdaptative": "Adaptive contribution",
     "manifeste": "Manifesto",
     "laFederation": "The federation",
-    "documentation": "Documentation",
     "seConnecter": "Sign in",
     "testerCascade": "Book a call"
   },
   "footer": {
-    "copyright": "© {year} Cascade — under the Coopyleft license."
+    "copyright": "{year} Cascade — under the Coopyleft license."
   },
   "error": {
     "pageNotFound": "Page not found"
@@ -35,8 +34,7 @@
         "forks": "Forks",
         "license": "License"
       },
-      "description": "Digital infrastructure for the collective management of resources — contracts, contributions, invoicing, payments.",
-      "contributionsWelcome": "Contributions welcome"
+      "description": "Digital infrastructure for the collective management of resources — contracts, contributions, invoicing, payments."
     },
     "pilotageMockup": {
       "windowTitle": "Oversight",
