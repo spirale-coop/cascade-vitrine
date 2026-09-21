@@ -15,6 +15,8 @@ backLabel: Back
 headline: Adaptive contribution
 title: What if price could adapt to real needs?
 description: Contributions can be adjusted based on the group's real needs and rules decided together — not a fixed rate set in advance.
+upcomingLabel: Upcoming
+experimentalNote: This feature is still being designed and tested as part of an R&D effort — it isn't available in the platform yet.
 ---
 ::
 

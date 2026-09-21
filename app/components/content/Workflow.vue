@@ -2,7 +2,6 @@
 interface Step {
   icon: string
   label: string
-  example: string
   automation: string
   status?: 'available' | 'in-progress' | 'upcoming'
 }

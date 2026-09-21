@@ -19,13 +19,25 @@ const { data: experiments } = await useAsyncData('experiments', () =>
       <UPageCard
         v-for="experiment in experiments"
         :key="experiment.id"
-        :title="experiment.organization"
-        :description="experiment.quote"
       >
         <template #leading>
-          <UBadge v-if="experiment.kind" color="neutral" variant="subtle" size="sm">
-            {{ experiment.kind }}
-          </UBadge>
+          <div class="mb-3 flex flex-col gap-3">
+            <UBadge v-if="experiment.kind" color="neutral" variant="subtle" size="sm" class="w-fit">
+              {{ experiment.kind }}
+            </UBadge>
+            <div class="flex items-center gap-3">
+              <div v-if="experiment.logo" class="flex size-14 shrink-0 items-center justify-center rounded-lg bg-white p-1.5 ring ring-default">
+                <img :src="experiment.logo" :alt="experiment.organization" class="size-full object-contain">
+              </div>
+              <p class="text-base font-semibold text-highlighted">{{ experiment.organization }}</p>
+            </div>
+          </div>
+        </template>
+
+        <template #description>
+          <blockquote class="mt-1 border-l-2 border-primary/40 pl-3 text-[15px] text-pretty text-muted italic">
+            {{ experiment.quote }}
+          </blockquote>
         </template>
       </UPageCard>
     </UPageGrid>

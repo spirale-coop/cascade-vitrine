@@ -51,7 +51,7 @@
         "stats": [
           { "label": "Active co-op members", "value": "34" },
           { "label": "Participation rate", "value": "88%" },
-          { "label": "Contributions / month", "value": "€1,950" },
+          { "label": "Membership shares collected", "value": "€1,950" },
           { "label": "Pending invoices", "value": "3" }
         ]
       },
@@ -104,7 +104,7 @@
         "title": "Cooperative member share",
         "subtitle": "Applied to 34 active subscriptions",
         "rules": [
-          { "label": "Recurrence", "value": "Annual" },
+          { "label": "Recurrence", "value": "One-time" },
           { "label": "Amount", "value": "Fixed — €50" },
           { "label": "Billing", "value": "By invoice" },
           { "label": "Membership", "value": "Simple membership" }
@@ -165,7 +165,7 @@
         "subtitle": "Contributions — Lucas Martin",
         "items": [
           { "subscription": "Lucas Martin — Membership share", "date": "1 January 2026", "paymentMethod": "Bank transfer", "amount": "50 €", "status": "Invoiced", "color": "neutral" },
-          { "subscription": "Sophie Dubois — Membership share", "date": "1 January 2027", "paymentMethod": "SEPA direct debit", "amount": "50 €", "status": "To invoice", "color": "warning" },
+          { "subscription": "Sophie Dubois — Membership share", "date": "3 March 2026", "paymentMethod": "SEPA direct debit", "amount": "50 €", "status": "To invoice", "color": "warning" },
           { "subscription": "Atelier Nomade — Share ×3", "date": "1 January 2026", "paymentMethod": "Bank transfer", "amount": "150 €", "status": "Invoiced", "color": "neutral" }
         ]
       },
@@ -280,10 +280,10 @@
       "cooperatives": {
         "subtitle": "Lieux Vivants Cooperative — 4 active co-op members",
         "rows": [
-          { "occupant": "Lucas Martin", "model": "Cooperative member share", "contribution": "100 € / year", "statut": "Up to date" },
-          { "occupant": "Sophie Dubois", "model": "Cooperative member share", "contribution": "50 € / year", "statut": "Amendment in progress" },
-          { "occupant": "Atelier Nomade", "model": "Cooperative member share", "contribution": "150 € / year", "statut": "Up to date" },
-          { "occupant": "Studio Kerne", "model": "Cooperative member share", "contribution": "50 € / year", "statut": "Pending" }
+          { "occupant": "Lucas Martin", "model": "Cooperative member share", "contribution": "50 €", "statut": "Up to date" },
+          { "occupant": "Sophie Dubois", "model": "Cooperative member share", "contribution": "50 €", "statut": "Amendment in progress" },
+          { "occupant": "Atelier Nomade", "model": "Cooperative member share", "contribution": "150 €", "statut": "Up to date" },
+          { "occupant": "Studio Kerne", "model": "Cooperative member share", "contribution": "50 €", "statut": "Pending" }
         ]
       },
       "ateliers": {
@@ -420,7 +420,6 @@
       "conventionalLabel": "Conventional system",
       "cascadeLabel": "Cascade system",
       "objective": "Objective: €{amount}",
-      "totalLabel": "Total {label}:",
       "savedMessage": "€{amount} saved collectively",
       "savedSuffix": "thanks to Cascade"
     },

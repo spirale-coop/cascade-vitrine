@@ -177,8 +177,8 @@ function onPointerDown(event: PointerEvent) {
     </div>
 
     <div class="mt-6 flex flex-col items-center gap-1 text-center sm:flex-row sm:justify-center sm:gap-6">
-      <p class="text-sm text-muted">{{ t('mockups.adaptiveContributionDiagram.totalLabel', { label: conventionalLabelText.toLowerCase() }) }} <span class="font-medium text-highlighted">{{ formatAmount(total) }}</span></p>
-      <p class="text-sm text-muted">{{ t('mockups.adaptiveContributionDiagram.totalLabel', { label: cascadeLabelText.toLowerCase() }) }} <span class="font-medium text-highlighted">{{ formatAmount(objective) }}</span></p>
+      <p class="text-sm font-medium text-highlighted">{{ formatAmount(total) }}</p>
+      <p class="text-sm font-medium text-highlighted">{{ formatAmount(objective) }}</p>
     </div>
 
     <div class="mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
@@ -189,8 +189,7 @@ function onPointerDown(event: PointerEvent) {
     </div>
 
     <div class="mt-4 rounded-lg border border-primary/30 bg-primary/10 px-4 py-3 text-center">
-      <span class="font-semibold text-primary">{{ t('mockups.adaptiveContributionDiagram.savedMessage', { amount: saved.toLocaleString(numberLocale) }) }}</span>
-      <span class="text-toned"> {{ t('mockups.adaptiveContributionDiagram.savedSuffix') }}</span>
+      <span class="font-semibold text-primary">{{ t('mockups.adaptiveContributionDiagram.savedMessage', { amount: saved.toLocaleString(numberLocale) }) }}</span> <span class="text-toned">{{ t('mockups.adaptiveContributionDiagram.savedSuffix') }}</span>
     </div>
   </div>
 </template>

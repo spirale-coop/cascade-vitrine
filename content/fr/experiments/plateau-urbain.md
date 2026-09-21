@@ -1,5 +1,6 @@
 ---
 organization: Plateau Urbain
 kind: Coopérative d'urbanisme transitoire
-quote: "Cascade nous a permis d'arrêter de jongler entre plusieurs tableurs pour suivre les contrats et les contributions de chaque lieu."
+logo: /logos/plateau-urbain.png
+quote: "Dès qu'un occupant change d'espace ou de tarif, il faut répercuter l'information partout. Avec Cascade, on fait la modification une fois et elle suit dans le contrat, les avenants et la facturation."
 ---

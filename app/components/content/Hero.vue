@@ -17,7 +17,7 @@ const localePath = useLocalePath()
     <WaveDecoration side="left" />
     <WaveDecoration side="right" />
 
-    <UPageHero :headline="headline" :title="title" :description="description" orientation="horizontal" :ui="{ container: 'lg:items-start' }">
+    <UPageHero :headline="headline" :title="title" :description="description" orientation="horizontal" :ui="{ container: 'lg:items-center' }">
       <template #links>
         <UButton
           v-if="ctaLabel"

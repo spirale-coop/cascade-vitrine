@@ -98,16 +98,6 @@ const otherLocalePath = computed(() => {
           </p>
         </div>
       </template>
-
-      <template #right>
-        <UButton
-          icon="i-simple-icons-github"
-          to="https://github.com/cascade-coop"
-          target="_blank"
-          color="neutral"
-          variant="ghost"
-        />
-      </template>
     </UFooter>
   </div>
 </template>

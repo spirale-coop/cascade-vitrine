@@ -92,72 +92,58 @@ ctaTo: /fonctionnalites
 steps:
   - icon: i-lucide-layout-template
     label: Modèles de souscription
-    example: 'Ex : Bureau — mensuel, 340 €, facturé par facture'
     automation: Défini une fois par le gestionnaire, appliqué à chaque nouvelle souscription
     status: available
   - icon: i-lucide-file-signature
     label: Souscription & invitation
-    example: 'Ex : Souscription — Atelier Nomade, 12 mois'
     automation: Parcours guidé, signature électronique, et invitation en masse par import CSV
     status: available
   - icon: i-lucide-file-check
     label: Contractualisation
-    example: 'Ex : Contrat #1520455 — Bureau, atelier'
     automation: Génération automatique du contrat et suivi des statuts jusqu'à la signature
     status: available
   - icon: i-lucide-file-diff
     label: Avenants
-    example: 'Ex : +10 % sur le montant de la contribution'
     automation: Détection des changements et régénération automatique du contrat
     status: available
   - icon: i-lucide-shield-check
     label: Documents à valider
-    example: 'Ex : Justificatif de domicile'
     automation: Collecte des pièces à la signature, validation ou rejet motivé par le gestionnaire
     status: available
   - icon: i-lucide-hand-coins
     label: Contributions
-    example: 'Ex : 340 € / mois + charges communes'
     automation: Génération automatique à chaque échéance, cas particuliers gérés à la main
     status: available
   - icon: i-lucide-receipt-text
     label: Facturation
-    example: 'Ex : Facture #2024-114 — La Filature Coop'
     automation: Facture conforme générée automatiquement à chaque paiement
     status: available
   - icon: i-lucide-credit-card
     label: Paiements
-    example: 'Ex : Prélèvement SEPA, le 5 du mois'
     automation: Suivi multi-méthodes des encaissements et du reste à payer
     status: in-progress
   - icon: i-lucide-box
     label: Réservation des ressources
-    example: 'Ex : Bureau 12 — 18 m², Tiers-lieu La Grange'
     automation: Modélisation des ressources physiques et pilotage de l'occupation en temps réel
     status: upcoming
   - icon: i-lucide-plug
     label: Connexions API
-    example: 'Ex : Pennylane, Stripe, facturation électronique'
     automation: Synchronisez comptabilité, paiements et facturation électronique avec vos outils existants
     status: upcoming
   - icon: i-lucide-heart-handshake
     label: Mode association
-    example: 'Ex : Reçu fiscal, page de don publique'
     automation: Émettez des reçus fiscaux et collectez des dons en ligne, adaptés aux structures associatives
     status: upcoming
   - icon: i-lucide-scale
     label: Régulation des frais
-    example: 'Ex : Frais de dépassement, avoir, régularisation ponctuelle'
     automation: Gérez les cas particuliers de facturation sans perdre le lien avec la souscription d'origine
     status: upcoming
   - icon: i-lucide-network
     label: Gestion inter-entité
-    example: 'Ex : Une fédération pilote plusieurs cascades locales'
     automation: Connectez plusieurs cascades entre elles pour automatiser des processus de gestion partagés entre structures
     status: upcoming
   - icon: i-lucide-target
     label: Contribution adaptative
-    example: 'Ex : Objectif collectif à 145 €, réparti selon les moyens de chacun'
     automation: Ajustez automatiquement les montants prélevés pour atteindre un objectif défini collectivement
     status: upcoming
 ---
@@ -168,6 +154,8 @@ steps:
 headline: Contribution adaptative
 title: Et si le prix pouvait s'adapter aux besoins réels ?
 description: Les contributions peuvent être ajustées en fonction des besoins réels du collectif et des règles décidées ensemble — pas d'un tarif figé décidé d'avance.
+upcomingLabel: À venir
+experimentalNote: Cette fonctionnalité est encore en conception et en expérimentation, dans une logique de R&D — elle n'est pas encore disponible dans la plateforme.
 ctaLabel: Comprendre la contribution adaptative
 ctaTo: /contribution-adaptative
 ---
@@ -182,13 +170,6 @@ description: ''
 ::
 
 ::vision
----
-title: Construire l'infrastructure numérique des communs.
-description: Cascade ne cherche pas seulement à optimiser la gestion administrative. L'ambition est de donner aux organisations collectives les outils pour mutualiser des ressources, définir leurs propres règles économiques, partager l'information, organiser les contributions et coopérer entre structures.
----
-::
-
-::open-source
 ---
 headline: Coopyleft
 title: Un code ouvert, sous licence Coopyleft.

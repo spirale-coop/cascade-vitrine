@@ -15,6 +15,8 @@ backLabel: Retour
 headline: Contribution adaptative
 title: Et si le prix pouvait s'adapter aux besoins réels ?
 description: Les contributions peuvent être ajustées en fonction des besoins réels du collectif et des règles décidées ensemble — pas d'un tarif figé décidé d'avance.
+upcomingLabel: À venir
+experimentalNote: Cette fonctionnalité est encore en conception et en expérimentation, dans une logique de R&D — elle n'est pas encore disponible dans la plateforme.
 ---
 ::
 

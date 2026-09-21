@@ -1,5 +1,6 @@
 ---
 organization: Communa
 kind: Occupations collectives (Bruxelles)
-quote: "On a hâte que la contribution adaptative arrive — en attendant, avoir enfin les souscriptions, les contrats et les contributions au même endroit change déjà tout."
+logo: /logos/communa.png
+quote: "Quand tu as trop de travail, tu finis par dire non à certaines mises à disposition juste parce que tu n'as pas le temps de gérer la paperasse. Avec Cascade, on peut faire partir contrat, signature et facturation depuis une même souscription."
 ---

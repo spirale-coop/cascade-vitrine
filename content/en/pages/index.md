@@ -92,72 +92,58 @@ ctaTo: /fonctionnalites
 steps:
   - icon: i-lucide-layout-template
     label: Subscription models
-    example: 'E.g.: Office — monthly, €340, billed per invoice'
     automation: Defined once by the manager, applied to every new subscription
     status: available
   - icon: i-lucide-file-signature
     label: Subscription & invitation
-    example: 'E.g.: Subscription — Atelier Nomade, 12 months'
     automation: Guided flow, electronic signature, and bulk invitation via CSV import
     status: available
   - icon: i-lucide-file-check
     label: Contracting
-    example: 'E.g.: Contract #1520455 — Office, workshop'
     automation: Automatic contract generation and status tracking through to signature
     status: available
   - icon: i-lucide-file-diff
     label: Amendments
-    example: 'E.g.: +10% on the contribution amount'
     automation: Change detection and automatic contract regeneration
     status: available
   - icon: i-lucide-shield-check
     label: Documents to review
-    example: 'E.g.: Proof of address'
     automation: Documents collected at signature, accepted or rejected with reason by the manager
     status: available
   - icon: i-lucide-hand-coins
     label: Contributions
-    example: 'E.g.: €340 / month + shared costs'
     automation: Automatically generated at each due date, special cases handled by hand
     status: available
   - icon: i-lucide-receipt-text
     label: Invoicing
-    example: 'E.g.: Invoice #2024-114 — La Filature Coop'
     automation: Compliant invoice generated automatically with every payment
     status: available
   - icon: i-lucide-credit-card
     label: Payments
-    example: 'E.g.: SEPA direct debit, on the 5th of the month'
     automation: Multi-method tracking of collections and outstanding balances
     status: in-progress
   - icon: i-lucide-box
     label: Resource booking
-    example: 'E.g.: Office 12 — 18 m², La Grange shared space'
     automation: Physical resource modeling and real-time occupancy tracking
     status: upcoming
   - icon: i-lucide-plug
     label: API connections
-    example: 'E.g.: Pennylane, Stripe, e-invoicing'
     automation: Sync accounting, payments, and e-invoicing with your existing tools
     status: upcoming
   - icon: i-lucide-heart-handshake
     label: Nonprofit mode
-    example: 'E.g.: Tax receipt, public donation page'
     automation: Issue tax receipts and collect online donations, tailored to nonprofit structures
     status: upcoming
   - icon: i-lucide-scale
     label: Fee adjustments
-    example: 'E.g.: Overage fee, credit note, one-time adjustment'
     automation: Handle special billing cases without losing the link to the original subscription
     status: upcoming
   - icon: i-lucide-network
     label: Cross-entity management
-    example: 'E.g.: A federation oversees several local cascades'
     automation: Connect multiple cascades together to automate shared management processes across entities
     status: upcoming
   - icon: i-lucide-target
     label: Adaptive contribution
-    example: 'E.g.: €145 collective target, split according to each person''s means'
     automation: Automatically adjust amounts charged to reach a collectively defined target
     status: upcoming
 ---
@@ -168,6 +154,8 @@ steps:
 headline: Adaptive contribution
 title: What if price could adapt to actual needs?
 description: Contributions can be adjusted based on the collective's actual needs and rules decided together — not a fixed rate set in advance.
+upcomingLabel: Upcoming
+experimentalNote: This feature is still being designed and tested as part of an R&D effort — it isn't available in the platform yet.
 ctaLabel: Understand adaptive contribution
 ctaTo: /contribution-adaptative
 ---
@@ -182,13 +170,6 @@ description: ''
 ::
 
 ::vision
----
-title: Building the digital infrastructure of the commons.
-description: Cascade isn't just about optimizing administrative management. The ambition is to give collective organizations the tools to pool resources, define their own economic rules, share information, organize contributions, and cooperate across organizations.
----
-::
-
-::open-source
 ---
 headline: Coopyleft
 title: Open code, under a Coopyleft license.

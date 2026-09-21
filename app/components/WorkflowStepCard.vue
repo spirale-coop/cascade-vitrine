@@ -2,7 +2,6 @@
 defineProps<{
   icon: string
   label: string
-  example: string
   automation: string
   status?: 'available' | 'in-progress' | 'upcoming'
   availableLabel?: string
@@ -47,10 +46,7 @@ defineProps<{
       <UIcon :name="icon" class="size-5" />
     </div>
     <p class="text-sm font-semibold text-highlighted">{{ label }}</p>
-    <div class="flex flex-col gap-1">
-      <p class="text-xs text-muted">{{ example }}</p>
-      <p class="text-xs text-muted">{{ automation }}</p>
-    </div>
+    <p class="text-xs text-muted">{{ automation }}</p>
   </div>
 </template>
 

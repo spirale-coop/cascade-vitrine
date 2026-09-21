@@ -51,7 +51,7 @@
         "stats": [
           { "label": "Coopérateurs actifs", "value": "34" },
           { "label": "Taux de participation", "value": "88 %" },
-          { "label": "Contributions / mois", "value": "1 950 €" },
+          { "label": "Parts sociales collectées", "value": "1 950 €" },
           { "label": "Factures en attente", "value": "3" }
         ]
       },
@@ -104,7 +104,7 @@
         "title": "Part sociale coopérateur",
         "subtitle": "Appliqué à 34 souscriptions actives",
         "rules": [
-          { "label": "Récurrence", "value": "Annuelle" },
+          { "label": "Récurrence", "value": "Ponctuelle" },
           { "label": "Montant", "value": "Fixé — 50 €" },
           { "label": "Facturation", "value": "Par facture" },
           { "label": "Adhésion", "value": "Adhésion simple" }
@@ -165,7 +165,7 @@
         "subtitle": "Contributions — Lucas Martin",
         "items": [
           { "subscription": "Lucas Martin — Part sociale", "date": "01 janvier 2026", "paymentMethod": "Virement", "amount": "50 €", "status": "Facturée", "color": "neutral" },
-          { "subscription": "Sophie Dubois — Part sociale", "date": "01 janvier 2027", "paymentMethod": "Prélèvement SEPA", "amount": "50 €", "status": "À facturer", "color": "warning" },
+          { "subscription": "Sophie Dubois — Part sociale", "date": "03 mars 2026", "paymentMethod": "Prélèvement SEPA", "amount": "50 €", "status": "À facturer", "color": "warning" },
           { "subscription": "Atelier Nomade — Part sociale ×3", "date": "01 janvier 2026", "paymentMethod": "Virement", "amount": "150 €", "status": "Facturée", "color": "neutral" }
         ]
       },
@@ -280,10 +280,10 @@
       "cooperatives": {
         "subtitle": "Coopérative Lieux Vivants — 4 coopérateurs actifs",
         "rows": [
-          { "occupant": "Lucas Martin", "model": "Part sociale coopérateur", "contribution": "100 € / an", "statut": "À jour" },
-          { "occupant": "Sophie Dubois", "model": "Part sociale coopérateur", "contribution": "50 € / an", "statut": "Avenant en cours" },
-          { "occupant": "Atelier Nomade", "model": "Part sociale coopérateur", "contribution": "150 € / an", "statut": "À jour" },
-          { "occupant": "Studio Kerne", "model": "Part sociale coopérateur", "contribution": "50 € / an", "statut": "En attente" }
+          { "occupant": "Lucas Martin", "model": "Part sociale coopérateur", "contribution": "50 €", "statut": "À jour" },
+          { "occupant": "Sophie Dubois", "model": "Part sociale coopérateur", "contribution": "50 €", "statut": "Avenant en cours" },
+          { "occupant": "Atelier Nomade", "model": "Part sociale coopérateur", "contribution": "150 €", "statut": "À jour" },
+          { "occupant": "Studio Kerne", "model": "Part sociale coopérateur", "contribution": "50 €", "statut": "En attente" }
         ]
       },
       "ateliers": {
@@ -420,7 +420,6 @@
       "conventionalLabel": "Système conventionnel",
       "cascadeLabel": "Système Cascade",
       "objective": "Objectif : {amount} €",
-      "totalLabel": "Total {label} :",
       "savedMessage": "{amount} € économisés collectivement",
       "savedSuffix": "grâce à Cascade"
     },
