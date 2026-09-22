@@ -86,8 +86,7 @@ description: A concrete look at Cascade's modules, built or in progress.
 availableLabel: Available
 inProgressLabel: In development
 upcomingLabel: Upcoming
-ctaCardText: That was just a preview. The rest is waiting for you.
-ctaLabel: See all features
+ctaLabel: See more detail
 ctaTo: /fonctionnalites
 steps:
   - icon: i-lucide-layout-template
@@ -135,8 +134,8 @@ steps:
     automation: Issue tax receipts and collect online donations, tailored to nonprofit structures
     status: upcoming
   - icon: i-lucide-scale
-    label: Fee adjustments
-    automation: Handle special billing cases without losing the link to the original subscription
+    label: Regularization
+    automation: True up a provisioned amount as soon as the actual cost is known, up or down, without losing the link to the original subscription
     status: upcoming
   - icon: i-lucide-network
     label: Cross-entity management
@@ -145,6 +144,10 @@ steps:
   - icon: i-lucide-target
     label: Adaptive contribution
     automation: Automatically adjust amounts charged to reach a collectively defined target
+    status: upcoming
+  - icon: i-lucide-trending-up
+    label: Rate indexation
+    automation: Automatically revalue amounts against a reference index, on a recurring schedule
     status: upcoming
 ---
 ::

@@ -13,6 +13,7 @@ backLabel: Retour
 ::feature-catalog
 ---
 availableHeadline: Disponible aujourd'hui
+inProgressHeadline: En cours de développement
 comingSoonHeadline: Bientôt disponible
 lots:
   - icon: i-lucide-layout-template
@@ -98,7 +99,7 @@ lots:
     title: Paiements
     description: Suivre les paiements reçus, quel que soit le moyen, et les rattacher aux factures correspondantes.
     mockup: payments
-    available: false
+    status: in-progress
     features:
       - 'Suivi par moyen de paiement (prélèvement, virement, carte…)'
       - Rapprochement facture / paiement
@@ -108,7 +109,7 @@ lots:
     title: Réservation des ressources
     description: Modéliser les actifs mutualisés — espaces, équipements, créneaux — et suivre leur occupation en temps réel.
     mockup: resources
-    available: false
+    status: upcoming
     features:
       - Ressource découpée en sous-unités identifiables (places, casiers, postes…)
       - Attribution d'une ou plusieurs sous-unités à une souscription
@@ -119,7 +120,7 @@ lots:
     title: Connexions API
     description: Synchroniser comptabilité, paiements et facturation électronique avec vos outils existants.
     mockup: api-connections
-    available: false
+    status: upcoming
     features:
       - Connecteurs comptables (Pennylane, et autres)
       - Paiements synchronisés avec les prestataires existants (Stripe…)
@@ -129,17 +130,17 @@ lots:
     title: Mode association
     description: Émettre des reçus fiscaux et collecter des dons en ligne, adaptés aux structures associatives.
     mockup: nonprofit-mode
-    available: false
+    status: upcoming
     features:
       - Génération automatique des reçus fiscaux
       - Page de don publique personnalisable
       - Suivi des dons et des donateurs
     automation: Le reçu fiscal est généré et envoyé automatiquement à chaque don reçu.
   - icon: i-lucide-scale
-    title: Régulation des frais
+    title: Régulation
     description: Provisionner les frais dont le montant réel n'est connu qu'après coup, et les régulariser automatiquement à réception de la facture.
     mockup: fee-adjustments
-    available: false
+    status: upcoming
     features:
       - Provision mensuelle répartie entre les contributeurs (par exemple au prorata de la surface)
       - Régularisation automatique à la hausse ou à la baisse à réception de la facture réelle
@@ -149,7 +150,7 @@ lots:
     title: Gestion inter-entité
     description: Connecter plusieurs cascades entre elles pour automatiser des processus de gestion partagés entre structures.
     mockup: cross-entity
-    available: false
+    status: upcoming
     features:
       - Une fédération pilote plusieurs cascades locales
       - Flux de contribution partagés entre structures connectées
@@ -159,12 +160,22 @@ lots:
     title: Contribution adaptative
     description: Ajuster automatiquement les montants prélevés pour atteindre un objectif défini collectivement, plutôt qu'un tarif figé décidé d'avance.
     mockup: adaptive-target
-    available: false
+    status: upcoming
     features:
       - Objectif collectif défini par le collectif
       - Répartition recalculée automatiquement selon le nombre de contributeurs
       - Ajustement à tout moment, sans ressaisie
     automation: Chaque contribution se recalcule automatiquement dès qu'un profil ou l'objectif évolue.
+  - icon: i-lucide-trending-up
+    title: Indexation des tarifs
+    description: Réévaluer automatiquement les montants selon un indice de référence, à échéance régulière.
+    mockup: indexation
+    status: upcoming
+    features:
+      - Indice de référence configurable par modèle de souscription (INSEE, ICC, indice personnalisé…)
+      - Réévaluation automatique à l'échéance définie
+      - Historique des révisions appliquées
+    automation: Les montants sont recalculés et appliqués automatiquement à chaque échéance d'indexation, sans ressaisie.
 ---
 ::
 

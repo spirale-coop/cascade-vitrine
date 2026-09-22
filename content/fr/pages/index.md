@@ -86,8 +86,7 @@ description: Un aperçu concret des modules Cascade, construits ou en cours de c
 availableLabel: Disponible
 inProgressLabel: En cours de développement
 upcomingLabel: À venir
-ctaCardText: Ce n'était qu'un aperçu. La suite vous attend.
-ctaLabel: Voir toutes les fonctionnalités
+ctaLabel: Voir plus de détail
 ctaTo: /fonctionnalites
 steps:
   - icon: i-lucide-layout-template
@@ -135,8 +134,8 @@ steps:
     automation: Émettez des reçus fiscaux et collectez des dons en ligne, adaptés aux structures associatives
     status: upcoming
   - icon: i-lucide-scale
-    label: Régulation des frais
-    automation: Gérez les cas particuliers de facturation sans perdre le lien avec la souscription d'origine
+    label: Régulation
+    automation: Régularisez un montant provisionné dès que le réel est connu, à la hausse comme à la baisse, sans perdre le lien avec la souscription d'origine
     status: upcoming
   - icon: i-lucide-network
     label: Gestion inter-entité
@@ -145,6 +144,10 @@ steps:
   - icon: i-lucide-target
     label: Contribution adaptative
     automation: Ajustez automatiquement les montants prélevés pour atteindre un objectif défini collectivement
+    status: upcoming
+  - icon: i-lucide-trending-up
+    label: Indexation des tarifs
+    automation: Réévaluez automatiquement les montants selon un indice de référence, à échéance régulière
     status: upcoming
 ---
 ::

@@ -14,7 +14,6 @@ withDefaults(defineProps<{
   availableLabel?: string
   inProgressLabel?: string
   upcomingLabel?: string
-  ctaCardText?: string
   ctaLabel?: string
   ctaTo?: string
 }>(), {
@@ -35,13 +34,12 @@ const localePath = useLocalePath()
         :in-progress-label="inProgressLabel"
         :upcoming-label="upcomingLabel"
       />
+    </div>
 
-      <div class="flex flex-col items-center justify-center gap-3 rounded-lg border border-primary/30 bg-primary/10 px-4 py-5 text-center">
-        <p class="text-sm font-medium text-highlighted">{{ ctaCardText }}</p>
-        <UButton :to="localePath(ctaTo ?? '/')" trailing-icon="i-lucide-arrow-right" size="sm">
-          {{ ctaLabel }}
-        </UButton>
-      </div>
+    <div class="mt-8 flex justify-center">
+      <UButton :to="localePath(ctaTo ?? '/')" trailing-icon="i-lucide-arrow-right" size="sm">
+        {{ ctaLabel }}
+      </UButton>
     </div>
   </UPageSection>
 </template>

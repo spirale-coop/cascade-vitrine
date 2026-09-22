@@ -5,7 +5,7 @@ defineProps<{
   description: string
   features: string[]
   automation: string
-  mockup?: 'resources' | 'subscription-model' | 'subscriptions' | 'contributions' | 'invoices' | 'payments' | 'pilotage' | 'contracts' | 'amendments' | 'documents' | 'api-connections' | 'nonprofit-mode' | 'fee-adjustments' | 'cross-entity' | 'adaptive-target'
+  mockup?: 'resources' | 'subscription-model' | 'subscriptions' | 'contributions' | 'invoices' | 'payments' | 'pilotage' | 'contracts' | 'amendments' | 'documents' | 'api-connections' | 'nonprofit-mode' | 'fee-adjustments' | 'cross-entity' | 'adaptive-target' | 'indexation'
 }>()
 </script>
 
@@ -50,6 +50,7 @@ defineProps<{
       <AppMockupFeeAdjustmentsMockup v-else-if="mockup === 'fee-adjustments'" />
       <AppMockupCrossEntityMockup v-else-if="mockup === 'cross-entity'" />
       <AppMockupAdaptiveTargetMockup v-else-if="mockup === 'adaptive-target'" />
+      <AppMockupIndexationMockup v-else-if="mockup === 'indexation'" />
     </div>
   </div>
 </template>

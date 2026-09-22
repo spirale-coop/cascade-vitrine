@@ -158,7 +158,7 @@
         "items": [
           { "subscription": "Atelier Nomade — Monthly rent", "date": "1 March 2026", "paymentMethod": "Bank transfer", "amount": "340 €", "status": "Invoiced", "color": "neutral" },
           { "subscription": "Studio Kerne — Monthly rent", "date": "1 April 2026", "paymentMethod": "SEPA direct debit", "amount": "260 €", "status": "To invoice", "color": "warning" },
-          { "subscription": "Atelier Nomade — Woodshop usage", "date": "14 March 2026", "paymentMethod": "Card payment", "amount": "15 €", "status": "Invoiced", "color": "neutral" }
+          { "subscription": "Atelier Nomade — Meeting room, 2h", "date": "14 March 2026", "paymentMethod": "Card payment", "amount": "15 €", "status": "Invoiced", "color": "neutral" }
         ]
       },
       "cooperatives": {
@@ -670,6 +670,67 @@
         "rowLabel": "Inès Lambert",
         "rowBefore": "€20 / quarter",
         "rowAfter": "€17 (last quarter)"
+      }
+    },
+    "indexationMockup": {
+      "windowTitle": "Indexation",
+      "indexLabel": "Reference index",
+      "beforeLabel": "Current amount",
+      "afterLabel": "Indexed amount",
+      "note": "Recalculated and applied automatically at each indexation due date, with no re-entry.",
+      "tiers-lieux": {
+        "subtitle": "Indexed rents — Atelier Nomade",
+        "index": "ILC — Q1 2026 (+3.1%)",
+        "before": "€8,400 / month",
+        "after": "€8,660 / month",
+        "rowLabel": "Studio Kerne — commercial lease",
+        "rowBefore": "€260 / month",
+        "rowAfter": "€268 / month"
+      },
+      "cooperatives": {
+        "subtitle": "Member dues — Lieux Vivants Cooperative",
+        "index": "INSEE consumer price index (+2.4%)",
+        "before": "€3,600 / year",
+        "after": "€3,686 / year",
+        "rowLabel": "Lucas Martin — dues",
+        "rowBefore": "€60 / year",
+        "rowAfter": "€61.40 / year"
+      },
+      "ateliers": {
+        "subtitle": "Subscriptions — Les Mains Vertes Workshop",
+        "index": "INSEE consumer price index (+2.4%)",
+        "before": "€2,100 / month",
+        "after": "€2,150 / month",
+        "rowLabel": "Marie Petit — subscription",
+        "rowBefore": "€35 / month",
+        "rowAfter": "€35.84 / month"
+      },
+      "amap": {
+        "subtitle": "Baskets — Trois Sillons CSA",
+        "index": "Production cost index (+3%)",
+        "before": "€1,440 / week",
+        "after": "€1,483 / week",
+        "rowLabel": "Standard basket",
+        "rowBefore": "€18 / week",
+        "rowAfter": "€18.54 / week"
+      },
+      "creche": {
+        "subtitle": "Family dues — Daycare \"Les petits fripons\"",
+        "index": "CNAF scale (+2%)",
+        "before": "€5,400 / month",
+        "after": "€5,508 / month",
+        "rowLabel": "Haddad Family — 3 days / week",
+        "rowBefore": "€180 / month",
+        "rowAfter": "€183.60 / month"
+      },
+      "fanfare": {
+        "subtitle": "Dues — Faubourg Marching Band",
+        "index": "INSEE consumer price index (+2.4%)",
+        "before": "€1,200 / year",
+        "after": "€1,229 / year",
+        "rowLabel": "Inès Lambert — dues",
+        "rowBefore": "€40 / year",
+        "rowAfter": "€41 / year"
       }
     },
     "crossEntityMockup": {

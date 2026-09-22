@@ -158,7 +158,7 @@
         "items": [
           { "subscription": "Atelier Nomade — Loyer mensuel", "date": "01 mars 2026", "paymentMethod": "Virement", "amount": "340 €", "status": "Facturée", "color": "neutral" },
           { "subscription": "Studio Kerne — Loyer mensuel", "date": "01 avril 2026", "paymentMethod": "Prélèvement SEPA", "amount": "260 €", "status": "À facturer", "color": "warning" },
-          { "subscription": "Atelier Nomade — Atelier bois, usage", "date": "14 mars 2026", "paymentMethod": "Carte bancaire", "amount": "15 €", "status": "Facturée", "color": "neutral" }
+          { "subscription": "Atelier Nomade — Salle de réunion, 2h", "date": "14 mars 2026", "paymentMethod": "Carte bancaire", "amount": "15 €", "status": "Facturée", "color": "neutral" }
         ]
       },
       "cooperatives": {
@@ -670,6 +670,67 @@
         "rowLabel": "Inès Lambert",
         "rowBefore": "20 € / trimestre",
         "rowAfter": "17 € (dernier trimestre)"
+      }
+    },
+    "indexationMockup": {
+      "windowTitle": "Indexation",
+      "indexLabel": "Indice de référence",
+      "beforeLabel": "Montant actuel",
+      "afterLabel": "Montant indexé",
+      "note": "Recalculé automatiquement à chaque échéance d'indexation, sans ressaisie.",
+      "tiers-lieux": {
+        "subtitle": "Loyers indexés — Atelier Nomade",
+        "index": "ILC — T1 2026 (+3,1 %)",
+        "before": "8 400 € / mois",
+        "after": "8 660 € / mois",
+        "rowLabel": "Studio Kerne — bail commercial",
+        "rowBefore": "260 € / mois",
+        "rowAfter": "268 € / mois"
+      },
+      "cooperatives": {
+        "subtitle": "Cotisations coopérateurs — Coopérative Lieux Vivants",
+        "index": "Indice INSEE des prix (+2,4 %)",
+        "before": "3 600 € / an",
+        "after": "3 686 € / an",
+        "rowLabel": "Lucas Martin — cotisation",
+        "rowBefore": "60 € / an",
+        "rowAfter": "61,40 € / an"
+      },
+      "ateliers": {
+        "subtitle": "Abonnements — Atelier Les Mains Vertes",
+        "index": "Indice INSEE des prix (+2,4 %)",
+        "before": "2 100 € / mois",
+        "after": "2 150 € / mois",
+        "rowLabel": "Marie Petit — abonnement",
+        "rowBefore": "35 € / mois",
+        "rowAfter": "35,84 € / mois"
+      },
+      "amap": {
+        "subtitle": "Paniers — AMAP des Trois Sillons",
+        "index": "Coût de production (+3 %)",
+        "before": "1 440 € / semaine",
+        "after": "1 483 € / semaine",
+        "rowLabel": "Panier standard",
+        "rowBefore": "18 € / semaine",
+        "rowAfter": "18,54 € / semaine"
+      },
+      "creche": {
+        "subtitle": "Cotisations familles — Crèche « Les petits fripons »",
+        "index": "Barème CNAF (+2 %)",
+        "before": "5 400 € / mois",
+        "after": "5 508 € / mois",
+        "rowLabel": "Famille Haddad — 3 jours / semaine",
+        "rowBefore": "180 € / mois",
+        "rowAfter": "183,60 € / mois"
+      },
+      "fanfare": {
+        "subtitle": "Cotisations — Fanfare du Faubourg",
+        "index": "Indice INSEE des prix (+2,4 %)",
+        "before": "1 200 € / an",
+        "after": "1 229 € / an",
+        "rowLabel": "Inès Lambert — cotisation",
+        "rowBefore": "40 € / an",
+        "rowAfter": "41 € / an"
       }
     },
     "crossEntityMockup": {

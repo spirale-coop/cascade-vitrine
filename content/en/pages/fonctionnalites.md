@@ -13,6 +13,7 @@ backLabel: Back
 ::feature-catalog
 ---
 availableHeadline: Available today
+inProgressHeadline: In progress
 comingSoonHeadline: Coming soon
 lots:
   - icon: i-lucide-layout-template
@@ -98,7 +99,7 @@ lots:
     title: Payments
     description: Track payments received, regardless of method, and match them to the corresponding invoices.
     mockup: payments
-    available: false
+    status: in-progress
     features:
       - 'Tracking by payment method (direct debit, bank transfer, card…)'
       - Invoice / payment reconciliation
@@ -108,7 +109,7 @@ lots:
     title: Resource booking
     description: Model shared assets — spaces, equipment, time slots — and track their occupancy in real time.
     mockup: resources
-    available: false
+    status: upcoming
     features:
       - Resource split into identifiable sub-units (spots, lockers, workstations…)
       - Assignment of one or more sub-units to a subscription
@@ -119,7 +120,7 @@ lots:
     title: API connections
     description: Sync accounting, payments, and e-invoicing with your existing tools.
     mockup: api-connections
-    available: false
+    status: upcoming
     features:
       - Accounting connectors (Pennylane, and others)
       - Payments synced with existing providers (Stripe…)
@@ -129,17 +130,17 @@ lots:
     title: Nonprofit mode
     description: Issue tax receipts and collect online donations, tailored to nonprofit structures.
     mockup: nonprofit-mode
-    available: false
+    status: upcoming
     features:
       - Automatic tax receipt generation
       - Customizable public donation page
       - Donation and donor tracking
     automation: The tax receipt is generated and sent automatically with every donation received.
   - icon: i-lucide-scale
-    title: Fee adjustments
+    title: Regularization
     description: Provision costs whose real amount is only known after the fact, and regularize them automatically once the actual invoice arrives.
     mockup: fee-adjustments
-    available: false
+    status: upcoming
     features:
       - Monthly provision split between contributors (e.g. pro rata to surface area)
       - Automatic regularization up or down once the real invoice is received
@@ -149,7 +150,7 @@ lots:
     title: Cross-entity management
     description: Connect multiple cascades together to automate shared management processes across entities.
     mockup: cross-entity
-    available: false
+    status: upcoming
     features:
       - A federation oversees several local cascades
       - Contribution flows shared across connected entities
@@ -159,12 +160,22 @@ lots:
     title: Adaptive contribution
     description: Automatically adjust amounts charged to reach a collectively defined target, rather than a fixed rate set in advance.
     mockup: adaptive-target
-    available: false
+    status: upcoming
     features:
       - Collective target defined by the group
       - Distribution automatically recalculated based on the number of contributors
       - Adjustable at any time, with no re-entry
     automation: Each contribution is automatically recalculated whenever a profile or the target changes.
+  - icon: i-lucide-trending-up
+    title: Rate indexation
+    description: Automatically revalue amounts against a reference index, on a recurring schedule.
+    mockup: indexation
+    status: upcoming
+    features:
+      - Reference index configurable per subscription model (CPI, custom index…)
+      - Automatic revaluation at the defined due date
+      - History of every revision applied
+    automation: Amounts are recalculated and applied automatically at each indexation due date, with no re-entry.
 ---
 ::
 
