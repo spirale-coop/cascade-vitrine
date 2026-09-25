@@ -42,7 +42,7 @@ const localePath = useLocalePath()
 
       <div class="flex flex-col gap-4 sm:gap-5">
         <div class="flex flex-wrap items-start gap-2">
-          <FeatureScenarioSwitcher :keys="['tiers-lieux', 'amap', 'cooperatives']" compact />
+          <FeatureScenarioSwitcher :keys="['tiers-lieux', 'federation', 'cooperatives']" compact />
           <UBadge color="neutral" variant="subtle" class="flex h-9 items-center rounded-lg px-3 text-xs">
             {{ t('mockups.scenarioSwitcher.moreBadge') }}
           </UBadge>

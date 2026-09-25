@@ -19,9 +19,9 @@ const ROW_VISUALS: Record<FeatureScenarioKey, Pick<Row, 'color' | 'icon'>[]> = {
     { color: 'success', icon: 'i-lucide-landmark' },
     { color: 'warning', icon: 'i-lucide-banknote' }
   ],
-  amap: [
+  federation: [
+    { color: 'success', icon: 'i-lucide-arrow-left-right' },
     { color: 'success', icon: 'i-lucide-landmark' },
-    { color: 'success', icon: 'i-lucide-banknote' },
     { color: 'warning', icon: 'i-lucide-arrow-left-right' }
   ],
   creche: [

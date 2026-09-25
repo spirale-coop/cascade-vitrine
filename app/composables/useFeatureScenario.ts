@@ -5,7 +5,7 @@ export const FEATURE_SCENARIOS = [
   { key: 'tiers-lieux', icon: 'i-lucide-map-pin-house' },
   { key: 'cooperatives', icon: 'i-lucide-building-2' },
   { key: 'ateliers', icon: 'i-lucide-hammer' },
-  { key: 'amap', icon: 'i-lucide-carrot' },
+  { key: 'federation', icon: 'i-lucide-trophy' },
   { key: 'creche', icon: 'i-lucide-baby' },
   { key: 'fanfare', icon: 'i-lucide-music' }
 ] as const

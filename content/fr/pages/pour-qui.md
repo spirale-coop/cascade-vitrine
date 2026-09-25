@@ -20,7 +20,7 @@ conventional:
   points:
     - Une direction qui décide
     - Un modèle de prix opaque
-    - Une gouvernance privée et capitaliste
+    - Une gouvernance privée
     - La rentabilité comme finalité
 collective:
   title: Organisation collective

@@ -7,7 +7,7 @@ const BARS: Record<FeatureScenarioKey, number[]> = {
   'tiers-lieux': [40, 55, 48, 62, 58, 70],
   cooperatives: [30, 42, 38, 50, 46, 55],
   ateliers: [20, 28, 25, 33, 30, 38],
-  amap: [35, 40, 38, 44, 42, 48],
+  federation: [35, 40, 38, 44, 42, 48],
   creche: [50, 58, 55, 63, 60, 68],
   fanfare: [25, 30, 28, 34, 31, 36]
 }

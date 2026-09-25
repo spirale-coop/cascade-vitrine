@@ -19,7 +19,7 @@
       "tiers-lieux": "Shared space",
       "cooperatives": "Cooperative",
       "ateliers": "Shared workshop",
-      "amap": "CSA",
+      "federation": "Federation",
       "creche": "Parent-run daycare",
       "fanfare": "Marching band"
     },
@@ -63,12 +63,12 @@
           { "label": "Pending invoices", "value": "1" }
         ]
       },
-      "amap": {
+      "federation": {
         "stats": [
-          { "label": "Active subscribers", "value": "45" },
-          { "label": "Basket pickup rate", "value": "96%" },
-          { "label": "Contributions / week", "value": "€620" },
-          { "label": "Pending invoices", "value": "2" }
+          { "label": "Active sections", "value": "38" },
+          { "label": "Renewal rate", "value": "91%" },
+          { "label": "Dues / year", "value": "€14,250" },
+          { "label": "Pending invoices", "value": "4" }
         ]
       },
       "creche": {
@@ -120,14 +120,14 @@
           { "label": "Membership", "value": "Membership + amendment" }
         ]
       },
-      "amap": {
-        "title": "Weekly vegetable basket",
-        "subtitle": "Applied to 45 active subscriptions",
+      "federation": {
+        "title": "Annual section dues",
+        "subtitle": "Applied to 38 active subscriptions",
         "rules": [
-          { "label": "Recurrence", "value": "Weekly" },
-          { "label": "Amount", "value": "Adaptive — €12 to €24" },
-          { "label": "Billing", "value": "By direct debit" },
-          { "label": "Membership", "value": "Charter + seasonal commitment" }
+          { "label": "Recurrence", "value": "Annual" },
+          { "label": "Amount", "value": "Tiered — €80 to €400" },
+          { "label": "Billing", "value": "By invoice" },
+          { "label": "Membership", "value": "Membership + federation charter" }
         ]
       },
       "creche": {
@@ -154,7 +154,7 @@
     "contributionsMockup": {
       "windowTitle": "Contributions",
       "tiers-lieux": {
-        "subtitle": "Contributions — Atelier Nomade",
+        "subtitle": "Contributions — La Grange shared space",
         "items": [
           { "subscription": "Atelier Nomade — Monthly rent", "date": "1 March 2026", "paymentMethod": "Bank transfer", "amount": "340 €", "status": "Invoiced", "color": "neutral" },
           { "subscription": "Studio Kerne — Monthly rent", "date": "1 April 2026", "paymentMethod": "SEPA direct debit", "amount": "260 €", "status": "To invoice", "color": "warning" },
@@ -162,7 +162,7 @@
         ]
       },
       "cooperatives": {
-        "subtitle": "Contributions — Lucas Martin",
+        "subtitle": "Contributions — Lieux Vivants Cooperative",
         "items": [
           { "subscription": "Lucas Martin — Membership share", "date": "1 January 2026", "paymentMethod": "Bank transfer", "amount": "50 €", "status": "Invoiced", "color": "neutral" },
           { "subscription": "Sophie Dubois — Membership share", "date": "3 March 2026", "paymentMethod": "SEPA direct debit", "amount": "50 €", "status": "To invoice", "color": "warning" },
@@ -170,23 +170,23 @@
         ]
       },
       "ateliers": {
-        "subtitle": "Contributions — Marie Petit",
+        "subtitle": "Contributions — Les Mains Vertes Workshop",
         "items": [
           { "subscription": "Marie Petit — Workshop membership", "date": "1 March 2026", "paymentMethod": "Card payment", "amount": "18 €", "status": "Invoiced", "color": "neutral" },
           { "subscription": "Thomas Roy — Woodworking machine", "date": "1 April 2026", "paymentMethod": "SEPA direct debit", "amount": "24 €", "status": "To invoice", "color": "warning" },
           { "subscription": "Léa Fontaine — Membership + locker", "date": "5 March 2026", "paymentMethod": "Cash", "amount": "30 €", "status": "Invoiced", "color": "neutral" }
         ]
       },
-      "amap": {
-        "subtitle": "Contributions — Camille Vidal",
+      "federation": {
+        "subtitle": "Contributions — French Multisport Federation",
         "items": [
-          { "subscription": "Nguyen Family — Vegetable basket", "date": "10 March 2026", "paymentMethod": "SEPA direct debit", "amount": "18 €", "status": "Invoiced", "color": "neutral" },
-          { "subscription": "Camille Vidal — Basket + eggs", "date": "17 March 2026", "paymentMethod": "Cash", "amount": "24 €", "status": "To invoice", "color": "warning" },
-          { "subscription": "Marc Aubert — Solidarity basket", "date": "10 March 2026", "paymentMethod": "Bank transfer", "amount": "12 €", "status": "Invoiced", "color": "neutral" }
+          { "subscription": "Rhône Section — Annual dues", "date": "1 March 2026", "paymentMethod": "Bank transfer", "amount": "180 €", "status": "Invoiced", "color": "neutral" },
+          { "subscription": "Isère Section — Annual dues", "date": "1 April 2026", "paymentMethod": "SEPA direct debit", "amount": "120 €", "status": "To invoice", "color": "warning" },
+          { "subscription": "Loire Section — Annual dues", "date": "15 March 2026", "paymentMethod": "Bank transfer", "amount": "320 €", "status": "Invoiced", "color": "neutral" }
         ]
       },
       "creche": {
-        "subtitle": "Contributions — Haddad Family",
+        "subtitle": "Contributions — Daycare \"Les petits fripons\"",
         "items": [
           { "subscription": "Haddad Family — Regular care", "date": "1 March 2026", "paymentMethod": "SEPA direct debit", "amount": "780 €", "status": "Invoiced", "color": "neutral" },
           { "subscription": "Rousseau Family — Regular care", "date": "1 April 2026", "paymentMethod": "Bank transfer", "amount": "480 €", "status": "To invoice", "color": "warning" },
@@ -194,7 +194,7 @@
         ]
       },
       "fanfare": {
-        "subtitle": "Contributions — Inès Lambert",
+        "subtitle": "Contributions — Faubourg Marching Band",
         "items": [
           { "subscription": "Nora Benali — Annual dues", "date": "1 January 2026", "paymentMethod": "Bank transfer", "amount": "90 €", "status": "Invoiced", "color": "neutral" },
           { "subscription": "Julien Costa — Annual dues", "date": "1 January 2027", "paymentMethod": "Cash", "amount": "70 €", "status": "To invoice", "color": "warning" },
@@ -233,12 +233,12 @@
           { "name": "Tool lockers", "unit": "Locker", "qty": "20", "price": "5 € / month", "occupation": "81 %" }
         ]
       },
-      "amap": {
-        "subtitle": "Trois Sillons CSA — 3 active types",
+      "federation": {
+        "subtitle": "French Multisport Federation — 3 active types",
         "rows": [
-          { "name": "Vegetable basket shares", "unit": "Share", "qty": "45", "price": "18 € / week", "occupation": "96 %" },
-          { "name": "Egg basket shares", "unit": "Share", "qty": "20", "price": "6 € / week", "occupation": "70 %" },
-          { "name": "Pickup lockers", "unit": "Locker", "qty": "50", "price": "Included", "occupation": "88 %" }
+          { "name": "Training room", "unit": "Room", "qty": "2", "price": "40 € / half-day", "occupation": "70 %" },
+          { "name": "Shared utility vehicle", "unit": "Vehicle", "qty": "1", "price": "25 € / day", "occupation": "82 %" },
+          { "name": "Event equipment", "unit": "Kit", "qty": "15", "price": "10 € / day", "occupation": "65 %" }
         ]
       },
       "creche": {
@@ -295,13 +295,13 @@
           { "occupant": "Studio Kerne", "model": "Workshop membership", "contribution": "18 € / month", "statut": "Pending" }
         ]
       },
-      "amap": {
-        "subtitle": "Trois Sillons CSA — 4 active members",
+      "federation": {
+        "subtitle": "French Multisport Federation — 4 active sections",
         "rows": [
-          { "occupant": "Nguyen Family", "model": "Weekly vegetable basket", "contribution": "18 € / week", "statut": "Up to date" },
-          { "occupant": "Camille Vidal", "model": "Weekly vegetable basket", "contribution": "24 € / week", "statut": "Up to date" },
-          { "occupant": "Marc Aubert", "model": "Weekly vegetable basket", "contribution": "12 € / week", "statut": "Amendment in progress" },
-          { "occupant": "Yasmine Foucher", "model": "Weekly vegetable basket", "contribution": "6 € / week", "statut": "Pending" }
+          { "occupant": "Rhône Section", "model": "Annual section dues", "contribution": "180 € / year", "statut": "Up to date" },
+          { "occupant": "Loire Section", "model": "Annual section dues", "contribution": "320 € / year", "statut": "Up to date" },
+          { "occupant": "Isère Section", "model": "Annual section dues", "contribution": "120 € / year", "statut": "Amendment in progress" },
+          { "occupant": "Var Section", "model": "Annual section dues", "contribution": "150 € / year", "statut": "Pending" }
         ]
       },
       "creche": {
@@ -354,13 +354,13 @@
           { "label": "Invoice #2024-310", "org": "Studio Kerne", "amount": "18 €", "status": "Overdue" }
         ]
       },
-      "amap": {
-        "subtitle": "Trois Sillons CSA — 4 in progress",
+      "federation": {
+        "subtitle": "French Multisport Federation — 4 in progress",
         "rows": [
-          { "label": "Invoice #2024-414", "org": "Nguyen Family", "amount": "18 €", "status": "Paid" },
-          { "label": "Invoice #2024-413", "org": "Camille Vidal", "amount": "24 €", "status": "Issued" },
-          { "label": "Invoice #2024-412", "org": "Marc Aubert", "amount": "12 €", "status": "Paid" },
-          { "label": "Invoice #2024-410", "org": "Yasmine Foucher", "amount": "6 €", "status": "Overdue" }
+          { "label": "Invoice #2024-414", "org": "Loire Section", "amount": "320 €", "status": "Paid" },
+          { "label": "Invoice #2024-413", "org": "Rhône Section", "amount": "180 €", "status": "Issued" },
+          { "label": "Invoice #2024-412", "org": "Isère Section", "amount": "120 €", "status": "Paid" },
+          { "label": "Invoice #2024-410", "org": "Var Section", "amount": "150 €", "status": "Overdue" }
         ]
       },
       "creche": {
@@ -400,10 +400,10 @@
         { "label": "SEPA direct debit", "org": "Thomas Roy — 24 €", "date": "3 March", "status": "Reconciled" },
         { "label": "Cash", "org": "Léa Fontaine — 30 €", "date": "Pending", "status": "To reconcile" }
       ],
-      "amap": [
-        { "label": "SEPA direct debit", "org": "Nguyen Family — 18 €", "date": "5 March", "status": "Reconciled" },
-        { "label": "Cash", "org": "Camille Vidal — 24 €", "date": "3 March", "status": "Reconciled" },
-        { "label": "Bank transfer", "org": "Marc Aubert — 12 €", "date": "Pending", "status": "To reconcile" }
+      "federation": [
+        { "label": "Bank transfer", "org": "Loire Section — 320 €", "date": "5 March", "status": "Reconciled" },
+        { "label": "SEPA direct debit", "org": "Rhône Section — 180 €", "date": "3 March", "status": "Reconciled" },
+        { "label": "Bank transfer", "org": "Isère Section — 120 €", "date": "Pending", "status": "To reconcile" }
       ],
       "creche": [
         { "label": "SEPA direct debit", "org": "Haddad Family — 780 €", "date": "5 March", "status": "Reconciled" },
@@ -471,13 +471,13 @@
           { "label": "Member signature", "state": "current" }
         ]
       },
-      "amap": {
-        "subtitle": "Weekly vegetable basket — Camille Vidal",
-        "ref": "#4405",
+      "federation": {
+        "subtitle": "Annual section dues — Rhône Section",
+        "ref": "#4508",
         "steps": [
           { "label": "Contract generated from the model", "state": "done" },
           { "label": "Sent for electronic signature", "state": "done" },
-          { "label": "Member signature", "state": "current" }
+          { "label": "Section manager's signature", "state": "current" }
         ]
       },
       "creche": {
@@ -506,7 +506,7 @@
       "tiers-lieux": { "ref": "Amendment #2 — Contract #1520455", "fieldLabel": "Monthly amount", "before": "€340", "after": "€374" },
       "cooperatives": { "ref": "Amendment #1 — Contract #2240", "fieldLabel": "Number of shares", "before": "1 share", "after": "2 shares" },
       "ateliers": { "ref": "Amendment #1 — Contract #3312", "fieldLabel": "Workbench slots", "before": "Workbench 3", "after": "Workbench 3 + 5" },
-      "amap": { "ref": "Amendment #1 — Contract #4405", "fieldLabel": "Basket composition", "before": "Vegetables only", "after": "Vegetables + eggs" },
+      "federation": { "ref": "Amendment #1 — Contract #4508", "fieldLabel": "Dues tier", "before": "Under 50 registered members", "after": "50 to 150 registered members" },
       "creche": { "ref": "Amendment #1 — Contract #5108", "fieldLabel": "Care days", "before": "3 days / week", "after": "5 days / week" },
       "fanfare": { "ref": "Amendment #2 — Contract #6021", "fieldLabel": "Instrument on loan", "before": "Percussion", "after": "Percussion + tuba" }
     },
@@ -536,12 +536,12 @@
           { "label": "Liability insurance", "status": "Approved", "color": "success" }
         ]
       },
-      "amap": {
-        "subtitle": "Camille Vidal — Subscription #440",
+      "federation": {
+        "subtitle": "Rhône Section — Subscription #450",
         "rows": [
-          { "label": "Signed CSA charter", "status": "Approved", "color": "success" },
-          { "label": "Bank details for direct debit", "status": "To review", "color": "warning" },
-          { "label": "Seasonal commitment", "status": "Approved", "color": "success" }
+          { "label": "Section founding minutes", "status": "Approved", "color": "success" },
+          { "label": "List of section members", "status": "To review", "color": "warning" },
+          { "label": "Bank details", "status": "Approved", "color": "success" }
         ]
       },
       "creche": {
@@ -584,11 +584,11 @@
           { "label": "HelloAsso", "sub": "Memberships", "status": "Coming soon", "color": "neutral" }
         ]
       },
-      "amap": {
+      "federation": {
         "rows": [
-          { "label": "Stripe", "sub": "Basket direct debits", "status": "Connected", "color": "success" },
+          { "label": "HelloAsso", "sub": "Dues & donations", "status": "Connected", "color": "success" },
           { "label": "Pennylane", "sub": "Accounting", "status": "Connected", "color": "success" },
-          { "label": "HelloAsso", "sub": "One-off donations", "status": "Coming soon", "color": "neutral" }
+          { "label": "E-invoicing", "sub": "Chorus Pro", "status": "Coming soon", "color": "neutral" }
         ]
       },
       "creche": {
@@ -614,7 +614,7 @@
       "tiers-lieux": { "receiptLabel": "Tax receipt", "receipt": "Receipt #2024-118", "donor": "Julie Marchand", "amount": "€80" },
       "cooperatives": { "receiptLabel": "Donation receipt", "receipt": "#2024-118", "donor": "Camille Roussel", "amount": "€150" },
       "ateliers": { "receiptLabel": "Tax receipt", "receipt": "Receipt #2024-118", "donor": "Hugo Lefèvre", "amount": "€50" },
-      "amap": { "receiptLabel": "Tax receipt", "receipt": "Receipt #2024-118", "donor": "Nadia Belkacem", "amount": "€30" },
+      "federation": { "receiptLabel": "Tax receipt", "receipt": "Receipt #2024-118", "donor": "Sami Benyahia", "amount": "€70" },
       "creche": { "receiptLabel": "Tax receipt", "receipt": "Receipt #2024-118", "donor": "Karim Haddad", "amount": "€100" },
       "fanfare": { "receiptLabel": "Tax receipt", "receipt": "Receipt #2024-118", "donor": "Pauline Girard", "amount": "€60" }
     },
@@ -647,13 +647,13 @@
         "rowBefore": "€15 / month",
         "rowAfter": "€11 (last month)"
       },
-      "amap": {
-        "subtitle": "Losses and unsold produce — Trois Sillons CSA",
-        "provisioned": "€80 / week",
-        "regularized": "€55 / week",
-        "rowLabel": "Standard basket",
-        "rowBefore": "€3 / week",
-        "rowAfter": "€1.50 (last week)"
+      "federation": {
+        "subtitle": "Federation liability insurance — French Multisport Federation",
+        "provisioned": "€3,000 / year",
+        "regularized": "€2,850 / year",
+        "rowLabel": "Rhône Section — pro rata registered members",
+        "rowBefore": "€80 / year",
+        "rowAfter": "€76 (last year)"
       },
       "creche": {
         "subtitle": "Meals and snacks — Daycare \"Les petits fripons\"",
@@ -705,14 +705,14 @@
         "rowBefore": "€35 / month",
         "rowAfter": "€35.84 / month"
       },
-      "amap": {
-        "subtitle": "Baskets — Trois Sillons CSA",
-        "index": "Production cost index (+3%)",
-        "before": "€1,440 / week",
-        "after": "€1,483 / week",
-        "rowLabel": "Standard basket",
-        "rowBefore": "€18 / week",
-        "rowAfter": "€18.54 / week"
+      "federation": {
+        "subtitle": "Federation dues — French Multisport Federation",
+        "index": "INSEE consumer price index (+2.4%)",
+        "before": "€14,250 / year",
+        "after": "€14,592 / year",
+        "rowLabel": "Rhône Section — dues",
+        "rowBefore": "€180 / year",
+        "rowAfter": "€184.32 / year"
       },
       "creche": {
         "subtitle": "Family dues — Daycare \"Les petits fripons\"",
@@ -759,12 +759,12 @@
           { "label": "Cascade — Belleville Workshop", "amount": "€410 / month" }
         ]
       },
-      "amap": {
-        "root": "Regional CSA federation",
+      "federation": {
+        "root": "French Multisport Federation",
         "rows": [
-          { "label": "Cascade — Trois Sillons CSA", "amount": "€620 / week" },
-          { "label": "Cascade — Plateau CSA", "amount": "€480 / week" },
-          { "label": "Cascade — Verte Vallée CSA", "amount": "€390 / week" }
+          { "label": "Cascade — Rhône Section", "amount": "€180 / year" },
+          { "label": "Cascade — Isère Section", "amount": "€120 / year" },
+          { "label": "Cascade — Loire Section", "amount": "€320 / year" }
         ]
       },
       "creche": {
@@ -793,7 +793,7 @@
       "tiers-lieux": { "purpose": "Common charges for the month", "objective": "€1,200", "contributors": "12", "perPerson": "€100" },
       "cooperatives": { "purpose": "Annual mutualization fund", "objective": "€3,400", "contributors": "34", "perPerson": "€100" },
       "ateliers": { "purpose": "Supplies for the month", "objective": "€540", "contributors": "27", "perPerson": "€20" },
-      "amap": { "purpose": "Solidarity basket for the week", "objective": "€900", "contributors": "45", "perPerson": "€20" },
+      "federation": { "purpose": "Pooled funding for a shared sports coach", "objective": "€24,000", "contributors": "38", "perPerson": "€632" },
       "creche": { "purpose": "Shared position for the month", "objective": "€1,600", "contributors": "16", "perPerson": "€100" },
       "fanfare": { "purpose": "Rehearsal room rental for the quarter", "objective": "€560", "contributors": "28", "perPerson": "€20" }
     }

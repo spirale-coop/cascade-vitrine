@@ -19,7 +19,7 @@
       "tiers-lieux": "Tiers-lieu",
       "cooperatives": "Coopérative",
       "ateliers": "Atelier partagé",
-      "amap": "AMAP",
+      "federation": "Fédération",
       "creche": "Crèche parentale",
       "fanfare": "Fanfare"
     },
@@ -63,12 +63,12 @@
           { "label": "Factures en attente", "value": "1" }
         ]
       },
-      "amap": {
+      "federation": {
         "stats": [
-          { "label": "Adhérents actifs", "value": "45" },
-          { "label": "Taux de retrait paniers", "value": "96 %" },
-          { "label": "Contributions / semaine", "value": "620 €" },
-          { "label": "Factures en attente", "value": "2" }
+          { "label": "Sections actives", "value": "38" },
+          { "label": "Taux de renouvellement", "value": "91 %" },
+          { "label": "Cotisations / an", "value": "14 250 €" },
+          { "label": "Factures en attente", "value": "4" }
         ]
       },
       "creche": {
@@ -120,14 +120,14 @@
           { "label": "Adhésion", "value": "Adhésion + avenant" }
         ]
       },
-      "amap": {
-        "title": "Panier légumes hebdo",
-        "subtitle": "Appliqué à 45 souscriptions actives",
+      "federation": {
+        "title": "Cotisation annuelle de section",
+        "subtitle": "Appliqué à 38 souscriptions actives",
         "rules": [
-          { "label": "Récurrence", "value": "Hebdomadaire" },
-          { "label": "Montant", "value": "Adaptatif — 12 à 24 €" },
-          { "label": "Facturation", "value": "Par prélèvement" },
-          { "label": "Adhésion", "value": "Charte + engagement saison" }
+          { "label": "Récurrence", "value": "Annuelle" },
+          { "label": "Montant", "value": "Barème — 80 à 400 €" },
+          { "label": "Facturation", "value": "Par facture" },
+          { "label": "Adhésion", "value": "Adhésion + charte fédérale" }
         ]
       },
       "creche": {
@@ -154,7 +154,7 @@
     "contributionsMockup": {
       "windowTitle": "Contributions",
       "tiers-lieux": {
-        "subtitle": "Contributions — Atelier Nomade",
+        "subtitle": "Contributions — Tiers-lieu La Grange",
         "items": [
           { "subscription": "Atelier Nomade — Loyer mensuel", "date": "01 mars 2026", "paymentMethod": "Virement", "amount": "340 €", "status": "Facturée", "color": "neutral" },
           { "subscription": "Studio Kerne — Loyer mensuel", "date": "01 avril 2026", "paymentMethod": "Prélèvement SEPA", "amount": "260 €", "status": "À facturer", "color": "warning" },
@@ -162,7 +162,7 @@
         ]
       },
       "cooperatives": {
-        "subtitle": "Contributions — Lucas Martin",
+        "subtitle": "Contributions — Coopérative Lieux Vivants",
         "items": [
           { "subscription": "Lucas Martin — Part sociale", "date": "01 janvier 2026", "paymentMethod": "Virement", "amount": "50 €", "status": "Facturée", "color": "neutral" },
           { "subscription": "Sophie Dubois — Part sociale", "date": "03 mars 2026", "paymentMethod": "Prélèvement SEPA", "amount": "50 €", "status": "À facturer", "color": "warning" },
@@ -170,23 +170,23 @@
         ]
       },
       "ateliers": {
-        "subtitle": "Contributions — Marie Petit",
+        "subtitle": "Contributions — Atelier Les Mains Vertes",
         "items": [
           { "subscription": "Marie Petit — Adhésion atelier", "date": "01 mars 2026", "paymentMethod": "Carte bancaire", "amount": "18 €", "status": "Facturée", "color": "neutral" },
           { "subscription": "Thomas Roy — Machine à bois", "date": "01 avril 2026", "paymentMethod": "Prélèvement SEPA", "amount": "24 €", "status": "À facturer", "color": "warning" },
           { "subscription": "Léa Fontaine — Adhésion + casier", "date": "05 mars 2026", "paymentMethod": "Espèces", "amount": "30 €", "status": "Facturée", "color": "neutral" }
         ]
       },
-      "amap": {
-        "subtitle": "Contributions — Camille Vidal",
+      "federation": {
+        "subtitle": "Contributions — Fédération Française Multisports",
         "items": [
-          { "subscription": "Famille Nguyen — Panier légumes", "date": "10 mars 2026", "paymentMethod": "Prélèvement SEPA", "amount": "18 €", "status": "Facturée", "color": "neutral" },
-          { "subscription": "Camille Vidal — Panier + œufs", "date": "17 mars 2026", "paymentMethod": "Espèces", "amount": "24 €", "status": "À facturer", "color": "warning" },
-          { "subscription": "Marc Aubert — Panier solidaire", "date": "10 mars 2026", "paymentMethod": "Virement", "amount": "12 €", "status": "Facturée", "color": "neutral" }
+          { "subscription": "Section du Rhône — Cotisation annuelle", "date": "01 mars 2026", "paymentMethod": "Virement", "amount": "180 €", "status": "Facturée", "color": "neutral" },
+          { "subscription": "Section de l'Isère — Cotisation annuelle", "date": "01 avril 2026", "paymentMethod": "Prélèvement SEPA", "amount": "120 €", "status": "À facturer", "color": "warning" },
+          { "subscription": "Section de la Loire — Cotisation annuelle", "date": "15 mars 2026", "paymentMethod": "Virement", "amount": "320 €", "status": "Facturée", "color": "neutral" }
         ]
       },
       "creche": {
-        "subtitle": "Contributions — Famille Haddad",
+        "subtitle": "Contributions — Crèche « Les petits fripons »",
         "items": [
           { "subscription": "Famille Haddad — Accueil régulier", "date": "01 mars 2026", "paymentMethod": "Prélèvement SEPA", "amount": "780 €", "status": "Facturée", "color": "neutral" },
           { "subscription": "Famille Rousseau — Accueil régulier", "date": "01 avril 2026", "paymentMethod": "Virement", "amount": "480 €", "status": "À facturer", "color": "warning" },
@@ -194,7 +194,7 @@
         ]
       },
       "fanfare": {
-        "subtitle": "Contributions — Inès Lambert",
+        "subtitle": "Contributions — Fanfare du Faubourg",
         "items": [
           { "subscription": "Nora Benali — Cotisation annuelle", "date": "01 janvier 2026", "paymentMethod": "Virement", "amount": "90 €", "status": "Facturée", "color": "neutral" },
           { "subscription": "Julien Costa — Cotisation annuelle", "date": "01 janvier 2027", "paymentMethod": "Espèces", "amount": "70 €", "status": "À facturer", "color": "warning" },
@@ -233,12 +233,12 @@
           { "name": "Casiers à outils", "unit": "Casier", "qty": "20", "price": "5 € / mois", "occupation": "81 %" }
         ]
       },
-      "amap": {
-        "subtitle": "AMAP des Trois Sillons — 3 types actifs",
+      "federation": {
+        "subtitle": "Fédération Française Multisports — 3 types actifs",
         "rows": [
-          { "name": "Parts de paniers légumes", "unit": "Part", "qty": "45", "price": "18 € / semaine", "occupation": "96 %" },
-          { "name": "Parts de paniers œufs", "unit": "Part", "qty": "20", "price": "6 € / semaine", "occupation": "70 %" },
-          { "name": "Casiers de retrait", "unit": "Casier", "qty": "50", "price": "Inclus", "occupation": "88 %" }
+          { "name": "Salle de formation", "unit": "Salle", "qty": "2", "price": "40 € / demi-jour", "occupation": "70 %" },
+          { "name": "Véhicule utilitaire partagé", "unit": "Véhicule", "qty": "1", "price": "25 € / jour", "occupation": "82 %" },
+          { "name": "Matériel événementiel", "unit": "Kit", "qty": "15", "price": "10 € / jour", "occupation": "65 %" }
         ]
       },
       "creche": {
@@ -295,13 +295,13 @@
           { "occupant": "Studio Kerne", "model": "Adhésion atelier", "contribution": "18 € / mois", "statut": "En attente" }
         ]
       },
-      "amap": {
-        "subtitle": "AMAP des Trois Sillons — 4 adhérents actifs",
+      "federation": {
+        "subtitle": "Fédération Française Multisports — 4 sections actives",
         "rows": [
-          { "occupant": "Famille Nguyen", "model": "Panier légumes hebdo", "contribution": "18 € / semaine", "statut": "À jour" },
-          { "occupant": "Camille Vidal", "model": "Panier légumes hebdo", "contribution": "24 € / semaine", "statut": "À jour" },
-          { "occupant": "Marc Aubert", "model": "Panier légumes hebdo", "contribution": "12 € / semaine", "statut": "Avenant en cours" },
-          { "occupant": "Yasmine Foucher", "model": "Panier légumes hebdo", "contribution": "6 € / semaine", "statut": "En attente" }
+          { "occupant": "Section du Rhône", "model": "Cotisation annuelle de section", "contribution": "180 € / an", "statut": "À jour" },
+          { "occupant": "Section de la Loire", "model": "Cotisation annuelle de section", "contribution": "320 € / an", "statut": "À jour" },
+          { "occupant": "Section de l'Isère", "model": "Cotisation annuelle de section", "contribution": "120 € / an", "statut": "Avenant en cours" },
+          { "occupant": "Section du Var", "model": "Cotisation annuelle de section", "contribution": "150 € / an", "statut": "En attente" }
         ]
       },
       "creche": {
@@ -354,13 +354,13 @@
           { "label": "Facture #2024-310", "org": "Studio Kerne", "amount": "18 €", "status": "En retard" }
         ]
       },
-      "amap": {
-        "subtitle": "AMAP des Trois Sillons — 4 en cours",
+      "federation": {
+        "subtitle": "Fédération Française Multisports — 4 en cours",
         "rows": [
-          { "label": "Facture #2024-414", "org": "Famille Nguyen", "amount": "18 €", "status": "Payée" },
-          { "label": "Facture #2024-413", "org": "Camille Vidal", "amount": "24 €", "status": "Émise" },
-          { "label": "Facture #2024-412", "org": "Marc Aubert", "amount": "12 €", "status": "Payée" },
-          { "label": "Facture #2024-410", "org": "Yasmine Foucher", "amount": "6 €", "status": "En retard" }
+          { "label": "Facture #2024-414", "org": "Section de la Loire", "amount": "320 €", "status": "Payée" },
+          { "label": "Facture #2024-413", "org": "Section du Rhône", "amount": "180 €", "status": "Émise" },
+          { "label": "Facture #2024-412", "org": "Section de l'Isère", "amount": "120 €", "status": "Payée" },
+          { "label": "Facture #2024-410", "org": "Section du Var", "amount": "150 €", "status": "En retard" }
         ]
       },
       "creche": {
@@ -400,10 +400,10 @@
         { "label": "Prélèvement SEPA", "org": "Thomas Roy — 24 €", "date": "03 mars", "status": "Rapproché" },
         { "label": "Espèces", "org": "Léa Fontaine — 30 €", "date": "En attente", "status": "À rapprocher" }
       ],
-      "amap": [
-        { "label": "Prélèvement SEPA", "org": "Famille Nguyen — 18 €", "date": "05 mars", "status": "Rapproché" },
-        { "label": "Espèces", "org": "Camille Vidal — 24 €", "date": "03 mars", "status": "Rapproché" },
-        { "label": "Virement", "org": "Marc Aubert — 12 €", "date": "En attente", "status": "À rapprocher" }
+      "federation": [
+        { "label": "Virement", "org": "Section de la Loire — 320 €", "date": "05 mars", "status": "Rapproché" },
+        { "label": "Prélèvement SEPA", "org": "Section du Rhône — 180 €", "date": "03 mars", "status": "Rapproché" },
+        { "label": "Virement", "org": "Section de l'Isère — 120 €", "date": "En attente", "status": "À rapprocher" }
       ],
       "creche": [
         { "label": "Prélèvement SEPA", "org": "Famille Haddad — 780 €", "date": "05 mars", "status": "Rapproché" },
@@ -471,13 +471,13 @@
           { "label": "Signature du membre", "state": "current" }
         ]
       },
-      "amap": {
-        "subtitle": "Panier légumes hebdo — Camille Vidal",
-        "ref": "#4405",
+      "federation": {
+        "subtitle": "Cotisation annuelle de section — Section du Rhône",
+        "ref": "#4508",
         "steps": [
           { "label": "Contrat généré depuis le modèle", "state": "done" },
           { "label": "Envoyé pour signature électronique", "state": "done" },
-          { "label": "Signature de l'adhérente", "state": "current" }
+          { "label": "Signature du responsable de section", "state": "current" }
         ]
       },
       "creche": {
@@ -506,7 +506,7 @@
       "tiers-lieux": { "ref": "Avenant #2 — Contrat #1520455", "fieldLabel": "Montant mensuel", "before": "340 €", "after": "374 €" },
       "cooperatives": { "ref": "Avenant #1 — Contrat #2240", "fieldLabel": "Nombre de parts", "before": "1 part", "after": "2 parts" },
       "ateliers": { "ref": "Avenant #1 — Contrat #3312", "fieldLabel": "Créneaux établi", "before": "Établi 3", "after": "Établi 3 + 5" },
-      "amap": { "ref": "Avenant #1 — Contrat #4405", "fieldLabel": "Composition du panier", "before": "Légumes seuls", "after": "Légumes + œufs" },
+      "federation": { "ref": "Avenant #1 — Contrat #4508", "fieldLabel": "Tranche de cotisation", "before": "Moins de 50 licenciés", "after": "50 à 150 licenciés" },
       "creche": { "ref": "Avenant #1 — Contrat #5108", "fieldLabel": "Jours d'accueil", "before": "3 jours / semaine", "after": "5 jours / semaine" },
       "fanfare": { "ref": "Avenant #2 — Contrat #6021", "fieldLabel": "Instrument prêté", "before": "Percussions", "after": "Percussions + tuba" }
     },
@@ -536,12 +536,12 @@
           { "label": "Assurance responsabilité civile", "status": "Validé", "color": "success" }
         ]
       },
-      "amap": {
-        "subtitle": "Camille Vidal — Souscription #440",
+      "federation": {
+        "subtitle": "Section du Rhône — Souscription #450",
         "rows": [
-          { "label": "Charte AMAP signée", "status": "Validé", "color": "success" },
-          { "label": "RIB pour prélèvement", "status": "À valider", "color": "warning" },
-          { "label": "Engagement saison", "status": "Validé", "color": "success" }
+          { "label": "Procès-verbal de création de section", "status": "Validé", "color": "success" },
+          { "label": "Liste des licenciés de la section", "status": "À valider", "color": "warning" },
+          { "label": "RIB", "status": "Validé", "color": "success" }
         ]
       },
       "creche": {
@@ -584,11 +584,11 @@
           { "label": "HelloAsso", "sub": "Adhésions", "status": "Bientôt", "color": "neutral" }
         ]
       },
-      "amap": {
+      "federation": {
         "rows": [
-          { "label": "Stripe", "sub": "Prélèvements paniers", "status": "Connecté", "color": "success" },
+          { "label": "HelloAsso", "sub": "Cotisations & dons", "status": "Connecté", "color": "success" },
           { "label": "Pennylane", "sub": "Comptabilité", "status": "Connecté", "color": "success" },
-          { "label": "HelloAsso", "sub": "Dons ponctuels", "status": "Bientôt", "color": "neutral" }
+          { "label": "Facturation électronique", "sub": "Chorus Pro", "status": "Bientôt", "color": "neutral" }
         ]
       },
       "creche": {
@@ -614,7 +614,7 @@
       "tiers-lieux": { "receiptLabel": "Reçu fiscal", "receipt": "CERFA #2024-118", "donor": "Julie Marchand", "amount": "80 €" },
       "cooperatives": { "receiptLabel": "Reçu de don", "receipt": "#2024-118", "donor": "Camille Roussel", "amount": "150 €" },
       "ateliers": { "receiptLabel": "Reçu fiscal", "receipt": "CERFA #2024-118", "donor": "Hugo Lefèvre", "amount": "50 €" },
-      "amap": { "receiptLabel": "Reçu fiscal", "receipt": "CERFA #2024-118", "donor": "Nadia Belkacem", "amount": "30 €" },
+      "federation": { "receiptLabel": "Reçu fiscal", "receipt": "CERFA #2024-118", "donor": "Sami Benyahia", "amount": "70 €" },
       "creche": { "receiptLabel": "Reçu fiscal", "receipt": "CERFA #2024-118", "donor": "Karim Haddad", "amount": "100 €" },
       "fanfare": { "receiptLabel": "Reçu fiscal", "receipt": "CERFA #2024-118", "donor": "Pauline Girard", "amount": "60 €" }
     },
@@ -647,13 +647,13 @@
         "rowBefore": "15 € / mois",
         "rowAfter": "11 € (dernier mois)"
       },
-      "amap": {
-        "subtitle": "Pertes et invendus — AMAP des Trois Sillons",
-        "provisioned": "80 € / semaine",
-        "regularized": "55 € / semaine",
-        "rowLabel": "Panier standard",
-        "rowBefore": "3 € / semaine",
-        "rowAfter": "1,50 € (dernière semaine)"
+      "federation": {
+        "subtitle": "Assurance responsabilité civile fédérale — Fédération Française Multisports",
+        "provisioned": "3 000 € / an",
+        "regularized": "2 850 € / an",
+        "rowLabel": "Section du Rhône — prorata licenciés",
+        "rowBefore": "80 € / an",
+        "rowAfter": "76 € (dernière année)"
       },
       "creche": {
         "subtitle": "Repas et goûters — Crèche « Les petits fripons »",
@@ -705,14 +705,14 @@
         "rowBefore": "35 € / mois",
         "rowAfter": "35,84 € / mois"
       },
-      "amap": {
-        "subtitle": "Paniers — AMAP des Trois Sillons",
-        "index": "Coût de production (+3 %)",
-        "before": "1 440 € / semaine",
-        "after": "1 483 € / semaine",
-        "rowLabel": "Panier standard",
-        "rowBefore": "18 € / semaine",
-        "rowAfter": "18,54 € / semaine"
+      "federation": {
+        "subtitle": "Cotisations fédérales — Fédération Française Multisports",
+        "index": "Indice INSEE des prix (+2,4 %)",
+        "before": "14 250 € / an",
+        "after": "14 592 € / an",
+        "rowLabel": "Section du Rhône — cotisation",
+        "rowBefore": "180 € / an",
+        "rowAfter": "184,32 € / an"
       },
       "creche": {
         "subtitle": "Cotisations familles — Crèche « Les petits fripons »",
@@ -759,12 +759,12 @@
           { "label": "Cascade — Atelier Belleville", "amount": "410 € / mois" }
         ]
       },
-      "amap": {
-        "root": "Fédération des AMAP du bassin",
+      "federation": {
+        "root": "Fédération Française Multisports",
         "rows": [
-          { "label": "Cascade — AMAP des Trois Sillons", "amount": "620 € / semaine" },
-          { "label": "Cascade — AMAP du Plateau", "amount": "480 € / semaine" },
-          { "label": "Cascade — AMAP Verte Vallée", "amount": "390 € / semaine" }
+          { "label": "Cascade — Section du Rhône", "amount": "180 € / an" },
+          { "label": "Cascade — Section de l'Isère", "amount": "120 € / an" },
+          { "label": "Cascade — Section de la Loire", "amount": "320 € / an" }
         ]
       },
       "creche": {
@@ -793,7 +793,7 @@
       "tiers-lieux": { "purpose": "Charges communes du mois", "objective": "1 200 €", "contributors": "12", "perPerson": "100 €" },
       "cooperatives": { "purpose": "Fonds de mutualisation annuel", "objective": "3 400 €", "contributors": "34", "perPerson": "100 €" },
       "ateliers": { "purpose": "Consommables du mois", "objective": "540 €", "contributors": "27", "perPerson": "20 €" },
-      "amap": { "purpose": "Panier solidaire de la semaine", "objective": "900 €", "contributors": "45", "perPerson": "20 €" },
+      "federation": { "purpose": "Financement mutualisé d'un éducateur sportif partagé", "objective": "24 000 €", "contributors": "38", "perPerson": "632 €" },
       "creche": { "purpose": "Poste mutualisé du mois", "objective": "1 600 €", "contributors": "16", "perPerson": "100 €" },
       "fanfare": { "purpose": "Location de local du trimestre", "objective": "560 €", "contributors": "28", "perPerson": "20 €" }
     }

@@ -7,7 +7,7 @@ const ROW_COLORS: Record<FeatureScenarioKey, Row['color'][]> = {
   'tiers-lieux': ['success', 'neutral', 'success', 'error'],
   cooperatives: ['success', 'neutral', 'success', 'error'],
   ateliers: ['success', 'neutral', 'success', 'error'],
-  amap: ['success', 'neutral', 'success', 'error'],
+  federation: ['success', 'neutral', 'success', 'error'],
   creche: ['success', 'neutral', 'success', 'error'],
   fanfare: ['success', 'neutral', 'success', 'error']
 }
