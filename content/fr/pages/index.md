@@ -5,9 +5,9 @@ description: Cascade aide les lieux, collectifs et organisations à gérer leurs
 
 ::hero
 ---
-headline: Pour une gestion alternative et non-lucrative.
-title: Votre modèle contributif dans un seul outil.
-description: "Définissez précisément vos propres règles de gestion, Cascade automatise le reste : contractualisation, avenants, souscription, facturation, paiement et gestion des ressources internes."
+headline: Une infrastructure pour les économies contributives.
+title: La plateforme de gestion des contributions et des ressources.
+description: "Simplifiez la gestion de vos contrats, souscriptions, factures et paiements. Cascade s'adapte à vos règles de fonctionnement, des modèles classiques aux plus solidaires."
 ctaLabel: Réserver un échange
 secondaryCtaLabel: Lire le manifeste
 secondaryCtaTo: /manifeste
