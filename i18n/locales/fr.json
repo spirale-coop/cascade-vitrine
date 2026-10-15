@@ -5,6 +5,10 @@
     "contributionAdaptative": "Contribution adaptative",
     "manifeste": "Manifeste",
     "laFederation": "La fédération",
+    "changelog": "Changelog",
+    "changelogTooltip": "Voir les nouveautés et corrections",
+    "lightMode": "Passer en mode clair",
+    "darkMode": "Passer en mode sombre",
     "seConnecter": "Se connecter",
     "testerCascade": "Réserver un échange"
   },
@@ -796,6 +800,13 @@
       "federation": { "purpose": "Financement mutualisé d'un éducateur sportif partagé", "objective": "24 000 €", "contributors": "38", "perPerson": "632 €" },
       "creche": { "purpose": "Poste mutualisé du mois", "objective": "1 600 €", "contributors": "16", "perPerson": "100 €" },
       "fanfare": { "purpose": "Location de local du trimestre", "objective": "560 €", "contributors": "28", "perPerson": "20 €" }
+    }
+  },
+  "changelog": {
+    "tag": {
+      "feature": "Nouveauté",
+      "fix": "Correctif",
+      "improvement": "Amélioration"
     }
   }
 }

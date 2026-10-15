@@ -5,6 +5,7 @@ defineProps<{
   description?: string
   backTo?: string
   backLabel?: string
+  narrow?: boolean
 }>()
 
 const localePath = useLocalePath()
@@ -51,7 +52,7 @@ onUnmounted(() => {
     </div>
   </div>
 
-  <UContainer v-else>
+  <UContainer v-else :class="{ 'max-w-[900px]': narrow }">
     <UPageHeader :headline="headline" :title="title" :description="description" />
   </UContainer>
 </template>

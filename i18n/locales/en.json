@@ -5,6 +5,10 @@
     "contributionAdaptative": "Adaptive contribution",
     "manifeste": "Manifesto",
     "laFederation": "The federation",
+    "changelog": "Changelog",
+    "changelogTooltip": "See what's new and fixed",
+    "lightMode": "Switch to light mode",
+    "darkMode": "Switch to dark mode",
     "seConnecter": "Sign in",
     "testerCascade": "Book a call"
   },
@@ -796,6 +800,13 @@
       "federation": { "purpose": "Pooled funding for a shared sports coach", "objective": "€24,000", "contributors": "38", "perPerson": "€632" },
       "creche": { "purpose": "Shared position for the month", "objective": "€1,600", "contributors": "16", "perPerson": "€100" },
       "fanfare": { "purpose": "Rehearsal room rental for the quarter", "objective": "€560", "contributors": "28", "perPerson": "€20" }
+    }
+  },
+  "changelog": {
+    "tag": {
+      "feature": "New",
+      "fix": "Fix",
+      "improvement": "Improvement"
     }
   }
 }

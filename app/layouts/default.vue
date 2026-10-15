@@ -2,6 +2,9 @@
 const route = useRoute()
 const { t, locale, locales } = useI18n()
 const localePath = useLocalePath()
+const colorMode = useColorMode()
+
+const colorModeTooltip = computed(() => colorMode.value === 'dark' ? t('nav.lightMode') : t('nav.darkMode'))
 
 const links = computed(() => [
   { label: t('nav.pourQui'), to: localePath('/pour-qui') },
@@ -34,17 +37,30 @@ const otherLocalePath = computed(() => {
       <UNavigationMenu :items="links" variant="link" />
 
       <template #right>
-        <UButton
-          v-if="otherLocale"
-          :to="otherLocalePath"
-          external
-          color="neutral"
-          variant="ghost"
-          class="hidden uppercase sm:flex"
-        >
-          {{ otherLocale.code }}
-        </UButton>
-        <UColorModeButton class="hidden sm:flex" />
+        <UTooltip v-if="otherLocale" :text="otherLocale.name">
+          <UButton
+            :to="otherLocalePath"
+            external
+            color="neutral"
+            variant="ghost"
+            class="hidden uppercase sm:flex"
+          >
+            {{ otherLocale.code }}
+          </UButton>
+        </UTooltip>
+        <UTooltip :text="t('nav.changelogTooltip')">
+          <UButton
+            :to="localePath('/changelog')"
+            icon="i-lucide-scroll-text"
+            color="neutral"
+            variant="ghost"
+            :aria-label="t('nav.changelog')"
+            class="hidden sm:flex"
+          />
+        </UTooltip>
+        <UTooltip :text="colorModeTooltip">
+          <UColorModeButton class="hidden sm:flex" />
+        </UTooltip>
         <UButton to="https://app.cascade.coop/login" external color="neutral" variant="ghost" class="hidden whitespace-nowrap sm:flex">
           {{ t('nav.seConnecter') }}
         </UButton>
@@ -68,6 +84,14 @@ const otherLocalePath = computed(() => {
         />
         <div class="mt-6 flex items-center gap-3">
           <UColorModeButton size="lg" />
+          <UButton
+            :to="localePath('/changelog')"
+            icon="i-lucide-scroll-text"
+            color="neutral"
+            variant="ghost"
+            size="lg"
+            :aria-label="t('nav.changelog')"
+          />
           <UButton
             v-if="otherLocale"
             :to="otherLocalePath"

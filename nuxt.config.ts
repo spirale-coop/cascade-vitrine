@@ -32,6 +32,12 @@ Cal.ns.cascade("ui", {"hideEventTypeDetails":false,"layout":"month_view"});`
     // silently redirect visitors based on browser language.
     detectBrowserLanguage: false
   },
+  content: {
+    renderer: {
+      // Markdown headings (the changelog) stay plain text: no "#" anchor link.
+      anchorLinks: { h2: false, h3: false, h4: false }
+    }
+  },
   icon: {
     // Without this, Nuxt Icon only pre-bundles Nuxt UI's own default icons
     // and fetches every icon used in our own templates from the Iconify
