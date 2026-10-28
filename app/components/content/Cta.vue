@@ -13,7 +13,7 @@ defineProps<{
         v-if="ctaLabel"
         trailing-icon="i-lucide-arrow-right"
         size="lg"
-        data-cal-link="paul-balmet-ybl5no/cascade"
+        data-cal-link="spirale-coop/cascade"
         data-cal-namespace="cascade"
         data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
       >

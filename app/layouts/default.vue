@@ -67,7 +67,7 @@ const otherLocalePath = computed(() => {
         <UButton
           trailing-icon="i-lucide-arrow-right"
           class="whitespace-nowrap"
-          data-cal-link="paul-balmet-ybl5no/cascade"
+          data-cal-link="spirale-coop/cascade"
           data-cal-namespace="cascade"
           data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
         >
