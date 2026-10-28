@@ -13,6 +13,30 @@ description: Ce document retrace les évolutions et corrections apportées à l'
 ::
 
 ::page-prose
+## 24 octobre 2026
+
+### Connexion du compte Stripe :changelog-tag{type="feature"}
+
+Première étape vers le prélèvement automatique : votre organisation peut connecter son propre compte Stripe depuis les réglages de la Cascade. Un bloc « Compte Stripe » indique où en est l'inscription et permet de la reprendre à tout moment, sans jamais créer de second compte. Le compte vaut pour toutes les Cascades de l'organisation, et son état se met à jour tout seul. Rien n'est prélevé pour l'instant, et Cascade reste utilisable sans compte Stripe.
+
+### Moyen de paiement par défaut :changelog-tag{type="feature"}
+
+Chaque modèle de souscription a désormais un moyen de paiement par défaut : virement, prélèvement, carte bancaire, espèces ou chèque. Il est repris à la création de chaque souscription et peut ensuite être modifié sur sa fiche. Les contributions générées l'utilisent, au lieu d'un virement systématique. Les modèles existants restent en virement.
+
+### Prélèvement : date et préavis :changelog-tag{type="feature"}
+
+Pour un prélèvement, vous indiquez combien de jours avant la date de contribution prélever. La facturation automatique doit être activée, et il faut au moins 2 jours entre la facture et le prélèvement. Si ce préavis est inférieur à 14 jours, un avertissement rappelle de le mentionner dans vos contrats, avec la nouvelle variable « Préavis de prélèvement (jours) ». Si une facture part en retard, la date de prélèvement est repoussée pour que le contributeur garde au moins 2 jours de préavis.
+
+Vous pouvez préparer vos modèles en prélèvement même si votre compte Stripe n'est pas encore opérationnel : un message vous le signale. Aucun prélèvement n'est encore exécuté.
+
+## 22 octobre 2026
+
+### Facturation automatique :changelog-tag{type="feature"}
+
+Plus besoin d'envoyer chaque facture à la main. Sur un modèle de souscription, indiquez « Facturer automatiquement … jours avant la date de contribution » (de 0 à 365) : chaque matin à 6 h, les factures à émettre sont créées et envoyées par courriel aux contributeurs. Par exemple, avec 5 jours, la contribution du 1er mars est facturée le 24 février. Une contribution n'est jamais facturée deux fois, et un oubli est rattrapé au passage suivant.
+
+À noter : les modèles existants restent en facturation manuelle, les avoirs restent à envoyer à la main, et le délai compte les jours calendaires, pas les jours ouvrés. Une contribution à laquelle il manque une adresse de facturation ou un SIRET est ignorée, sans avertissement pour l'instant.
+
 ## 13 octobre 2026
 
 ### Factures : un numéro qui indique le mois :changelog-tag{type="feature"}

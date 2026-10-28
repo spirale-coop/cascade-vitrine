@@ -13,6 +13,30 @@ description: This document tracks the improvements and fixes made to the applica
 ::
 
 ::page-prose
+## 24 October 2026
+
+### Connecting your Stripe account :changelog-tag{type="feature"}
+
+First step towards automatic direct debit: your organization can connect its own Stripe account from the Cascade settings. A "Stripe account" block shows where the sign-up stands and lets you resume it at any time, without ever creating a second account. The account applies to all of the organization's Cascades, and its status updates by itself. Nothing is debited yet, and Cascade remains usable without a Stripe account.
+
+### Default payment method :changelog-tag{type="feature"}
+
+Each subscription model now has a default payment method: bank transfer, direct debit, bank card, cash or cheque. It is copied when each subscription is created and can then be changed on its page. Generated contributions use it, instead of systematically being a bank transfer. Existing models stay on bank transfer.
+
+### Direct debit: date and notice :changelog-tag{type="feature"}
+
+For a direct debit, you state how many days before the contribution date to debit. Automatic invoicing must be enabled, and there must be at least 2 days between the invoice and the debit. If the notice is under 14 days, a warning reminds you to mention it in your contracts, using the new "Debit notice (days)" variable. If an invoice goes out late, the debit date is pushed back so the contributor keeps at least 2 days' notice.
+
+You can prepare your direct debit models even if your Stripe account is not yet operational: a message flags it. No direct debit is executed yet.
+
+## 22 October 2026
+
+### Automatic invoicing :changelog-tag{type="feature"}
+
+No more sending each invoice by hand. On a subscription model, enter "Invoice automatically … days before the contribution date" (from 0 to 365): every morning at 6 am, the invoices due are created and emailed to contributors. For example, with 5 days, the 1 March contribution is invoiced on 24 February. A contribution is never invoiced twice, and a missed one is caught up on the next run.
+
+Please note: existing models stay on manual invoicing, credit notes still have to be sent by hand, and the delay counts calendar days, not working days. A contribution that is missing a billing address or a SIRET is skipped, with no warning for now.
+
 ## 13 October 2026
 
 ### Invoices: a number that shows the month :changelog-tag{type="feature"}
