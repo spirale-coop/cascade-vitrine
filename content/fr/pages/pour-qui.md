@@ -1,10 +1,11 @@
 ---
-title: Pour qui ? — Cascade
-description: Cascade s'adresse aux organisations collectives — associations, coopératives, collectifs informels, syndicats, tiers-lieux — pas aux entreprises ordinaires.
+title: Pour qui ? Associations, coopératives, tiers-lieux — Cascade
+description: "Cascade s'adresse aux organisations collectives : associations, coopératives, collectifs informels, syndicats, tiers-lieux. Pas aux entreprises ordinaires."
 ---
 
 ::page-header
 ---
+h1: "Pour qui ? Cascade s'adresse aux organisations collectives"
 backTo: /
 backLabel: Retour
 ---

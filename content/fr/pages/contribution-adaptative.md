@@ -1,10 +1,11 @@
 ---
-title: La contribution adaptative — Cascade
-description: Le cœur du modèle Cascade — comment le prix peut s'adapter aux besoins réels du collectif plutôt qu'à un tarif figé décidé d'avance.
+title: "Contribution adaptative : le prix selon les besoins — Cascade"
+description: "Le cœur du modèle Cascade : comment le prix peut s'adapter aux besoins réels du collectif plutôt qu'à un tarif figé décidé d'avance."
 ---
 
 ::page-header
 ---
+h1: "La contribution adaptative"
 backTo: /
 backLabel: Retour
 ---

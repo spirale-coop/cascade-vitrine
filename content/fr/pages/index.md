@@ -1,6 +1,6 @@
 ---
-title: Cascade — Gérez vos ressources collectivement
-description: Cascade aide les lieux, collectifs et organisations à gérer leurs souscriptions, contributions, factures et ressources à travers des règles transparentes et coopératives.
+title: Cascade — Gestion des contributions et des ressources
+description: "Simplifiez la gestion de vos contrats, souscriptions, factures et paiements. Cascade s'adapte à vos règles, des modèles classiques aux plus solidaires."
 ---
 
 ::hero
@@ -81,7 +81,7 @@ features:
 ::workflow
 ---
 headline: Fonctionnalités
-title: Ce que la plateforme fait déjà — et ce qui arrive.
+title: Ce que la plateforme fait déjà, et ce qui arrive.
 description: Un aperçu concret des modules Cascade, construits ou en cours de construction.
 availableLabel: Disponible
 inProgressLabel: En cours de développement

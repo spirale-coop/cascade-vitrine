@@ -1,10 +1,11 @@
 ---
-title: La fédération — Cascade
-description: Cascade est porté par une fédération d'acteurs de l'urbanisme transitoire, sous licence Coopyleft — pas par un éditeur qui capte de la valeur sur leur activité.
+title: "La fédération Cascade : un outil porté par ses utilisateurs"
+description: "Cascade est porté par une fédération d'acteurs de l'urbanisme transitoire, sous licence Coopyleft, pas par un éditeur qui capte la valeur de leur activité."
 ---
 
 ::page-header
 ---
+h1: "La fédération Cascade"
 backTo: /
 backLabel: Retour
 ---

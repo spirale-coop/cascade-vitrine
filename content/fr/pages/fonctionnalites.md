@@ -1,10 +1,11 @@
 ---
-title: Toutes les fonctionnalités — Cascade
-description: Le détail des lots fonctionnels de Cascade — contrats, contributions, facturation, paiements et pilotage — et ce qui s'automatise progressivement.
+title: "Fonctionnalités : contrats, facturation, paiements — Cascade"
+description: "Contrats, contributions, facturation, paiements et pilotage : le détail des modules de Cascade et ce qui s'automatise progressivement."
 ---
 
 ::page-header
 ---
+h1: "Les fonctionnalités de Cascade"
 backTo: /
 backLabel: Retour
 ---

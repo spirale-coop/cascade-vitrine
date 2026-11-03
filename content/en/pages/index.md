@@ -1,6 +1,6 @@
 ---
-title: Cascade — Manage your resources collectively
-description: Cascade helps venues, collectives, and organizations manage their subscriptions, contributions, invoices, and resources through transparent, cooperative rules.
+title: Cascade — Manage contributions and resources
+description: "Simplify managing your contracts, subscriptions, invoices and payments. Cascade adapts to your rules, from conventional to solidarity-based models."
 ---
 
 ::hero
@@ -81,7 +81,7 @@ features:
 ::workflow
 ---
 headline: Features
-title: What the platform already does — and what's coming.
+title: What the platform already does, and what's coming.
 description: A concrete look at Cascade's modules, built or in progress.
 availableLabel: Available
 inProgressLabel: In development

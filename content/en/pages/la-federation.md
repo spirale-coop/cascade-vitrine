@@ -1,10 +1,11 @@
 ---
-title: The federation — Cascade
-description: Cascade is run by a federation of transitional urbanism players, under a Coopyleft license — not by a software vendor that captures value from their activity.
+title: "The Cascade federation: a tool run by its users"
+description: "Cascade is run by a federation of transitional urbanism players, under a Coopyleft license, not by a vendor that captures value from their activity."
 ---
 
 ::page-header
 ---
+h1: "The Cascade federation"
 backTo: /
 backLabel: Back
 ---

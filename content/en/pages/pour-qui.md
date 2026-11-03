@@ -1,10 +1,11 @@
 ---
-title: Who is it for? — Cascade
-description: Cascade is designed for collective organizations — associations, cooperatives, informal collectives, unions, shared spaces — not for ordinary businesses.
+title: Who is it for? Associations, co-ops, shared spaces — Cascade
+description: "Cascade is built for collective organizations: associations, cooperatives, informal collectives, unions, shared spaces. Not for ordinary businesses."
 ---
 
 ::page-header
 ---
+h1: "Who is it for? Cascade is built for collective organizations"
 backTo: /
 backLabel: Back
 ---

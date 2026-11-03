@@ -1,6 +1,6 @@
 ---
-title: Changelog — Cascade
-description: Le journal des évolutions et corrections apportées à l'application Cascade depuis le début du projet.
+title: Journal des modifications — Cascade
+description: "Le journal des évolutions et corrections apportées à l'application Cascade depuis le début du projet."
 ---
 
 ::page-header

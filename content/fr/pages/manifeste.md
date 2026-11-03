@@ -1,10 +1,11 @@
 ---
-title: Comprendre le modèle Cascade — Manifeste
-description: Le manifeste Cascade — contribution, redistribution et cycles, les trois notions qui font système, et pourquoi elles ouvrent une voie hors des logiques capitalistes.
+title: "Manifeste : comprendre le modèle Cascade"
+description: "Contribution, redistribution et cycles : les trois notions du modèle Cascade, et pourquoi elles ouvrent une voie hors des logiques capitalistes."
 ---
 
 ::page-header
 ---
+h1: "Le manifeste Cascade"
 backTo: /
 backLabel: Retour
 ---

@@ -6,6 +6,8 @@ defineProps<{
   backTo?: string
   backLabel?: string
   narrow?: boolean
+  /** Visually hidden main heading, for pages whose first visible title is a section heading. */
+  h1?: string
 }>()
 
 const localePath = useLocalePath()
@@ -34,23 +36,28 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div
-    v-if="backTo"
-    class="sticky top-[var(--ui-header-height)] z-10 w-full border-b border-default bg-default/85 backdrop-blur transition-transform duration-300"
-    :style="{ transform: isVisible ? 'translateY(0)' : 'translateY(calc(-100% - var(--ui-header-height)))' }"
-  >
-    <div class="w-full px-4 sm:px-6 lg:px-8">
-      <UButton
-        :to="localePath(backTo)"
-        icon="i-lucide-arrow-left"
-        color="neutral"
-        variant="ghost"
-        class="my-3"
-      >
-        {{ backLabel }}
-      </UButton>
+  <template v-if="backTo">
+    <div
+      class="sticky top-[var(--ui-header-height)] z-10 w-full border-b border-default bg-default/85 backdrop-blur transition-transform duration-300"
+      :style="{ transform: isVisible ? 'translateY(0)' : 'translateY(calc(-100% - var(--ui-header-height)))' }"
+    >
+      <div class="w-full px-4 sm:px-6 lg:px-8">
+        <UButton
+          :to="localePath(backTo)"
+          icon="i-lucide-arrow-left"
+          color="neutral"
+          variant="ghost"
+          class="my-3"
+        >
+          {{ backLabel }}
+        </UButton>
+      </div>
     </div>
-  </div>
+
+    <h1 v-if="h1" class="sr-only">
+      {{ h1 }}
+    </h1>
+  </template>
 
   <UContainer v-else :class="{ 'max-w-[900px]': narrow }">
     <UPageHeader :headline="headline" :title="title" :description="description" />

@@ -1,10 +1,11 @@
 ---
-title: All features — Cascade
-description: The full breakdown of Cascade's functional modules — contracts, contributions, invoicing, payments and oversight — and what becomes automated over time.
+title: "Features: contracts, invoicing, payments — Cascade"
+description: "Contracts, contributions, invoicing, payments and oversight: the full breakdown of Cascade's modules and what becomes automated over time."
 ---
 
 ::page-header
 ---
+h1: "Cascade features"
 backTo: /
 backLabel: Back
 ---

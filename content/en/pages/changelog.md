@@ -1,6 +1,6 @@
 ---
-title: Changelog — Cascade
-description: The log of improvements and fixes made to the Cascade application since the start of the project.
+title: Release notes — Cascade
+description: "The log of improvements and fixes made to the Cascade application since the start of the project."
 ---
 
 ::page-header

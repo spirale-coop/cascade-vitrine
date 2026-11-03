@@ -1,10 +1,11 @@
 ---
-title: Adaptive Contribution — Cascade
-description: The heart of the Cascade model — how price can adapt to the group's real needs rather than following a fixed rate decided in advance.
+title: "Adaptive contribution: pricing that follows needs — Cascade"
+description: "The heart of the Cascade model: how price can adapt to a group's real needs rather than following a fixed rate decided in advance."
 ---
 
 ::page-header
 ---
+h1: "Adaptive contribution"
 backTo: /
 backLabel: Back
 ---
