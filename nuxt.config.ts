@@ -11,6 +11,18 @@ export default defineNuxtConfig({
       ]
     }
   },
+  runtimeConfig: {
+    public: {
+      // The help center (/aide) is published but not linked from the header yet:
+      // flip to true when it is ready for visitors.
+      helpCenterLink: false
+    }
+  },
+  routeRules: {
+    // Not indexed while it is only reachable by URL (review phase).
+    '/aide/**': { headers: { 'X-Robots-Tag': 'noindex, nofollow' } },
+    '/en/aide/**': { headers: { 'X-Robots-Tag': 'noindex, nofollow' } }
+  },
   i18n: {
     locales: [
       { code: 'fr', language: 'fr-FR', name: 'Français', file: 'fr.json' },

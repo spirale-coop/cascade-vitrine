@@ -5,6 +5,7 @@
     "contributionAdaptative": "Adaptive contribution",
     "manifeste": "Manifesto",
     "laFederation": "The federation",
+    "aide": "Help",
     "changelog": "Changelog",
     "changelogTooltip": "See what's new and fixed",
     "lightMode": "Switch to light mode",
@@ -814,6 +815,127 @@
       "feature": "New",
       "fix": "Fix",
       "improvement": "Improvement"
+    }
+  },
+  "aide": {
+    "seoSuffix": "Cascade Help",
+    "breadcrumbRoot": "Help",
+    "nav": {
+      "home": "Help home",
+      "configure": "Set up a model",
+      "glossary": "Glossary",
+      "themes": "Topics",
+      "browse": "Browse the help"
+    },
+    "hub": {
+      "headline": "Help",
+      "title": "Welcome to the Cascade help center",
+      "description": "Step-by-step guides for managers, and a glossary to find your way around the vocabulary.",
+      "seoDescription": "Step-by-step guides and glossary to run Cascade, for managers.",
+      "notionsHeadline": "Key concepts",
+      "notionsTitle": "Understand Cascade in four words",
+      "notionsDescription": "A model sets the rules. Each contributor subscribes to it. The subscription generates contributions, which are settled by payments.",
+      "popularHeadline": "Popular articles",
+      "popularTitle": "Where to start",
+      "guides": "Coming soon | {n} guide available | {n} guides available",
+      "guidesOf": "{x}/{y} guide available | {x}/{y} guides available",
+      "comingSoon": "Coming soon",
+      "terms": "{n} terms",
+      "glossaryCard": "The Cascade vocabulary, from A to Z.",
+      "changelogTitle": "What's new",
+      "changelogDescription": "What changes in Cascade, version after version.",
+      "changelogFooter": "Release notes",
+      "configureTitle": "Set up a subscription model",
+      "configureDescription": "Every section of the form, with its options and settings."
+    },
+    "modules": {
+      "general": {
+        "title": "General",
+        "description": "Understand what Cascade does for you every day."
+      },
+      "cascade-et-organisation": {
+        "title": "Cascade and organization",
+        "description": "Create and configure your Cascade and its organization."
+      },
+      "modeles-de-souscription": {
+        "title": "Subscription models",
+        "description": "Define your rules: recurrence, amount, invoicing, payment, contract."
+      },
+      "souscriptions": {
+        "title": "Subscriptions",
+        "description": "Invite contributors, follow and edit their subscriptions."
+      },
+      "contrats-et-signature": {
+        "title": "Contracts and signature",
+        "description": "Send, sign and follow up on contracts."
+      },
+      "documents-justificatifs": {
+        "title": "Supporting documents",
+        "description": "Request, upload and validate supporting documents."
+      },
+      "contributions": {
+        "title": "Contributions",
+        "description": "Follow, filter and create contributions."
+      },
+      "facturation": {
+        "title": "Invoicing",
+        "description": "Invoice by hand or automatically."
+      },
+      "paiements": {
+        "title": "Payments",
+        "description": "Record payments and connect Stripe."
+      },
+      "acces-et-compte": {
+        "title": "Access and account",
+        "description": "Sign in and manage your account."
+      }
+    },
+    "article": {
+      "summary": "In brief",
+      "related": "Related terms",
+      "onThisPage": "On this page",
+      "draftBadge": "Draft · {status}",
+      "status": {
+        "draft": "To write",
+        "review": "To review",
+        "valid": "Approved"
+      },
+      "inProgressTitle": "This guide is being written",
+      "inProgressDescription": "It will be available very soon.",
+      "soon": "Soon"
+    },
+    "video": {
+      "label": "Guide video",
+      "preparing": "Video in preparation",
+      "status": {
+        "script": "Script to write",
+        "todo": "Video to produce",
+        "review": "Video to approve",
+        "done": "Video finished"
+      }
+    },
+    "glossary": {
+      "title": "Glossary",
+      "description": "The Cascade vocabulary, from A to Z.",
+      "filterAll": "All",
+      "filterNotions": "Concepts",
+      "filterModel": "In the subscription model",
+      "see": "See:",
+      "values": "Possible values:",
+      "index": "Index"
+    },
+    "nature": {
+      "section": "Section",
+      "option": "Option",
+      "parametre": "Setting",
+      "champ": "Subscription field",
+      "concept": "Concept"
+    },
+    "guide": {
+      "title": "Set up a subscription model",
+      "description": "The model sets the rules for all your contributors. Here is, section by section, what you can configure.",
+      "seoDescription": "Every section of a subscription model's form, with its options and settings.",
+      "sections": "Sections"
     }
   }
 }

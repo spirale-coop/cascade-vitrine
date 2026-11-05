@@ -1,0 +1,877 @@
+[
+  {
+    "slug": "adhesion-simple",
+    "term": "Adhésion simple",
+    "en": null,
+    "nature": "option",
+    "definition": [
+      "Le contributeur rejoint le programme sans contrat, à l'initiative du gérant."
+    ],
+    "values": null,
+    "parent": "section-mode-d-adhesion",
+    "articles": [
+      "creer-une-souscription"
+    ]
+  },
+  {
+    "slug": "adresse-de-facturation",
+    "term": "Adresse de facturation",
+    "en": "Billing address",
+    "nature": null,
+    "definition": [
+      "Adresse imprimée sur la facture.",
+      "Portée par l'Organisation du contributeur, et non saisie par souscription.",
+      "La facture en garde une copie à son émission."
+    ],
+    "values": null,
+    "parent": "facture",
+    "articles": [
+      "modifier-les-reglages-de-la-cascade",
+      "creer-une-souscription",
+      "ce-que-cascade-fait-chaque-jour",
+      "signer-un-contrat",
+      "facturer-automatiquement",
+      "rediger-le-modele-de-contrat"
+    ]
+  },
+  {
+    "slug": "annexes-au-contrat",
+    "term": "Annexes au contrat",
+    "en": "Contract annexes",
+    "nature": "parametre",
+    "definition": [
+      "Fichiers joints au contrat (exemple : règlement intérieur), chacun avec un nom affiché.",
+      "PDF uniquement"
+    ],
+    "values": null,
+    "parent": "contrat",
+    "articles": [
+      "rediger-le-modele-de-contrat",
+      "signer-un-contrat",
+      "envoyer-un-contrat-en-signature",
+      "ajouter-un-contrat-sans-signature"
+    ]
+  },
+  {
+    "slug": "avenant",
+    "term": "Avenant",
+    "en": "Amendment",
+    "nature": null,
+    "definition": [
+      "Un avenant est une modification de la souscription qui nécessite une signature. L’avenant est le document à signer par les parties",
+      "Le contrat généré par chaque nouvelle version d'une souscription après la première, au sein d'un même groupe de souscription."
+    ],
+    "values": null,
+    "parent": null,
+    "articles": [
+      "faire-un-avenant",
+      "configurer-le-modele-d-avenant",
+      "consulter-l-historique-des-versions",
+      "signer-un-contrat",
+      "contresigner-un-contrat",
+      "envoyer-un-contrat-en-signature",
+      "modifier-un-modele-de-souscription",
+      "ajouter-un-contrat-sans-signature"
+    ]
+  },
+  {
+    "slug": "avoir",
+    "term": "Avoir",
+    "en": "Credit note",
+    "nature": "concept",
+    "definition": [
+      "Une contribution de montant négatif qui corrige tout ou partie d'une contribution déjà due (remboursement, remise, erreur).",
+      "Peut être rattaché à la contribution qu'il corrige : il ne peut alors être facturé qu'une fois celle-ci facturée. Sans contribution d'origine, il peut être facturé directement.",
+      "Saisi à la main ; jamais facturé automatiquement."
+    ],
+    "values": null,
+    "parent": null,
+    "articles": [
+      "creer-une-contribution-ou-un-avoir",
+      "facturer-des-contributions",
+      "marquer-une-contribution-comme-payee",
+      "ce-que-cascade-fait-chaque-jour",
+      "facturer-automatiquement",
+      "configurer-la-facturation-automatique"
+    ]
+  },
+  {
+    "slug": "cascade",
+    "term": "Cascade",
+    "en": "Cascade",
+    "nature": null,
+    "definition": [
+      "Un espace de travail sur la plateforme.",
+      "Une même Cascade peut posséder des modèles de souscription et/ou contribuer à ceux des autres.",
+      "Elle appartient toujours à une Organisation, propriétaire de son identité juridique."
+    ],
+    "values": null,
+    "parent": null,
+    "articles": [
+      "changer-de-cascade-courante",
+      "creer-une-cascade",
+      "modifier-les-reglages-de-la-cascade",
+      "se-connecter"
+    ]
+  },
+  {
+    "slug": "compte-stripe",
+    "term": "Compte Stripe",
+    "en": "Stripe account",
+    "nature": "concept",
+    "definition": [
+      "Le compte de paiement de l'Organisation chez Stripe, connecté depuis les réglages de la cascade ; un seul par organisation, valable pour toutes ses cascades, jamais remplacé.",
+      "Nécessaire pour encaisser les contributions par prélèvement SEPA.",
+      "États : adresse manquante, non connecté, inscription incomplète, encaissements désactivés, opérationnel, accès révoqué."
+    ],
+    "values": null,
+    "parent": null,
+    "articles": [
+      "connecter-le-compte-stripe",
+      "choisir-le-moyen-de-paiement-par-defaut",
+      "modifier-les-reglages-de-la-cascade"
+    ]
+  },
+  {
+    "slug": "contact-s-signataire-s",
+    "term": "Contact(s) signataire(s)",
+    "en": "Contract signers",
+    "nature": "parametre",
+    "definition": [
+      "Liste des personnes (nom et email) qui signent les contrats au nom de la Cascade propriétaire ; au moins une.",
+      "Le premier signataire est celui dont le nom apparaît sur les documents."
+    ],
+    "values": null,
+    "parent": "contrat",
+    "articles": [
+      "rediger-le-modele-de-contrat",
+      "contresigner-un-contrat"
+    ]
+  },
+  {
+    "slug": "contrat",
+    "term": "Contrat",
+    "en": "Contract",
+    "nature": "option",
+    "definition": [
+      "Option du mode d'adhésion : le contributeur doit signer un contrat électroniquement, après avoir déposé les documents justificatifs.",
+      "Le contrat est signé par les contacts signataires de la Cascade propriétaire et par le contributeur.",
+      "La première version d'un groupe de souscription donne un contrat initial ; toute modification après signature passe par un avenant.",
+      "Le numéro de contrat est bâti sur le préfixe de la Cascade."
+    ],
+    "values": null,
+    "parent": "section-mode-d-adhesion",
+    "articles": [
+      "rediger-le-modele-de-contrat",
+      "envoyer-un-contrat-en-signature",
+      "ajouter-un-contrat-sans-signature",
+      "relancer-l-invitation-a-signer",
+      "signer-un-contrat",
+      "contresigner-un-contrat",
+      "definir-les-documents-justificatifs-demandes",
+      "faire-un-avenant",
+      "ce-que-cascade-fait-chaque-jour",
+      "deposer-des-documents-justificatifs",
+      "creer-une-souscription",
+      "valider-ou-rejeter-des-documents-justificatifs",
+      "modifier-un-modele-de-souscription"
+    ]
+  },
+  {
+    "slug": "contributeur",
+    "term": "Contributeur",
+    "en": "Contributor",
+    "nature": null,
+    "definition": [
+      "Le contact désigné dans le groupe de souscription pour représenter le contributeur.",
+      "N'a pas de compte : il agit uniquement via des liens signés reçus par courriel (signature, dépôt de documents)."
+    ],
+    "values": null,
+    "parent": null,
+    "articles": [
+      "creer-une-souscription",
+      "inviter-plusieurs-contributeurs-en-masse",
+      "envoyer-un-contrat-en-signature",
+      "relancer-l-invitation-a-signer",
+      "signer-un-contrat",
+      "deposer-des-documents-justificatifs",
+      "envoyer-la-facture-par-e-mail",
+      "definir-les-documents-justificatifs-demandes",
+      "faire-un-avenant",
+      "facturer-automatiquement",
+      "configurer-la-facturation-automatique",
+      "valider-ou-rejeter-des-documents-justificatifs",
+      "ajouter-un-contrat-sans-signature",
+      "rediger-le-modele-de-contrat"
+    ]
+  },
+  {
+    "slug": "contribution",
+    "term": "Contribution",
+    "en": "Contribution",
+    "nature": null,
+    "definition": [
+      "Un montant dû par un contributeur à une date donnée, engendré par sa souscription.",
+      "Généré automatiquement ou ajouté manuellement.",
+      "Pour les souscriptions récurrentes, les contributions de début et de fin de période sont proratisées.",
+      "Statuts : nouvelle, en attente, payée, partiellement payée, en retard."
+    ],
+    "values": null,
+    "parent": null,
+    "articles": [
+      "marquer-une-contribution-comme-payee",
+      "generer-automatiquement-les-contributions-recurrentes",
+      "creer-une-contribution-ou-un-avoir",
+      "consulter-et-filtrer-les-contributions",
+      "facturer-des-contributions",
+      "faire-un-avenant",
+      "ce-que-cascade-fait-chaque-jour",
+      "facturer-automatiquement",
+      "configurer-la-facturation-automatique",
+      "choisir-le-moyen-de-paiement-par-defaut",
+      "modifier-un-modele-de-souscription",
+      "ajouter-un-contrat-sans-signature"
+    ]
+  },
+  {
+    "slug": "cycle-de-la-recurrence",
+    "term": "Cycle de la récurrence",
+    "en": "Frequency",
+    "nature": "parametre",
+    "definition": [
+      "Tous les combien une contribution est créée.",
+      "Les périodes suivent le calendrier : semaine du lundi au dimanche, mois, trimestre et année civils."
+    ],
+    "values": "Semaine, Mois, Trimestre, Année",
+    "parent": "recurrent",
+    "articles": []
+  },
+  {
+    "slug": "date-de-fin",
+    "term": "Date de fin",
+    "en": "End date",
+    "nature": "champ",
+    "definition": [
+      "Date à laquelle la souscription se termine : plus aucune contribution n'est créée après.",
+      "Pré-remplie avec la date de fin par défaut du modèle.",
+      "Obligatoire pour un modèle ponctuel, facultative sinon."
+    ],
+    "values": null,
+    "parent": "section-recurrence",
+    "articles": [
+      "creer-une-souscription",
+      "faire-un-avenant",
+      "ce-que-cascade-fait-chaque-jour",
+      "configurer-le-modele-d-avenant",
+      "rediger-le-modele-de-contrat"
+    ]
+  },
+  {
+    "slug": "date-de-fin-par-defaut-des-souscriptions",
+    "term": "Date de fin par défaut des souscriptions",
+    "en": "End date",
+    "nature": "parametre",
+    "definition": [
+      "Date de fin proposée à la création de chaque souscription, modifiable souscription par souscription.",
+      "Facultative : vide, les contributions continuent sans limite."
+    ],
+    "values": null,
+    "parent": "recurrent",
+    "articles": [
+      "modifier-un-modele-de-souscription"
+    ]
+  },
+  {
+    "slug": "date-de-prise-d-effet",
+    "term": "Date de prise d'effet",
+    "en": "Start date",
+    "nature": "champ",
+    "definition": [
+      "Date à partir de laquelle la souscription (ou sa nouvelle version) est en vigueur.",
+      "Commune à toutes les options de récurrence."
+    ],
+    "values": null,
+    "parent": "section-recurrence",
+    "articles": [
+      "creer-une-souscription",
+      "faire-un-avenant",
+      "ajouter-un-contrat-sans-signature",
+      "rediger-le-modele-de-contrat"
+    ]
+  },
+  {
+    "slug": "delai-avant-facturation",
+    "term": "Délai avant facturation",
+    "en": null,
+    "nature": "parametre",
+    "definition": [
+      "La facture est émise automatiquement ce nombre de jours avant la date de la contribution.",
+      "Vide : le gérant émet les factures à la main."
+    ],
+    "values": "0 à 365 jours, ou vide",
+    "parent": "facture",
+    "articles": [
+      "configurer-la-facturation-automatique",
+      "facturer-automatiquement",
+      "ce-que-cascade-fait-chaque-jour",
+      "choisir-le-moyen-de-paiement-par-defaut",
+      "modifier-un-modele-de-souscription"
+    ]
+  },
+  {
+    "slug": "delai-de-paiement",
+    "term": "Délai de paiement",
+    "en": "Payment terms",
+    "nature": "parametre",
+    "definition": [
+      "Échéance imprimée sur la facture, après laquelle elle est considérée comme impayée."
+    ],
+    "values": "Immédiatement, 30 jours fin de mois, 60 jours fin de mois",
+    "parent": "facture",
+    "articles": [
+      "facturer-automatiquement",
+      "configurer-la-facturation-automatique"
+    ]
+  },
+  {
+    "slug": "delai-de-prelevement",
+    "term": "Délai de prélèvement",
+    "en": null,
+    "nature": "parametre",
+    "definition": [
+      "Nombre de jours avant la date de la contribution auquel le prélèvement SEPA a lieu.",
+      "Obligatoire dès que le modèle ou l'une de ses souscriptions est en prélèvement SEPA.",
+      "Nécessite la facturation automatique, et au moins 2 jours entre la facture et le prélèvement."
+    ],
+    "values": "0 à 365 jours",
+    "parent": "section-moyen-de-paiement",
+    "articles": [
+      "choisir-le-moyen-de-paiement-par-defaut",
+      "ce-que-cascade-fait-chaque-jour",
+      "facturer-automatiquement",
+      "configurer-la-facturation-automatique",
+      "modifier-un-modele-de-souscription",
+      "rediger-le-modele-de-contrat"
+    ]
+  },
+  {
+    "slug": "designation",
+    "term": "Désignation",
+    "en": "Designation",
+    "nature": "parametre",
+    "definition": [
+      "Libellé de la ligne de facturation (exemple : « Redevance mensuelle »)."
+    ],
+    "values": null,
+    "parent": "facture",
+    "articles": [
+      "facturer-des-contributions",
+      "configurer-la-facturation-automatique"
+    ]
+  },
+  {
+    "slug": "documents-justificatifs",
+    "term": "Documents justificatifs",
+    "en": "Contributor document",
+    "nature": "parametre",
+    "definition": [
+      "Sur le modèle : la liste des pièces que le contributeur doit déposer avant de signer le contrat (exemple : assurance habitation, attestation fiscale).",
+      "Sur la souscription : les pièces effectivement déposées, une par document demandé.",
+      "Chacune passe par les statuts en attente → validé ou rejeté (validation par le gérant)."
+    ],
+    "values": null,
+    "parent": "contrat",
+    "articles": [
+      "definir-les-documents-justificatifs-demandes",
+      "deposer-des-documents-justificatifs",
+      "valider-ou-rejeter-des-documents-justificatifs",
+      "signer-un-contrat",
+      "contresigner-un-contrat",
+      "envoyer-un-contrat-en-signature",
+      "ajouter-un-contrat-sans-signature",
+      "rediger-le-modele-de-contrat"
+    ]
+  },
+  {
+    "slug": "facture",
+    "term": "Facture",
+    "en": "Invoice",
+    "nature": "option",
+    "definition": [
+      "Option du mode d'envoi : le contributeur reçoit une facture par email pour chaque contribution (exemple : redevance à une entreprise).",
+      "La facture est générée depuis une contribution et numérotée avec le préfixe de la Cascade.",
+      "Elle fige les données de facturation à son émission, produit un PDF et est envoyée par email au contributeur."
+    ],
+    "values": null,
+    "parent": "section-mode-d-envoi",
+    "articles": [
+      "configurer-la-facturation-automatique",
+      "facturer-des-contributions",
+      "facturer-automatiquement",
+      "envoyer-la-facture-par-e-mail",
+      "ce-que-cascade-fait-chaque-jour",
+      "choisir-le-moyen-de-paiement-par-defaut",
+      "modifier-un-modele-de-souscription"
+    ]
+  },
+  {
+    "slug": "gerant",
+    "term": "Gérant",
+    "en": "Manager",
+    "nature": null,
+    "definition": [
+      "Utilisateur membre de l'Organisation d'une Cascade propriétaire.",
+      "Pilote les modèles, souscriptions et contributions depuis l'application."
+    ],
+    "values": null,
+    "parent": null,
+    "articles": [
+      "valider-ou-rejeter-des-documents-justificatifs",
+      "definir-les-documents-justificatifs-demandes",
+      "modifier-son-compte",
+      "se-connecter"
+    ]
+  },
+  {
+    "slug": "section-informations-generales",
+    "term": "Informations générales",
+    "en": "General info",
+    "nature": "section",
+    "definition": [
+      "Identité du modèle : son nom et son taux de TVA."
+    ],
+    "values": null,
+    "parent": "modele-de-souscription",
+    "articles": [
+      "creer-un-modele-de-souscription"
+    ]
+  },
+  {
+    "slug": "message-d-invitation",
+    "term": "Message d'invitation",
+    "en": "Invitation message",
+    "nature": "champ",
+    "definition": [
+      "Message personnel inclus dans l'email d'invitation envoyé au contributeur."
+    ],
+    "values": null,
+    "parent": "section-mode-d-adhesion",
+    "articles": [
+      "creer-une-souscription",
+      "inviter-plusieurs-contributeurs-en-masse",
+      "envoyer-un-contrat-en-signature"
+    ]
+  },
+  {
+    "slug": "section-mode-d-adhesion",
+    "term": "Mode d'adhésion",
+    "en": "Membership",
+    "nature": "section",
+    "definition": [
+      "Comment un contributeur rejoint le programme : en signant un contrat ou par simple adhésion."
+    ],
+    "values": null,
+    "parent": "modele-de-souscription",
+    "articles": [
+      "creer-un-modele-de-souscription"
+    ]
+  },
+  {
+    "slug": "section-mode-d-envoi",
+    "term": "Mode d'envoi",
+    "en": "Billing",
+    "nature": "section",
+    "definition": [
+      "Comment la contribution est réclamée au contributeur : par facture ou par email."
+    ],
+    "values": null,
+    "parent": "modele-de-souscription",
+    "articles": [
+      "creer-un-modele-de-souscription",
+      "facturer-automatiquement",
+      "configurer-la-facturation-automatique",
+      "choisir-le-moyen-de-paiement-par-defaut"
+    ]
+  },
+  {
+    "slug": "modele-d-avenant",
+    "term": "Modèle d'avenant",
+    "en": "Amendment template",
+    "nature": "parametre",
+    "definition": [
+      "Texte des avenants : un en-tête, un pied de page et des paragraphes.",
+      "Chaque paragraphe a des déclencheurs : il n'apparaît dans l'avenant que si l'un de ces champs a changé."
+    ],
+    "values": null,
+    "parent": "contrat",
+    "articles": [
+      "configurer-le-modele-d-avenant",
+      "faire-un-avenant",
+      "modifier-un-modele-de-souscription",
+      "rediger-le-modele-de-contrat"
+    ]
+  },
+  {
+    "slug": "modele-de-contrat",
+    "term": "Modèle de contrat",
+    "en": "Contract template",
+    "nature": "parametre",
+    "definition": [
+      "Texte du contrat, mis en forme, contenant des placeholders entre [crochets] remplacés pour chaque souscription."
+    ],
+    "values": null,
+    "parent": "contrat",
+    "articles": [
+      "rediger-le-modele-de-contrat",
+      "definir-les-documents-justificatifs-demandes",
+      "envoyer-un-contrat-en-signature",
+      "modifier-un-modele-de-souscription",
+      "configurer-le-modele-d-avenant"
+    ]
+  },
+  {
+    "slug": "modele-de-souscription",
+    "term": "Modèle de souscription",
+    "en": "Subscription model",
+    "nature": "concept",
+    "definition": [
+      "Le gabarit d'un programme, défini par une Cascade propriétaire ; chaque souscription s'appuie sur un modèle.",
+      "Se configure en sections : Informations générales (nom, taux de TVA), Récurrence (récurrent, ponctuel ou permanent, et cycle de la récurrence), Montant de contribution, Mode d'envoi (facture ou email), Moyen de paiement, Reçu de contribution, Mode d'adhésion (contrat ou adhésion simple).",
+      "En adhésion par contrat, il porte aussi le modèle de contrat et le modèle d'avenant."
+    ],
+    "values": null,
+    "parent": null,
+    "articles": [
+      "creer-un-modele-de-souscription",
+      "modifier-un-modele-de-souscription",
+      "creer-une-souscription",
+      "definir-les-documents-justificatifs-demandes",
+      "deposer-des-documents-justificatifs",
+      "envoyer-un-contrat-en-signature",
+      "facturer-automatiquement",
+      "configurer-la-facturation-automatique",
+      "choisir-le-moyen-de-paiement-par-defaut",
+      "ajouter-un-contrat-sans-signature",
+      "configurer-le-modele-d-avenant",
+      "rediger-le-modele-de-contrat"
+    ]
+  },
+  {
+    "slug": "section-montant-de-contribution",
+    "term": "Montant de contribution",
+    "en": "Amount",
+    "nature": "section",
+    "definition": [
+      "Qui décide du montant des contributions et comment il évolue."
+    ],
+    "values": null,
+    "parent": "modele-de-souscription",
+    "articles": [
+      "creer-un-modele-de-souscription"
+    ]
+  },
+  {
+    "slug": "montant-fixe-par-le-gerant",
+    "term": "Montant fixé par le gérant",
+    "en": "Parameterized",
+    "nature": "option",
+    "definition": [
+      "Le gérant définit à l'avance le montant de chaque souscription."
+    ],
+    "values": null,
+    "parent": "section-montant-de-contribution",
+    "articles": []
+  },
+  {
+    "slug": "montant-ht",
+    "term": "Montant HT",
+    "en": "Amount excl. VAT",
+    "nature": "champ",
+    "definition": [
+      "Montant d'une contribution pleine, hors taxes.",
+      "La TVA et le TTC sont calculés à partir du taux du modèle."
+    ],
+    "values": null,
+    "parent": "montant-fixe-par-le-gerant",
+    "articles": [
+      "creer-une-souscription",
+      "creer-une-contribution-ou-un-avoir",
+      "faire-un-avenant",
+      "configurer-le-modele-d-avenant",
+      "rediger-le-modele-de-contrat"
+    ]
+  },
+  {
+    "slug": "section-moyen-de-paiement",
+    "term": "Moyen de paiement",
+    "en": "Payment method",
+    "nature": "section",
+    "definition": [
+      "Comment le contributeur règle ses contributions : mode de paiement et, en prélèvement, délai de prélèvement."
+    ],
+    "values": null,
+    "parent": "modele-de-souscription",
+    "articles": [
+      "choisir-le-moyen-de-paiement-par-defaut",
+      "creer-un-modele-de-souscription"
+    ]
+  },
+  {
+    "slug": "moyen-de-paiement-par-defaut",
+    "term": "Moyen de paiement par défaut",
+    "en": "Payment method",
+    "nature": "parametre",
+    "definition": [
+      "Mode de paiement par défaut du modèle, modifiable sur chaque souscription."
+    ],
+    "values": "Carte bancaire, Virement SEPA, Prélèvement SEPA, Espèces, Chèque",
+    "parent": "section-moyen-de-paiement",
+    "articles": [
+      "choisir-le-moyen-de-paiement-par-defaut",
+      "configurer-la-facturation-automatique",
+      "modifier-un-modele-de-souscription"
+    ]
+  },
+  {
+    "slug": "numero-de-tva",
+    "term": "Numéro de TVA",
+    "en": "VAT number",
+    "nature": null,
+    "definition": [
+      "Numéro de TVA imprimé sur la facture, facultatif.",
+      "Porté par l'Organisation du contributeur",
+      "La facture en garde une copie à son émission."
+    ],
+    "values": null,
+    "parent": "facture",
+    "articles": [
+      "modifier-les-reglages-de-la-cascade",
+      "rediger-le-modele-de-contrat"
+    ]
+  },
+  {
+    "slug": "organisation",
+    "term": "Organisation",
+    "en": "Organization",
+    "nature": null,
+    "definition": [
+      "L'entité juridique (raison sociale, SIRET/N°BCE, TVA, IBAN, adresse de facturation, logo), au-dessus de la Cascade.",
+      "Regroupe une ou plusieurs Cascades et porte l'appartenance des utilisateurs."
+    ],
+    "values": null,
+    "parent": null,
+    "articles": [
+      "creer-une-cascade",
+      "modifier-les-reglages-de-la-cascade",
+      "connecter-le-compte-stripe",
+      "changer-de-cascade-courante"
+    ]
+  },
+  {
+    "slug": "paiement",
+    "term": "Paiement",
+    "en": "Payment",
+    "nature": null,
+    "definition": [
+      "Le paiement (total ou partiel) d’une contribution.",
+      "Ce que le contributeur a réglé."
+    ],
+    "values": null,
+    "parent": null,
+    "articles": [
+      "marquer-une-contribution-comme-payee",
+      "choisir-le-moyen-de-paiement-par-defaut"
+    ]
+  },
+  {
+    "slug": "permanente",
+    "term": "Permanente",
+    "en": "Permanent",
+    "nature": "option",
+    "definition": [
+      "Une seule contribution est créée, mais la souscription reste active à durée indéterminée (exemple : cotisation à vie, titres participatifs)."
+    ],
+    "values": null,
+    "parent": "section-recurrence",
+    "articles": []
+  },
+  {
+    "slug": "ponctuel",
+    "term": "Ponctuel",
+    "en": "One-time",
+    "nature": "option",
+    "definition": [
+      "Chaque souscription ne génère qu'une seule contribution (exemple : location de salle).",
+      "La date de fin est obligatoire sur la souscription.",
+      "Une souscription ponctuelle ne peut pas être modifiée (pas d'avenant)."
+    ],
+    "values": null,
+    "parent": "section-recurrence",
+    "articles": []
+  },
+  {
+    "slug": "prefixe",
+    "term": "Préfixe",
+    "en": "Prefix",
+    "nature": null,
+    "definition": [
+      "Code court unique (par Organisation) d'une Cascade (ex. ACME), dérivé du nom si non renseigné.",
+      "Sert à numéroter contrats et factures."
+    ],
+    "values": null,
+    "parent": null,
+    "articles": [
+      "creer-une-cascade",
+      "modifier-les-reglages-de-la-cascade",
+      "facturer-des-contributions"
+    ]
+  },
+  {
+    "slug": "section-recu-de-contribution",
+    "term": "Reçu de contribution",
+    "en": "Receipt",
+    "nature": "section",
+    "definition": [
+      "Le document remis au contributeur une fois la contribution payée : reçu simple ou reçu fiscal."
+    ],
+    "values": null,
+    "parent": "modele-de-souscription",
+    "articles": [
+      "creer-un-modele-de-souscription"
+    ]
+  },
+  {
+    "slug": "section-recurrence",
+    "term": "Récurrence",
+    "en": "Occurrence",
+    "nature": "section",
+    "definition": [
+      "Comment les contributions se répètent dans le temps : récurrent, ponctuel ou permanent."
+    ],
+    "values": null,
+    "parent": "modele-de-souscription",
+    "articles": [
+      "creer-un-modele-de-souscription"
+    ]
+  },
+  {
+    "slug": "recurrent",
+    "term": "Récurrent",
+    "en": "Recurrent",
+    "nature": "option",
+    "definition": [
+      "Une contribution est créée à chaque période (exemple : redevance mensuelle).",
+      "Les contributions de début et de fin de période sont proratisées.",
+      "Un contributeur peut souscrire plusieurs fois au même modèle."
+    ],
+    "values": null,
+    "parent": "section-recurrence",
+    "articles": [
+      "generer-automatiquement-les-contributions-recurrentes",
+      "ce-que-cascade-fait-chaque-jour"
+    ]
+  },
+  {
+    "slug": "signataire",
+    "term": "Signataire",
+    "en": "Signer",
+    "nature": null,
+    "definition": [
+      "Le contact (nom + courriel) désigné dans un modèle de souscription pour signer les contrats au nom de la Cascade propriétaire.",
+      "Pas nécessairement un utilisateur."
+    ],
+    "values": null,
+    "parent": null,
+    "articles": [
+      "contresigner-un-contrat",
+      "definir-les-documents-justificatifs-demandes",
+      "faire-un-avenant",
+      "signer-un-contrat",
+      "creer-une-souscription",
+      "envoyer-un-contrat-en-signature",
+      "valider-ou-rejeter-des-documents-justificatifs",
+      "ajouter-un-contrat-sans-signature"
+    ]
+  },
+  {
+    "slug": "souscription",
+    "term": "Souscription",
+    "en": "Subscription",
+    "nature": null,
+    "definition": [
+      "Une version au sein d'un groupe de souscription (l'engagement d'un contributeur dans un modèle).",
+      "Modifier une souscription la met à jour sur place tant que le Contributeur n'a pas signé son contrat (ou qu'aucun contrat n'existe) ; une fois signé, la modification crée une nouvelle version et les contributions futures non facturées de la version précédente sont remplacées.",
+      "Définit les valeurs des variables des futures contributions."
+    ],
+    "values": null,
+    "parent": null,
+    "articles": [
+      "creer-une-souscription",
+      "inviter-plusieurs-contributeurs-en-masse",
+      "consulter-et-filtrer-les-souscriptions",
+      "modifier-une-souscription",
+      "annuler-une-souscription",
+      "consulter-l-historique-des-versions",
+      "faire-un-avenant",
+      "definir-les-documents-justificatifs-demandes",
+      "ce-que-cascade-fait-chaque-jour",
+      "envoyer-un-contrat-en-signature",
+      "choisir-le-moyen-de-paiement-par-defaut",
+      "valider-ou-rejeter-des-documents-justificatifs",
+      "modifier-un-modele-de-souscription",
+      "ajouter-un-contrat-sans-signature",
+      "configurer-le-modele-d-avenant",
+      "rediger-le-modele-de-contrat"
+    ]
+  },
+  {
+    "slug": "taux-de-tva",
+    "term": "Taux de TVA",
+    "en": "VAT rate",
+    "nature": "parametre",
+    "definition": [
+      "Taux appliqué au montant HT pour calculer la TVA et le TTC des contributions et des factures."
+    ],
+    "values": "0 % à 27 %",
+    "parent": "section-informations-generales",
+    "articles": [
+      "modifier-un-modele-de-souscription",
+      "rediger-le-modele-de-contrat"
+    ]
+  },
+  {
+    "slug": "type-d-operation",
+    "term": "Type d'opération",
+    "en": "Operation type",
+    "nature": "parametre",
+    "definition": [
+      "Nature de l'opération, mention obligatoire sur la facture."
+    ],
+    "values": "Prestation de service, Vente de marchandise",
+    "parent": "facture",
+    "articles": [
+      "facturer-des-contributions",
+      "facturer-automatiquement",
+      "configurer-la-facturation-automatique"
+    ]
+  },
+  {
+    "slug": "version",
+    "term": "Version",
+    "en": "Version",
+    "nature": "concept",
+    "definition": [
+      "Chacun des états successifs d'une souscription au sein de son groupe de souscription.",
+      "Une nouvelle version est créée quand on modifie une souscription dont le contrat a déjà été signé par le contributeur ; elle remplace les contributions futures non facturées de la version précédente et donne lieu à un avenant.",
+      "L'historique des versions est consultable depuis la fiche de la souscription ; seule la dernière version est modifiable."
+    ],
+    "values": null,
+    "parent": null,
+    "articles": [
+      "consulter-l-historique-des-versions",
+      "modifier-une-souscription",
+      "faire-un-avenant",
+      "configurer-le-modele-d-avenant"
+    ]
+  }
+]

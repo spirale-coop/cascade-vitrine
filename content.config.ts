@@ -18,6 +18,40 @@ export default defineContentConfig({
       type: 'page',
       source: { include: 'en/pages/**', prefix: '' }
     }),
+    aide_fr: defineCollection({
+      type: 'page',
+      source: { include: 'fr/aide/**', prefix: '/aide' },
+      schema: z.object({
+        module: z.string(),
+        moduleSlug: z.string(),
+        order: z.number().default(0),
+        actors: z.array(z.string()).default([]),
+        enBref: z.string().default(''),
+        where: z.string().default(''),
+        status: z.enum(['draft', 'review', 'valid']).default('draft'),
+        needs: z.array(z.string()).default([]),
+        glossary: z.array(z.string()).default([]),
+        video: z.string().default(''),
+        videoStatus: z.enum(['none', 'script', 'todo', 'review', 'done']).default('none')
+      })
+    }),
+    aide_en: defineCollection({
+      type: 'page',
+      source: { include: 'en/aide/**', prefix: '/aide' },
+      schema: z.object({
+        module: z.string(),
+        moduleSlug: z.string(),
+        order: z.number().default(0),
+        actors: z.array(z.string()).default([]),
+        enBref: z.string().default(''),
+        where: z.string().default(''),
+        status: z.enum(['draft', 'review', 'valid']).default('draft'),
+        needs: z.array(z.string()).default([]),
+        glossary: z.array(z.string()).default([]),
+        video: z.string().default(''),
+        videoStatus: z.enum(['none', 'script', 'todo', 'review', 'done']).default('none')
+      })
+    }),
     experiments_fr: defineCollection({
       type: 'data',
       source: 'fr/experiments/**.md',

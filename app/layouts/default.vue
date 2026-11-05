@@ -3,6 +3,7 @@ const route = useRoute()
 const { t, locale, locales } = useI18n()
 const localePath = useLocalePath()
 const colorMode = useColorMode()
+const showHelpLink = useRuntimeConfig().public.helpCenterLink
 
 const colorModeTooltip = computed(() => colorMode.value === 'dark' ? t('nav.lightMode') : t('nav.darkMode'))
 
@@ -79,6 +80,16 @@ const otherLocalePath = computed(() => {
             {{ otherLocale.code }}
           </UButton>
         </UTooltip>
+        <UTooltip v-if="showHelpLink" :text="t('nav.aide')">
+          <UButton
+            :to="localePath('/aide')"
+            icon="i-lucide-life-buoy"
+            color="neutral"
+            variant="ghost"
+            :aria-label="t('nav.aide')"
+            class="hidden sm:flex"
+          />
+        </UTooltip>
         <UTooltip :text="t('nav.changelogTooltip')">
           <UButton
             :to="localePath('/changelog')"
@@ -115,6 +126,15 @@ const otherLocalePath = computed(() => {
         />
         <div class="mt-6 flex items-center gap-3">
           <UColorModeButton size="lg" />
+          <UButton
+            v-if="showHelpLink"
+            :to="localePath('/aide')"
+            icon="i-lucide-life-buoy"
+            color="neutral"
+            variant="ghost"
+            size="lg"
+            :aria-label="t('nav.aide')"
+          />
           <UButton
             :to="localePath('/changelog')"
             icon="i-lucide-scroll-text"

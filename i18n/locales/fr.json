@@ -5,6 +5,7 @@
     "contributionAdaptative": "Contribution adaptative",
     "manifeste": "Manifeste",
     "laFederation": "La fédération",
+    "aide": "Aide",
     "changelog": "Changelog",
     "changelogTooltip": "Voir les nouveautés et corrections",
     "lightMode": "Passer en mode clair",
@@ -814,6 +815,127 @@
       "feature": "Nouveauté",
       "fix": "Correctif",
       "improvement": "Amélioration"
+    }
+  },
+  "aide": {
+    "seoSuffix": "Aide Cascade",
+    "breadcrumbRoot": "Aide",
+    "nav": {
+      "home": "Accueil de l'aide",
+      "configure": "Configurer un modèle",
+      "glossary": "Glossaire",
+      "themes": "Thèmes",
+      "browse": "Parcourir l'aide"
+    },
+    "hub": {
+      "headline": "Aide",
+      "title": "Bienvenue dans l'aide Cascade",
+      "description": "Des guides pas à pas, pensés pour les gérants, et un glossaire pour s'y retrouver dans le vocabulaire.",
+      "seoDescription": "Guides pas à pas et glossaire pour piloter Cascade, côté gérant.",
+      "notionsHeadline": "Les notions clés",
+      "notionsTitle": "Comprendre Cascade en quatre mots",
+      "notionsDescription": "Un modèle fixe les règles. Chaque contributeur y souscrit. La souscription génère des contributions, que l'on règle par des paiements.",
+      "popularHeadline": "Articles populaires",
+      "popularTitle": "Par où commencer",
+      "guides": "Bientôt disponible | {n} guide disponible | {n} guides disponibles",
+      "guidesOf": "{x}/{y} guide disponible | {x}/{y} guides disponibles",
+      "comingSoon": "Bientôt disponible",
+      "terms": "{n} termes",
+      "glossaryCard": "Le vocabulaire de Cascade, de A à Z.",
+      "changelogTitle": "Nouveautés",
+      "changelogDescription": "Ce qui change dans Cascade, version après version.",
+      "changelogFooter": "Journal des modifications",
+      "configureTitle": "Configurer un modèle de souscription",
+      "configureDescription": "Toutes les sections du formulaire, avec leurs options et leurs réglages."
+    },
+    "modules": {
+      "general": {
+        "title": "Général",
+        "description": "Comprendre ce que Cascade fait pour vous au quotidien."
+      },
+      "cascade-et-organisation": {
+        "title": "Cascade et organisation",
+        "description": "Créer et paramétrer votre Cascade et son organisation."
+      },
+      "modeles-de-souscription": {
+        "title": "Modèles de souscription",
+        "description": "Définir vos règles : récurrence, montant, facturation, paiement, contrat."
+      },
+      "souscriptions": {
+        "title": "Souscriptions",
+        "description": "Inviter des contributeurs, suivre et modifier leurs souscriptions."
+      },
+      "contrats-et-signature": {
+        "title": "Contrats et signature",
+        "description": "Envoyer, signer et relancer les contrats."
+      },
+      "documents-justificatifs": {
+        "title": "Documents justificatifs",
+        "description": "Demander, déposer et valider les pièces justificatives."
+      },
+      "contributions": {
+        "title": "Contributions",
+        "description": "Suivre, filtrer et créer les contributions."
+      },
+      "facturation": {
+        "title": "Facturation",
+        "description": "Facturer à la main ou automatiquement."
+      },
+      "paiements": {
+        "title": "Paiements",
+        "description": "Enregistrer les paiements et connecter Stripe."
+      },
+      "acces-et-compte": {
+        "title": "Accès et compte",
+        "description": "Se connecter et gérer son compte."
+      }
+    },
+    "article": {
+      "summary": "En bref",
+      "related": "Termes liés",
+      "onThisPage": "Sur cette page",
+      "draftBadge": "Brouillon · {status}",
+      "status": {
+        "draft": "À rédiger",
+        "review": "À relire",
+        "valid": "Validée"
+      },
+      "inProgressTitle": "Ce guide est en cours de rédaction",
+      "inProgressDescription": "Il sera disponible très bientôt.",
+      "soon": "Bientôt"
+    },
+    "video": {
+      "label": "Vidéo du guide",
+      "preparing": "Vidéo en préparation",
+      "status": {
+        "script": "Script à générer",
+        "todo": "Vidéo à générer",
+        "review": "Vidéo à valider",
+        "done": "Vidéo terminée"
+      }
+    },
+    "glossary": {
+      "title": "Glossaire",
+      "description": "Le vocabulaire de Cascade, de A à Z.",
+      "filterAll": "Tout",
+      "filterNotions": "Notions",
+      "filterModel": "Dans le modèle de souscription",
+      "see": "Voir :",
+      "values": "Valeurs possibles :",
+      "index": "Index"
+    },
+    "nature": {
+      "section": "Section",
+      "option": "Option",
+      "parametre": "Réglage",
+      "champ": "Champ de la souscription",
+      "concept": "Notion"
+    },
+    "guide": {
+      "title": "Configurer un modèle de souscription",
+      "description": "Le modèle fixe les règles pour tous vos contributeurs. Voici, section par section, ce que vous pouvez régler.",
+      "seoDescription": "Toutes les sections du formulaire d'un modèle de souscription, avec leurs options et leurs réglages.",
+      "sections": "Sections"
     }
   }
 }
