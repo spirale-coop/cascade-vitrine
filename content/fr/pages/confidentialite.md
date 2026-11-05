@@ -16,7 +16,9 @@ description: "Ce que ce site collecte, pourquoi, et comment exercer vos droits."
 ---
 plain: true
 ---
+:::callout{color="primary"}
 Cette politique concerne le site vitrine **www.cascade.coop**. L'application Cascade fait l'objet d'une information distincte.
+:::
 
 ## Qui est responsable de vos données ?
 

@@ -16,7 +16,9 @@ description: "What this website collects, why, and how to exercise your rights."
 ---
 plain: true
 ---
+:::callout{color="primary"}
 This policy covers the **www.cascade.coop** marketing website. The Cascade application is covered by separate information.
+:::
 
 ## Who is responsible for your data?
 
