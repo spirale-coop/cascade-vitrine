@@ -24,7 +24,7 @@ This policy covers the **www.cascade.coop** marketing website. The Cascade appli
 
 The data controller is the publisher of this website, identified in the [legal notice](/en/mentions-legales). For any question about your data: [bonjour@cascade.coop](mailto:bonjour@cascade.coop).
 
-Our data protection officer is **Alexandre Bacco**, reachable at the same address: [bonjour@cascade.coop](mailto:bonjour@cascade.coop).
+Our data protection officer is **Alexandre Bacco**, reachable at [alexandre@cascade.coop](mailto:alexandre@cascade.coop).
 
 ## What we collect
 
@@ -71,7 +71,7 @@ Your data is available to the Cascade team and to our technical providers: **Ver
 
 ## Your rights
 
-You can ask for access to your data, its correction or erasure, restriction of its processing, object to it, and request its portability. To exercise your rights, write to [bonjour@cascade.coop](mailto:bonjour@cascade.coop), for the attention of our data protection officer.
+You can ask for access to your data, its correction or erasure, restriction of its processing, object to it, and request its portability. To exercise your rights, write to [bonjour@cascade.coop](mailto:bonjour@cascade.coop) or directly to our data protection officer: [alexandre@cascade.coop](mailto:alexandre@cascade.coop).
 
 If you believe your rights are not being respected, you can lodge a complaint with your data protection authority. In France, this is the CNIL: [cnil.fr](https://www.cnil.fr).
 

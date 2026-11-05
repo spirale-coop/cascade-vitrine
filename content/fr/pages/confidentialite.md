@@ -24,7 +24,7 @@ Cette politique concerne le site vitrine **www.cascade.coop**. L'application Cas
 
 Le responsable du traitement est l'éditeur du site, présenté dans les [mentions légales](/mentions-legales). Pour toute question sur vos données : [bonjour@cascade.coop](mailto:bonjour@cascade.coop).
 
-Notre délégué à la protection des données est **Alexandre Bacco**, joignable à la même adresse : [bonjour@cascade.coop](mailto:bonjour@cascade.coop).
+Notre délégué à la protection des données est **Alexandre Bacco**, joignable à [alexandre@cascade.coop](mailto:alexandre@cascade.coop).
 
 ## Ce que nous collectons
 
@@ -71,7 +71,7 @@ Vos données sont accessibles à l'équipe de Cascade et à nos prestataires tec
 
 ## Vos droits
 
-Vous pouvez demander l'accès à vos données, leur rectification, leur effacement, la limitation de leur traitement ou vous y opposer, et demander leur portabilité. Pour exercer vos droits, écrivez à [bonjour@cascade.coop](mailto:bonjour@cascade.coop), à l'attention de notre délégué à la protection des données.
+Vous pouvez demander l'accès à vos données, leur rectification, leur effacement, la limitation de leur traitement ou vous y opposer, et demander leur portabilité. Pour exercer vos droits, écrivez à [bonjour@cascade.coop](mailto:bonjour@cascade.coop) ou directement à notre délégué à la protection des données : [alexandre@cascade.coop](mailto:alexandre@cascade.coop).
 
 Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire une réclamation auprès de la CNIL : [cnil.fr](https://www.cnil.fr).
 
