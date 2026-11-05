@@ -13,7 +13,14 @@
     "testerCascade": "Réserver un échange"
   },
   "footer": {
-    "copyright": "{year} Cascade — sous licence Coopyleft."
+    "copyright": "{year} Cascade — sous licence Coopyleft.",
+    "tagline": "La plateforme de gestion des contributions et des ressources.",
+    "discover": "Découvrir",
+    "learnMore": "En savoir plus",
+    "contact": "Contact",
+    "news": "Journal des modifications",
+    "legalNotice": "Mentions légales",
+    "privacy": "Politique de confidentialité"
   },
   "error": {
     "pageNotFound": "Page non trouvée"

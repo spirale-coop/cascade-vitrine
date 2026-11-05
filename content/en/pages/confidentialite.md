@@ -1,0 +1,77 @@
+---
+title: Privacy policy — Cascade
+description: "What data the www.cascade.coop website collects, why, for how long, and how to exercise your rights."
+---
+
+::page-header
+---
+headline: Personal data
+title: Privacy policy
+narrow: true
+description: "What this website collects, why, and how to exercise your rights."
+---
+::
+
+::page-prose
+---
+plain: true
+---
+This policy covers the **www.cascade.coop** marketing website. The Cascade application is covered by separate information. **[TO BE COMPLETED: link to the application's terms, if any]**
+
+## Who is responsible for your data?
+
+The data controller is the publisher of this website, identified in the [legal notice](/en/mentions-legales). For any question about your data: **[TO BE COMPLETED: contact email address]**.
+
+## What we collect
+
+### Audience measurement
+
+We use **Vercel Web Analytics** to know how many people visit the website and which pages they view. It measures the page visited, the source of the visit, the country, the device type and the browser. This tool sets **no cookies** and does not track visitors from one site to another.
+
+- **Why:** to understand how the website is used and improve it.
+- **Legal basis:** our legitimate interest.
+- **Provider:** Vercel Inc.
+
+### Booking a call
+
+To book a call, the website opens a window provided by **Cal.com**. The information you enter there (name, email address, chosen time slot, optional message) is processed by Cal.com and passed on to us to organize the call. Cal.com's embed script is loaded on the website's pages: your browser may therefore contact Cal.com's servers, which then receive your IP address.
+
+- **Why:** to arrange an appointment at your request.
+- **Legal basis:** steps you request before a possible contract, and our legitimate interest.
+- **Provider:** Cal.com.
+
+### Your messages
+
+If you write to us, we keep your email address and the content of your message in order to reply.
+
+- **Legal basis:** our legitimate interest in answering requests.
+
+### Display preference
+
+Your theme choice (light or dark) is saved in your browser's local storage. It is not sent to our servers.
+
+## Cookies
+
+This website **does not set tracking or advertising cookies**, which is why it shows no consent banner. The Cal.com booking service may set its own cookies when you use it: see its policy for details.
+
+## How long do we keep your data?
+
+- **Messages and booking requests:** **[TO BE COMPLETED: duration, for example 3 years after the last contact]**
+- **Visit statistics:** **[TO BE COMPLETED: retention period applied by Vercel Web Analytics]**
+
+## Who receives your data?
+
+Your data is available to the Cascade team and to our technical providers: **Vercel Inc.** (hosting and audience measurement) and **Cal.com** (booking). These providers may be located outside the European Union, notably in the United States; transfers are then covered by the safeguards provided for by the General Data Protection Regulation. **[TO BE COMPLETED: check the mechanism relied on by each provider]**
+
+## Your rights
+
+You can ask for access to your data, its correction or erasure, restriction of its processing, object to it, and request its portability. To exercise your rights, write to **[TO BE COMPLETED: email address]**.
+
+If you believe your rights are not being respected, you can lodge a complaint with your data protection authority. In France, this is the CNIL: [cnil.fr](https://www.cnil.fr).
+
+## Changes
+
+This policy may change. The date of the last update is shown below.
+
+*Last updated: **[TO BE COMPLETED: date]***
+::

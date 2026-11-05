@@ -14,6 +14,37 @@ const links = computed(() => [
   { label: t('nav.laFederation'), to: localePath('/la-federation') }
 ])
 
+const footerColumns = computed(() => [
+  {
+    title: t('footer.discover'),
+    links: [
+      { label: t('nav.pourQui'), to: localePath('/pour-qui') },
+      { label: t('nav.fonctionnalites'), to: localePath('/fonctionnalites') },
+      { label: t('nav.contributionAdaptative'), to: localePath('/contribution-adaptative') }
+    ]
+  },
+  {
+    title: t('footer.learnMore'),
+    links: [
+      { label: t('nav.manifeste'), to: localePath('/manifeste') },
+      { label: t('nav.laFederation'), to: localePath('/la-federation') },
+      { label: t('footer.news'), to: localePath('/changelog') }
+    ]
+  },
+  {
+    title: t('footer.contact'),
+    links: [
+      { label: t('nav.testerCascade'), cal: true },
+      { label: t('nav.seConnecter'), to: 'https://app.cascade.coop/login', external: true }
+    ]
+  }
+])
+
+const legalLinks = computed(() => [
+  { label: t('footer.legalNotice'), to: localePath('/mentions-legales') },
+  { label: t('footer.privacy'), to: localePath('/confidentialite') }
+])
+
 const otherLocale = computed(() => locales.value.find(l => l.code !== locale.value))
 
 // useSwitchLocalePath() relies on named per-page routes to match locales,
@@ -113,7 +144,50 @@ const otherLocalePath = computed(() => {
 
     <USeparator />
 
-    <UFooter>
+    <UFooter :ui="{ top: 'border-b border-default' }">
+      <template #top>
+        <UContainer class="py-12 lg:py-16">
+          <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-[minmax(0,1.4fr)_repeat(3,minmax(0,1fr))]">
+            <div>
+              <NuxtLink :to="localePath('/')" :aria-label="'Cascade'">
+                <AppLogo />
+              </NuxtLink>
+              <p class="mt-4 max-w-xs text-sm text-muted">
+                {{ t('footer.tagline') }}
+              </p>
+            </div>
+
+            <nav v-for="column in footerColumns" :key="column.title" :aria-label="column.title">
+              <h2 class="text-sm font-semibold text-highlighted">
+                {{ column.title }}
+              </h2>
+              <ul class="mt-4 space-y-3">
+                <li v-for="link in column.links" :key="link.label">
+                  <button
+                    v-if="link.cal"
+                    type="button"
+                    class="text-sm text-muted transition-colors hover:text-highlighted"
+                    data-cal-link="spirale-coop/cascade"
+                    data-cal-namespace="cascade"
+                    data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
+                  >
+                    {{ link.label }}
+                  </button>
+                  <ULink
+                    v-else
+                    :to="link.to"
+                    :external="link.external"
+                    class="text-sm text-muted transition-colors hover:text-highlighted"
+                  >
+                    {{ link.label }}
+                  </ULink>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </UContainer>
+      </template>
+
       <template #left>
         <div class="flex items-center gap-2">
           <CoopyleftLogo class="size-4 shrink-0 text-muted" />
@@ -121,6 +195,19 @@ const otherLocalePath = computed(() => {
             {{ t('footer.copyright', { year: new Date().getFullYear() }) }}
           </p>
         </div>
+      </template>
+
+      <template #right>
+        <nav class="flex flex-wrap items-center justify-center gap-x-5 gap-y-2" :aria-label="t('footer.legalNotice')">
+          <ULink
+            v-for="link in legalLinks"
+            :key="link.to"
+            :to="link.to"
+            class="text-sm text-muted transition-colors hover:text-highlighted"
+          >
+            {{ link.label }}
+          </ULink>
+        </nav>
       </template>
     </UFooter>
   </div>
