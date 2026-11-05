@@ -24,6 +24,8 @@ This policy covers the **www.cascade.coop** marketing website. The Cascade appli
 
 The data controller is the publisher of this website, identified in the [legal notice](/en/mentions-legales). For any question about your data: [bonjour@cascade.coop](mailto:bonjour@cascade.coop).
 
+Our data protection officer is **Alexandre Bacco**, reachable at the same address: [bonjour@cascade.coop](mailto:bonjour@cascade.coop).
+
 ## What we collect
 
 ### Audience measurement
@@ -37,7 +39,7 @@ We use **Vercel Web Analytics** to know how many people visit the website and wh
 
 ### Booking a call
 
-To book a call, the website opens a window provided by **Cal.com**. The information you enter there (name, email address, chosen time slot, optional message) is processed by Cal.com and passed on to us to organize the call. Cal.com's embed script is loaded on the website's pages: your browser may therefore contact Cal.com's servers, which then receive your IP address.
+To book a call, the website opens a window provided by **Cal.com**. This window is only loaded when you click “Book a call”: until you click, your browser does not contact Cal.com's servers. Once the window is open, Cal.com receives your IP address and the information you enter (name, email address, chosen time slot, optional message); it processes it and passes it on to us to organize the call.
 
 - **Why:** to arrange an appointment at your request.
 - **Mandatory or not:** providing this information is optional, but needed to book a slot. You can also write to us directly.
@@ -69,7 +71,7 @@ Your data is available to the Cascade team and to our technical providers: **Ver
 
 ## Your rights
 
-You can ask for access to your data, its correction or erasure, restriction of its processing, object to it, and request its portability. To exercise your rights, write to [bonjour@cascade.coop](mailto:bonjour@cascade.coop).
+You can ask for access to your data, its correction or erasure, restriction of its processing, object to it, and request its portability. To exercise your rights, write to [bonjour@cascade.coop](mailto:bonjour@cascade.coop), for the attention of our data protection officer.
 
 If you believe your rights are not being respected, you can lodge a complaint with your data protection authority. In France, this is the CNIL: [cnil.fr](https://www.cnil.fr).
 

@@ -24,6 +24,8 @@ Cette politique concerne le site vitrine **www.cascade.coop**. L'application Cas
 
 Le responsable du traitement est l'éditeur du site, présenté dans les [mentions légales](/mentions-legales). Pour toute question sur vos données : [bonjour@cascade.coop](mailto:bonjour@cascade.coop).
 
+Notre délégué à la protection des données est **Alexandre Bacco**, joignable à la même adresse : [bonjour@cascade.coop](mailto:bonjour@cascade.coop).
+
 ## Ce que nous collectons
 
 ### Mesure d'audience
@@ -37,7 +39,7 @@ Nous utilisons **Vercel Web Analytics** pour savoir combien de personnes visiten
 
 ### Prise de rendez-vous
 
-Pour réserver un échange, le site ouvre une fenêtre fournie par **Cal.com**. Les informations que vous y saisissez (nom, adresse e-mail, créneau choisi, message éventuel) sont traitées par Cal.com et nous sont transmises pour organiser l'échange. Le script d'intégration de Cal.com est chargé sur les pages du site : votre navigateur peut donc contacter les serveurs de Cal.com, qui reçoivent alors votre adresse IP.
+Pour réserver un échange, le site ouvre une fenêtre fournie par **Cal.com**. Cette fenêtre n'est chargée que lorsque vous cliquez sur « Réserver un échange » : tant que vous ne cliquez pas, votre navigateur ne contacte pas les serveurs de Cal.com. Une fois la fenêtre ouverte, Cal.com reçoit votre adresse IP et les informations que vous saisissez (nom, adresse e-mail, créneau choisi, message éventuel) ; il les traite et nous les transmet pour organiser l'échange.
 
 - **Pourquoi :** organiser un rendez-vous à votre demande.
 - **Obligatoire ou non :** fournir ces informations est facultatif, mais nécessaire pour réserver un créneau. Vous pouvez aussi nous écrire directement.
@@ -69,7 +71,7 @@ Vos données sont accessibles à l'équipe de Cascade et à nos prestataires tec
 
 ## Vos droits
 
-Vous pouvez demander l'accès à vos données, leur rectification, leur effacement, la limitation de leur traitement ou vous y opposer, et demander leur portabilité. Pour exercer vos droits, écrivez à [bonjour@cascade.coop](mailto:bonjour@cascade.coop).
+Vous pouvez demander l'accès à vos données, leur rectification, leur effacement, la limitation de leur traitement ou vous y opposer, et demander leur portabilité. Pour exercer vos droits, écrivez à [bonjour@cascade.coop](mailto:bonjour@cascade.coop), à l'attention de notre délégué à la protection des données.
 
 Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire une réclamation auprès de la CNIL : [cnil.fr](https://www.cnil.fr).
 
