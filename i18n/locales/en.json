@@ -13,7 +13,14 @@
     "testerCascade": "Book a call"
   },
   "footer": {
-    "copyright": "{year} Cascade — under the Coopyleft license."
+    "copyright": "{year} Cascade — under the Coopyleft license.",
+    "tagline": "The platform for managing contributions and resources.",
+    "discover": "Discover",
+    "learnMore": "Learn more",
+    "contact": "Contact",
+    "news": "Release notes",
+    "legalNotice": "Legal notice",
+    "privacy": "Privacy policy"
   },
   "error": {
     "pageNotFound": "Page not found"
