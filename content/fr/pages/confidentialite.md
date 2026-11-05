@@ -31,7 +31,8 @@ Le responsable du traitement est l'éditeur du site, présenté dans les [mentio
 Nous utilisons **Vercel Web Analytics** pour savoir combien de personnes visitent le site et quelles pages elles consultent. Sont mesurés : la page visitée, la source de la visite, le pays, le type d'appareil et le navigateur. Cet outil ne dépose **aucun cookie** et ne suit pas les visiteurs d'un site à l'autre.
 
 - **Pourquoi :** comprendre la fréquentation du site pour l'améliorer.
-- **Sur quelle base :** notre intérêt légitime.
+- **Sur quelle base :** notre intérêt légitime à mesurer la fréquentation de notre site.
+- **Obligatoire ou non :** ces statistiques sont anonymes et agrégées ; elles ne vous demandent aucune démarche.
 - **Prestataire :** Vercel Inc.
 
 ### Prise de rendez-vous
@@ -39,12 +40,13 @@ Nous utilisons **Vercel Web Analytics** pour savoir combien de personnes visiten
 Pour réserver un échange, le site ouvre une fenêtre fournie par **Cal.com**. Les informations que vous y saisissez (nom, adresse e-mail, créneau choisi, message éventuel) sont traitées par Cal.com et nous sont transmises pour organiser l'échange. Le script d'intégration de Cal.com est chargé sur les pages du site : votre navigateur peut donc contacter les serveurs de Cal.com, qui reçoivent alors votre adresse IP.
 
 - **Pourquoi :** organiser un rendez-vous à votre demande.
+- **Obligatoire ou non :** fournir ces informations est facultatif, mais nécessaire pour réserver un créneau. Vous pouvez aussi nous écrire directement.
 - **Sur quelle base :** les démarches que vous demandez avant un éventuel contrat, et notre intérêt légitime.
 - **Prestataire :** Cal.com.
 
 ### Vos messages
 
-Si vous nous écrivez, nous conservons votre adresse e-mail et le contenu de votre message pour vous répondre.
+Si vous nous écrivez, nous conservons votre adresse e-mail et le contenu de votre message pour vous répondre. Vous n'êtes pas obligé de nous écrire ; sans message de votre part, nous n'avons pas de coordonnées vous concernant.
 
 - **Sur quelle base :** notre intérêt légitime à répondre aux demandes.
 
@@ -63,7 +65,7 @@ Ce site **ne dépose pas de cookies de suivi ni de cookies publicitaires**, c'es
 
 ## Qui reçoit vos données ?
 
-Vos données sont accessibles à l'équipe de Cascade et à nos prestataires techniques : **Vercel Inc.** (hébergement et mesure d'audience) et **Cal.com** (prise de rendez-vous). Ces prestataires peuvent être situés hors de l'Union européenne, notamment aux États-Unis ; les transferts sont alors encadrés par les garanties prévues par le règlement général sur la protection des données.
+Vos données sont accessibles à l'équipe de Cascade et à nos prestataires techniques : **Vercel Inc.** (hébergement et mesure d'audience) et **Cal.com** (prise de rendez-vous). Ces prestataires traitent des données hors de l'Union européenne, notamment aux États-Unis. Ces transferts sont encadrés : Vercel s'appuie sur les clauses contractuelles types de la Commission européenne, et Cal.com, Inc. participe au cadre de protection des données UE–États-Unis (« Data Privacy Framework ») et, à défaut, s'appuie sur ces mêmes clauses.
 
 ## Vos droits
 
