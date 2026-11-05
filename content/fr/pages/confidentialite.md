@@ -16,11 +16,11 @@ description: "Ce que ce site collecte, pourquoi, et comment exercer vos droits."
 ---
 plain: true
 ---
-Cette politique concerne le site vitrine **www.cascade.coop**. L'application Cascade fait l'objet d'une information distincte. **[À COMPLÉTER : lien vers les conditions de l'application, si elles existent]**
+Cette politique concerne le site vitrine **www.cascade.coop**. L'application Cascade fait l'objet d'une information distincte.
 
 ## Qui est responsable de vos données ?
 
-Le responsable du traitement est l'éditeur du site, présenté dans les [mentions légales](/mentions-legales). Pour toute question sur vos données : **[À COMPLÉTER : adresse e-mail de contact]**.
+Le responsable du traitement est l'éditeur du site, présenté dans les [mentions légales](/mentions-legales). Pour toute question sur vos données : [bonjour@cascade.coop](mailto:bonjour@cascade.coop).
 
 ## Ce que nous collectons
 
@@ -56,16 +56,16 @@ Ce site **ne dépose pas de cookies de suivi ni de cookies publicitaires**, c'es
 
 ## Combien de temps conservons-nous vos données ?
 
-- **Messages et demandes de rendez-vous :** **[À COMPLÉTER : durée, par exemple 3 ans après le dernier contact]**
-- **Statistiques de visite :** **[À COMPLÉTER : durée appliquée par Vercel Web Analytics]**
+- **Messages et demandes de rendez-vous :** 3 ans après le dernier contact
+- **Statistiques de visite :** 12 mois, durée appliquée par Vercel Web Analytics
 
 ## Qui reçoit vos données ?
 
-Vos données sont accessibles à l'équipe de Cascade et à nos prestataires techniques : **Vercel Inc.** (hébergement et mesure d'audience) et **Cal.com** (prise de rendez-vous). Ces prestataires peuvent être situés hors de l'Union européenne, notamment aux États-Unis ; les transferts sont alors encadrés par les garanties prévues par le règlement général sur la protection des données. **[À COMPLÉTER : vérifier le mécanisme retenu par chaque prestataire]**
+Vos données sont accessibles à l'équipe de Cascade et à nos prestataires techniques : **Vercel Inc.** (hébergement et mesure d'audience) et **Cal.com** (prise de rendez-vous). Ces prestataires peuvent être situés hors de l'Union européenne, notamment aux États-Unis ; les transferts sont alors encadrés par les garanties prévues par le règlement général sur la protection des données.
 
 ## Vos droits
 
-Vous pouvez demander l'accès à vos données, leur rectification, leur effacement, la limitation de leur traitement ou vous y opposer, et demander leur portabilité. Pour exercer vos droits, écrivez à **[À COMPLÉTER : adresse e-mail]**.
+Vous pouvez demander l'accès à vos données, leur rectification, leur effacement, la limitation de leur traitement ou vous y opposer, et demander leur portabilité. Pour exercer vos droits, écrivez à [bonjour@cascade.coop](mailto:bonjour@cascade.coop).
 
 Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire une réclamation auprès de la CNIL : [cnil.fr](https://www.cnil.fr).
 
@@ -73,5 +73,5 @@ Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire un
 
 Cette politique peut évoluer. La date de dernière mise à jour figure ci-dessous.
 
-*Dernière mise à jour : **[À COMPLÉTER : date]***
+*Dernière mise à jour : novembre 2026*
 ::

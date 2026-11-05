@@ -20,17 +20,16 @@ plain: true
 
 Le site **www.cascade.coop** est édité par :
 
-- **Dénomination sociale :** **[À COMPLÉTER : nom de la structure]**
-- **Forme juridique :** **[À COMPLÉTER : association, SCIC, SAS…]**
-- **Capital social :** **[À COMPLÉTER, si applicable]**
-- **Siège social :** **[À COMPLÉTER : adresse complète]**
-- **Immatriculation :** **[À COMPLÉTER : numéro SIREN et ville du RCS, ou numéro d'entreprise]**
-- **Numéro de TVA intracommunautaire :** **[À COMPLÉTER, si applicable]**
-- **Contact :** **[À COMPLÉTER : adresse e-mail]**, téléphone **[À COMPLÉTER, facultatif]**
+- **Dénomination sociale :** Association de préfiguration de la fédération Cascade
+- **Forme juridique :** Association
+- **Siège social :** 55 rue d'Orsel, 75018 Paris
+- **SIRET :** 993 706 563 00018
+- **Numéro de TVA intracommunautaire :** aucun
+- **Contact :** [bonjour@cascade.coop](mailto:bonjour@cascade.coop)
 
 ## Directeur de la publication
 
-**[À COMPLÉTER : nom, prénom et fonction]**
+Balmet Paul, président de l'association
 
 ## Hébergeur
 
@@ -40,7 +39,7 @@ Le site est hébergé par **Vercel Inc.**, 440 N Barranca Ave #4133, Covina, CA 
 
 Le code de Cascade est ouvert et placé sous licence Coopyleft, comme l'explique la page [La fédération](/la-federation).
 
-Les textes, illustrations, logos et autres contenus de ce site restent la propriété de leurs auteurs. **[À COMPLÉTER : précisez les conditions de réutilisation des contenus du site]**
+Les textes, illustrations, logos et autres contenus de ce site restent la propriété de l'association, sauf contenus diffusés par leurs auteurs sous licence open source. Veuillez nous contacter pour toute réutilisation.
 
 ## Données personnelles et cookies
 
@@ -56,7 +55,7 @@ L'éditeur s'efforce de publier des informations exactes et à jour, mais ne gar
 
 ## Droit applicable
 
-Les présentes mentions légales sont régies par le droit **[À COMPLÉTER : français ou belge]**. En cas de litige, les tribunaux compétents sont ceux de **[À COMPLÉTER : ville]**, sous réserve des règles impératives applicables.
+Les présentes mentions légales sont régies par le droit **français**. En cas de litige, les tribunaux compétents sont ceux de **Paris**, sous réserve des règles impératives applicables.
 
-*Dernière mise à jour : **[À COMPLÉTER : date]***
+*Dernière mise à jour : novembre 2026*
 ::

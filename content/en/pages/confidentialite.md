@@ -16,11 +16,11 @@ description: "What this website collects, why, and how to exercise your rights."
 ---
 plain: true
 ---
-This policy covers the **www.cascade.coop** marketing website. The Cascade application is covered by separate information. **[TO BE COMPLETED: link to the application's terms, if any]**
+This policy covers the **www.cascade.coop** marketing website. The Cascade application is covered by separate information.
 
 ## Who is responsible for your data?
 
-The data controller is the publisher of this website, identified in the [legal notice](/en/mentions-legales). For any question about your data: **[TO BE COMPLETED: contact email address]**.
+The data controller is the publisher of this website, identified in the [legal notice](/en/mentions-legales). For any question about your data: [bonjour@cascade.coop](mailto:bonjour@cascade.coop).
 
 ## What we collect
 
@@ -56,16 +56,16 @@ This website **does not set tracking or advertising cookies**, which is why it s
 
 ## How long do we keep your data?
 
-- **Messages and booking requests:** **[TO BE COMPLETED: duration, for example 3 years after the last contact]**
-- **Visit statistics:** **[TO BE COMPLETED: retention period applied by Vercel Web Analytics]**
+- **Messages and booking requests:** 3 years after the last contact
+- **Visit statistics:** 12 months, the period applied by Vercel Web Analytics
 
 ## Who receives your data?
 
-Your data is available to the Cascade team and to our technical providers: **Vercel Inc.** (hosting and audience measurement) and **Cal.com** (booking). These providers may be located outside the European Union, notably in the United States; transfers are then covered by the safeguards provided for by the General Data Protection Regulation. **[TO BE COMPLETED: check the mechanism relied on by each provider]**
+Your data is available to the Cascade team and to our technical providers: **Vercel Inc.** (hosting and audience measurement) and **Cal.com** (booking). These providers may be located outside the European Union, notably in the United States; transfers are then covered by the safeguards provided for by the General Data Protection Regulation.
 
 ## Your rights
 
-You can ask for access to your data, its correction or erasure, restriction of its processing, object to it, and request its portability. To exercise your rights, write to **[TO BE COMPLETED: email address]**.
+You can ask for access to your data, its correction or erasure, restriction of its processing, object to it, and request its portability. To exercise your rights, write to [bonjour@cascade.coop](mailto:bonjour@cascade.coop).
 
 If you believe your rights are not being respected, you can lodge a complaint with your data protection authority. In France, this is the CNIL: [cnil.fr](https://www.cnil.fr).
 
@@ -73,5 +73,5 @@ If you believe your rights are not being respected, you can lodge a complaint wi
 
 This policy may change. The date of the last update is shown below.
 
-*Last updated: **[TO BE COMPLETED: date]***
+*Last updated: November 2026*
 ::

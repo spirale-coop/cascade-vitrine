@@ -20,17 +20,16 @@ plain: true
 
 The website **www.cascade.coop** is published by:
 
-- **Company name:** **[TO BE COMPLETED: name of the organization]**
-- **Legal form:** **[TO BE COMPLETED: association, cooperative, limited company…]**
-- **Share capital:** **[TO BE COMPLETED, if applicable]**
-- **Registered office:** **[TO BE COMPLETED: full address]**
-- **Registration:** **[TO BE COMPLETED: company registration number]**
-- **VAT number:** **[TO BE COMPLETED, if applicable]**
-- **Contact:** **[TO BE COMPLETED: email address]**, phone **[TO BE COMPLETED, optional]**
+- **Name:** Association de préfiguration de la fédération Cascade
+- **Legal form:** Association
+- **Registered office:** 55 rue d'Orsel, 75018 Paris, France
+- **SIRET (company registration number):** 993 706 563 00018
+- **VAT number:** none
+- **Contact:** [bonjour@cascade.coop](mailto:bonjour@cascade.coop)
 
 ## Publication director
 
-**[TO BE COMPLETED: full name and position]**
+Paul Balmet, president of the association
 
 ## Hosting
 
@@ -40,7 +39,7 @@ The website is hosted by **Vercel Inc.**, 440 N Barranca Ave #4133, Covina, CA 9
 
 Cascade's code is open and released under the Coopyleft license, as explained on the [federation](/en/la-federation) page.
 
-The texts, illustrations, logos and other content of this website remain the property of their authors. **[TO BE COMPLETED: specify the terms for reusing the website's content]**
+The texts, illustrations, logos and other content of this website remain the property of the association, except for content distributed by their authors under an open-source license. Please contact us for any reuse.
 
 ## Personal data and cookies
 
@@ -56,7 +55,7 @@ The publisher strives to publish accurate and up-to-date information, but does n
 
 ## Applicable law
 
-This legal notice is governed by **[TO BE COMPLETED: French or Belgian]** law. In the event of a dispute, the competent courts are those of **[TO BE COMPLETED: city]**, subject to mandatory rules.
+This legal notice is governed by **French** law. In the event of a dispute, the competent courts are those of **Paris**, subject to mandatory rules.
 
-*Last updated: **[TO BE COMPLETED: date]***
+*Last updated: November 2026*
 ::
