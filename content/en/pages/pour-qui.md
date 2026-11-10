@@ -37,8 +37,10 @@ collective:
 ---
 headline: "Who Cascade is for"
 title: "Any organization that operates outside the framework of the ordinary business."
-description: "Associations, cooperatives, informal collectives, unions, shared spaces… if you manage resources collectively, Cascade is made for you."
+description: "Cascade was born in the temporary occupation of vacant buildings. The same need exists wherever an organization engages its members through a contract or membership, collects their contributions and shares costs and resources."
 types:
+  - icon: i-lucide-key-round
+    label: Temporary occupation
   - icon: i-lucide-heart-handshake
     label: Associations
   - icon: i-lucide-building-2
@@ -55,6 +57,8 @@ types:
     label: "Resident groups"
   - icon: i-lucide-globe
     label: Digital or land commons
+  - icon: i-lucide-landmark
+    label: Land trusts and solidarity networks
 ---
 ::
 

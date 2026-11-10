@@ -37,8 +37,10 @@ collective:
 ---
 headline: "À qui s'adresse Cascade ?"
 title: "Toute organisation qui sort du cadre de l'entreprise ordinaire."
-description: "Si vous avez une approche collective de la gestion de vos activités, Cascade est fait pour vous."
+description: "Cascade est né dans l'occupation temporaire de bâtiments vacants. Le même besoin existe partout où l'on engage ses membres par contrat ou adhésion, collecte leurs contributions et partage des coûts et des ressources."
 types:
+  - icon: i-lucide-key-round
+    label: Occupation temporaire
   - icon: i-lucide-heart-handshake
     label: Associations
   - icon: i-lucide-building-2
@@ -55,6 +57,8 @@ types:
     label: "Groupements d'habitants"
   - icon: i-lucide-globe
     label: Communs numériques ou fonciers
+  - icon: i-lucide-landmark
+    label: Foncières et réseaux solidaires
 ---
 ::
 

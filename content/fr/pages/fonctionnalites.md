@@ -56,7 +56,7 @@ lots:
       - Génération de l'avenant
       - Historique de toutes les versions
       - Notification au contributeur pour signature
-    automation: Chaque changement crée un avenant, une modification depuis un modèle de souscription gènère des avenants en masse.
+    automation: "Chaque changement crée un avenant. À venir : une modification depuis un modèle de souscription générera les avenants en masse."
   - icon: i-lucide-shield-check
     title: Documents à valider
     description: Collecter les pièces justificatives à la signature et suivre leur validation par le gestionnaire.
@@ -85,7 +85,7 @@ lots:
       - Gestion des avoirs
       - Numérotation légale et contenu complet (TVA, mentions, IBAN…)
       - 'Statuts : émise, payée, en retard'
-      - Export comptable
+      - Export comptable prêt pour Pennylane (comptes clients, produits et TVA, codes analytiques)
     automation: Facturation émise et envoyée automatiquement à chaque échéance, sans intervention manuelle.
   - icon: i-lucide-line-chart
     title: Pilotage
@@ -123,19 +123,19 @@ lots:
     mockup: api-connections
     status: upcoming
     features:
-      - Connecteurs comptables (Pennylane, et autres)
+      - Synchronisation directe avec les logiciels comptables (l'export Pennylane est déjà disponible)
       - Paiements synchronisés avec les prestataires existants (Stripe…)
       - Facturation électronique conforme aux obligations réglementaires
     automation: Les écritures se synchronisent automatiquement avec vos outils existants, sans ressaisie.
   - icon: i-lucide-heart-handshake
     title: Mode association
-    description: Émettre des reçus fiscaux et collecter des dons en ligne, adaptés aux structures associatives.
+    description: Émettre des reçus fiscaux, puis collecter des dons en ligne, adaptés aux structures associatives.
     mockup: nonprofit-mode
-    status: upcoming
+    status: in-progress
     features:
-      - Génération automatique des reçus fiscaux
-      - Page de don publique personnalisable
-      - Suivi des dons et des donateurs
+      - Génération automatique des reçus fiscaux (en cours)
+      - Page de don publique personnalisable (à venir)
+      - Suivi des dons et des donateurs (à venir)
     automation: Le reçu fiscal est généré et envoyé automatiquement à chaque don reçu.
   - icon: i-lucide-scale
     title: Régulation

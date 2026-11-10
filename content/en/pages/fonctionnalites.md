@@ -56,7 +56,7 @@ lots:
       - Amendment generation
       - Full version history
       - Notification to the contributor for signature
-    automation: Every change creates an amendment; a change made from a subscription model generates amendments in bulk.
+    automation: "Every change creates an amendment. Coming soon: a change made from a subscription model will generate amendments in bulk."
   - icon: i-lucide-shield-check
     title: Documents to review
     description: Collect supporting documents at signature and track their review by the manager.
@@ -85,7 +85,7 @@ lots:
       - Credit note management
       - Legal numbering and full content (VAT, mandatory notices, IBAN…)
       - 'Statuses: issued, paid, overdue'
-      - Accounting export
+      - Accounting export ready for Pennylane (customer, revenue and VAT accounts, analytic codes)
     automation: Invoices issued and sent automatically at each due date, with no manual intervention.
   - icon: i-lucide-line-chart
     title: Oversight
@@ -123,19 +123,19 @@ lots:
     mockup: api-connections
     status: upcoming
     features:
-      - Accounting connectors (Pennylane, and others)
+      - Direct sync with accounting software (the Pennylane export is already available)
       - Payments synced with existing providers (Stripe…)
       - E-invoicing compliant with regulatory requirements
     automation: Entries sync automatically with your existing tools, with no re-entry.
   - icon: i-lucide-heart-handshake
     title: Nonprofit mode
-    description: Issue tax receipts and collect online donations, tailored to nonprofit structures.
+    description: Issue tax receipts, then collect online donations, tailored to nonprofit structures.
     mockup: nonprofit-mode
-    status: upcoming
+    status: in-progress
     features:
-      - Automatic tax receipt generation
-      - Customizable public donation page
-      - Donation and donor tracking
+      - Automatic tax receipt generation (in progress)
+      - Customizable public donation page (coming soon)
+      - Donation and donor tracking (coming soon)
     automation: The tax receipt is generated and sent automatically with every donation received.
   - icon: i-lucide-scale
     title: Regularization

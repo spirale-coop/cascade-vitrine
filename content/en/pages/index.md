@@ -1,13 +1,13 @@
 ---
-title: Cascade — Manage contributions and resources
-description: "Simplify managing your contracts, subscriptions, invoices and payments. Cascade adapts to your rules, from conventional to solidarity-based models."
+title: Cascade — The subscription manager for collective organizations
+description: "Contracts, amendments, contributions and invoices linked in a single process, all the way to your accounting. Cascade adapts to your rules, from conventional to solidarity-based models."
 ---
 
 ::hero
 ---
-headline: For alternative, non-profit management.
-title: Your contribution model in a single tool.
-description: "Define your own management rules precisely, and Cascade automates the rest: contracts, amendments, subscriptions, invoicing, payment, and internal resource management."
+headline: Infrastructure for contributive economies.
+title: The subscription manager for collective organizations.
+description: "Contracts, amendments, contributions and invoices linked in a single process, all the way to your accounting."
 ctaLabel: Book a call
 secondaryCtaLabel: Read the manifesto
 secondaryCtaTo: /manifeste
@@ -40,8 +40,8 @@ symptoms:
     title: Resource pooling is poorly supported
     description: Cost allocation and shared rules are still calculated manually.
   - icon: i-lucide-receipt
-    title: Processes are disconnected
-    description: Contracts, contributions, and invoicing evolve separately, requiring duplicate data entry.
+    title: Nothing is connected, not even accounting
+    description: "Contracts, invoices and accounting live in separate tools (spreadsheets, e-signature, accounting software): everything gets re-entered."
   - icon: i-lucide-users
     title: Transparency is difficult
     description: Sharing reliable, up-to-date information with the collective remains complex.
@@ -68,7 +68,7 @@ features:
     description: The most original contribution models plug directly into the management process — for example, pooling resources within a collective.
   - icon: i-lucide-receipt
     title: One connected process
-    description: "Every part of the management stays linked and follows each update: raising a price by 10% automatically generates the amendments and prorated invoices for every affected subscriber."
+    description: "Every part of the management stays linked and follows each update: changing a subscription's amount generates the amendment and keeps the history of every version."
   - icon: i-lucide-users
     title: Transparency, under control
     description: Share reliable, up-to-date management indicators with the collective.
@@ -114,12 +114,16 @@ steps:
     automation: Automatically generated at each due date, special cases handled by hand
     status: available
   - icon: i-lucide-receipt-text
-    label: Invoicing
-    automation: Compliant invoice generated automatically with every payment
+    label: Invoicing & accounting export
+    automation: Compliant invoice generated automatically with every payment, accounting export ready for Pennylane
     status: available
   - icon: i-lucide-credit-card
     label: Payments
     automation: Multi-method tracking of collections and outstanding balances
+    status: in-progress
+  - icon: i-lucide-heart-handshake
+    label: Tax receipts
+    automation: Tax receipts generated automatically for your donors, tailored to nonprofit structures
     status: in-progress
   - icon: i-lucide-box
     label: Resource booking
@@ -128,10 +132,6 @@ steps:
   - icon: i-lucide-plug
     label: API connections
     automation: Sync accounting, payments, and e-invoicing with your existing tools
-    status: upcoming
-  - icon: i-lucide-heart-handshake
-    label: Nonprofit mode
-    automation: Issue tax receipts and collect online donations, tailored to nonprofit structures
     status: upcoming
   - icon: i-lucide-scale
     label: Regularization

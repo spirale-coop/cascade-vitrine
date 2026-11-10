@@ -1,13 +1,13 @@
 ---
-title: Cascade — Gestion des contributions et des ressources
-description: "Simplifiez la gestion de vos contrats, souscriptions, factures et paiements. Cascade s'adapte à vos règles, des modèles classiques aux plus solidaires."
+title: Cascade — Le gestionnaire de souscriptions des organisations collectives
+description: "Contrats, avenants, contributions et factures reliés dans un seul processus, jusqu'à votre comptabilité. Cascade s'adapte à vos règles, des modèles classiques aux plus solidaires."
 ---
 
 ::hero
 ---
 headline: Une infrastructure pour les économies contributives.
-title: La plateforme de gestion des contributions et des ressources.
-description: "Simplifiez la gestion de vos contrats, souscriptions, factures et paiements. Cascade s'adapte à vos règles de fonctionnement, des modèles classiques aux plus solidaires."
+title: Le gestionnaire de souscriptions des organisations collectives.
+description: "Contrats, avenants, contributions et factures reliés dans un seul processus, jusqu'à votre comptabilité."
 ctaLabel: Réserver un échange
 secondaryCtaLabel: Lire le manifeste
 secondaryCtaTo: /manifeste
@@ -40,8 +40,8 @@ symptoms:
     title: La mutualisation est peu outillée
     description: Répartition des coûts et règles communes sont encore calculées manuellement.
   - icon: i-lucide-receipt
-    title: Les processus sont déconnectés
-    description: Contrats, contributions et facturation évoluent séparément, avec des ressaisies.
+    title: Rien n'est relié, pas même la comptabilité
+    description: "Contrats, factures et comptabilité vivent dans des outils séparés (tableurs, signature électronique, logiciel comptable) : tout se ressaisit."
   - icon: i-lucide-users
     title: La transparence est difficile
     description: Partager une information fiable et à jour avec le collectif reste complexe.
@@ -68,7 +68,7 @@ features:
     description: Les modèles contributifs les plus originaux s'intègrent directement à la gestion — par exemple, la mutualisation de ressources au sein d'un collectif.
   - icon: i-lucide-receipt
     title: Un processus unique
-    description: "Les éléments de la gestion restent liés entre eux et suivent chaque mise à jour : augmenter un prix de 10 % crée automatiquement les avenants et factures proratisées pour tous les souscripteurs concernés."
+    description: "Les éléments de la gestion restent liés entre eux et suivent chaque mise à jour : modifier le montant d'une souscription génère l'avenant et conserve l'historique de toutes les versions."
   - icon: i-lucide-users
     title: Transparence maîtrisée
     description: Partagez avec le collectif des indicateurs de gestion fiables et à jour.
@@ -114,12 +114,16 @@ steps:
     automation: Génération automatique à chaque échéance, cas particuliers gérés à la main
     status: available
   - icon: i-lucide-receipt-text
-    label: Facturation
-    automation: Facture conforme générée automatiquement à chaque paiement
+    label: Facturation & export comptable
+    automation: Facture conforme générée automatiquement à chaque paiement, export comptable prêt pour Pennylane
     status: available
   - icon: i-lucide-credit-card
     label: Paiements
     automation: Suivi multi-méthodes des encaissements et du reste à payer
+    status: in-progress
+  - icon: i-lucide-heart-handshake
+    label: Reçus fiscaux
+    automation: Reçus fiscaux générés automatiquement pour vos donateurs, adaptés aux structures associatives
     status: in-progress
   - icon: i-lucide-box
     label: Réservation des ressources
@@ -128,10 +132,6 @@ steps:
   - icon: i-lucide-plug
     label: Connexions API
     automation: Synchronisez comptabilité, paiements et facturation électronique avec vos outils existants
-    status: upcoming
-  - icon: i-lucide-heart-handshake
-    label: Mode association
-    automation: Émettez des reçus fiscaux et collectez des dons en ligne, adaptés aux structures associatives
     status: upcoming
   - icon: i-lucide-scale
     label: Régulation
