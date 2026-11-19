@@ -18,10 +18,9 @@ export default defineNuxtConfig({
       helpCenterLink: false
     }
   },
-  routeRules: {
-    // Not indexed while it is only reachable by URL (review phase).
-    '/aide/**': { headers: { 'X-Robots-Tag': 'noindex, nofollow' } },
-    '/en/aide/**': { headers: { 'X-Robots-Tag': 'noindex, nofollow' } }
+  nitro: {
+    // Not linked from any page, so the crawler would never find it.
+    prerender: { routes: ['/sitemap.xml'] }
   },
   i18n: {
     locales: [
