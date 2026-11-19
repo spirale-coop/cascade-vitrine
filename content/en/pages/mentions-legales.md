@@ -33,7 +33,7 @@ Paul Balmet, president of the association
 
 ## Hosting
 
-The website is hosted by **Vercel Inc.**, 440 N Barranca Ave #4133, Covina, CA 91723, United States — [vercel.com](https://vercel.com).
+The website is hosted by **OVH SAS**, 2 rue Kellermann, 59100 Roubaix, France — [ovhcloud.com](https://www.ovhcloud.com). The website is delivered through the network of **Cloudflare, Inc.**, 101 Townsend St, San Francisco, CA 94107, United States.
 
 ## Intellectual property
 
