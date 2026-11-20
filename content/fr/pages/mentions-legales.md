@@ -33,7 +33,7 @@ Balmet Paul, président de l'association
 
 ## Hébergeur
 
-Le site est hébergé par **Vercel Inc.**, 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis — [vercel.com](https://vercel.com).
+Le site est hébergé par **OVH SAS**, 2 rue Kellermann, 59100 Roubaix, France — [ovhcloud.com](https://www.ovhcloud.com). Le site est diffusé via le réseau de **Cloudflare, Inc.**, 101 Townsend St, San Francisco, CA 94107, États-Unis.
 
 ## Propriété intellectuelle
 

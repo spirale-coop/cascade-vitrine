@@ -28,15 +28,6 @@ Our data protection officer is **Alexandre Bacco**, reachable at [alexandre@casc
 
 ## What we collect
 
-### Audience measurement
-
-We use **Vercel Web Analytics** to know how many people visit the website and which pages they view. It measures the page visited, the source of the visit, the country, the device type and the browser. This tool sets **no cookies** and does not track visitors from one site to another.
-
-- **Why:** to understand how the website is used and improve it.
-- **Legal basis:** our legitimate interest in measuring the website's traffic.
-- **Mandatory or not:** these statistics are anonymous and aggregated; they require nothing from you.
-- **Provider:** Vercel Inc.
-
 ### Booking a call
 
 To book a call, the website opens a window provided by **Cal.com**. This window is only loaded when you click “Book a call”: until you click, your browser does not contact Cal.com's servers. Once the window is open, Cal.com receives your IP address and the information you enter (name, email address, chosen time slot, optional message); it processes it and passes it on to us to organize the call.
@@ -52,6 +43,14 @@ If you write to us, we keep your email address and the content of your message i
 
 - **Legal basis:** our legitimate interest in answering requests.
 
+### Hosting and protection of the website
+
+The website is served by **OVH** and goes through **Cloudflare**, which protects it and speeds up its display. To deliver pages to your browser, these providers receive your IP address and the technical details of your request. We do not measure the website's traffic and use no analytics tool.
+
+- **Why:** to deliver the website and protect it against attacks.
+- **Legal basis:** our legitimate interest in keeping the website available and secure.
+- **Providers:** OVH SAS and Cloudflare, Inc.
+
 ### Display preference
 
 Your theme choice (light or dark) is saved in your browser's local storage. It is not sent to our servers.
@@ -63,11 +62,10 @@ This website **does not set tracking or advertising cookies**, which is why it s
 ## How long do we keep your data?
 
 - **Messages and booking requests:** 3 years after the last contact
-- **Visit statistics:** 12 months, the period applied by Vercel Web Analytics
 
 ## Who receives your data?
 
-Your data is available to the Cascade team and to our technical providers: **Vercel Inc.** (hosting and audience measurement) and **Cal.com** (booking). These providers process data outside the European Union, notably in the United States. These transfers are safeguarded: Vercel relies on the European Commission's standard contractual clauses, and Cal.com, Inc. participates in the EU–U.S. Data Privacy Framework and otherwise relies on the same clauses.
+Your data is available to the Cascade team and to our technical providers: **OVH SAS** (hosting), **Cloudflare, Inc.** (protection and delivery of the website) and **Cal.com** (booking). Cloudflare and Cal.com process data outside the European Union, notably in the United States. These transfers are safeguarded: Cloudflare, Inc. and Cal.com, Inc. participate in the EU–U.S. Data Privacy Framework and otherwise rely on the European Commission's standard contractual clauses.
 
 ## Your rights
 
