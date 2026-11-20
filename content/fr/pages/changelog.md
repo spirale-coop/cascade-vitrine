@@ -13,6 +13,46 @@ description: Ce document retrace les évolutions et corrections apportées à l'
 ::
 
 ::page-prose
+## 19 novembre 2026
+
+### Export comptable des ventes vers Pennylane :changelog-tag{type="feature"}
+
+Plus besoin de ressaisir vos ventes dans Pennylane chaque mois : Cascade génère le fichier d'import à partir de vos factures. Renseignez une fois vos comptes comptables et vos codes analytiques dans les réglages, choisissez un compte et un code budget sur vos modèles de souscription, puis téléchargez l'export depuis le nouvel écran « Exports ». Avant le téléchargement, Cascade signale les informations manquantes avec un lien pour les corriger : vous importez toujours un fichier complet.
+
+### Contributions : la période de prestation à la place de la date :changelog-tag{type="improvement"}
+
+La colonne « Date » de la liste des contributions devient « Période de prestation » : vous voyez d'un coup d'œil la période facturée (« Octobre 2026 », « Semaine du 16 novembre 2026 »), avec les dates exactes quand elle n'est pas complète.
+
+### Annuler une souscription en adhésion simple :changelog-tag{type="fix"}
+
+Vous pouvez désormais annuler une souscription en adhésion simple même si ses contributions sont déjà créées : celles encore en attente sont supprimées avec elle. Une contribution déjà facturée ou payée empêche l'annulation, pour préserver votre historique comptable.
+
+### Facturation en masse : les informations manquantes sont signalées :changelog-tag{type="fix"}
+
+Plus de factures qui ne partent jamais : une contribution à laquelle il manque une information pour être facturée ne peut plus être cochée, et une icône vous indique quoi compléter.
+
+## 16 novembre 2026
+
+### Facture électronique : connexion à SuperPDP :changelog-tag{type="feature"}
+
+Votre organisation peut autoriser Cascade à émettre ses factures en son nom auprès de SuperPDP, la plateforme agréée retenue. Cascade prend en charge l'abonnement : vous n'avez rien à souscrire. Un bloc « Facture électronique » dans les réglages de la Cascade lance la connexion et indique où elle en est. La connexion vaut pour toutes les Cascades de l'organisation. Une fois l'entreprise vérifiée par SuperPDP, Cascade contrôle qu'il s'agit bien de la vôtre (même SIREN ou numéro BCE), puis suit l'état de la connexion toutes les heures.
+
+## 8 novembre 2026
+
+### Contributions : rechercher par contributeur ou par modèle :changelog-tag{type="fix"}
+
+Dans la liste des contributions, vous pouvez désormais chercher tout ou partie du nom d'un contributeur ou d'un modèle de souscription. Quand une recherche ou un filtre ne donne rien, toutes les listes de l'application affichent maintenant « Aucun résultat » au lieu du bouton de création.
+
+## 4 novembre 2026
+
+### Modèles de souscription : désactiver le prorata :changelog-tag{type="feature"}
+
+Une souscription qui commence ou se termine en cours de période voit sa première et sa dernière contribution calculées au prorata des jours. Certaines coopératives veulent au contraire que toute période entamée soit due en entier. Une case « Prorata » apparaît donc dans l'étape « Récurrence » des modèles récurrents. Décochée, elle rend chaque période due au montant plein, y compris celles d'un avenant. Elle est cochée par défaut : les modèles existants gardent le prorata, et changer l'option ne modifie aucune contribution déjà créée.
+
+### E-mail d'avoir :changelog-tag{type="fix"}
+
+Un avoir était envoyé avec l'e-mail d'une facture, qui contenait une phrase de règlement incomplète (« attend votre règlement pour le . »). Le contributeur reçoit désormais un e-mail « Nouvel avoir », qui joint l'avoir et précise qu'aucun règlement n'est attendu. L'e-mail des factures ne change pas.
+
 ## 24 octobre 2026
 
 ### Connexion du compte Stripe :changelog-tag{type="feature"}

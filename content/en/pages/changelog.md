@@ -13,6 +13,46 @@ description: This document tracks the improvements and fixes made to the applica
 ::
 
 ::page-prose
+## 19 November 2026
+
+### Sales accounting export to Pennylane :changelog-tag{type="feature"}
+
+No more re-entering your sales in Pennylane every month: Cascade generates the import file from your invoices. Fill in your accounting accounts and analytic codes once in the settings, choose an account and a budget code on your subscription models, then download the export from the new "Exports" screen. Before the download, Cascade flags any missing information with a link to fix it: you always import a complete file.
+
+### Contributions: the service period instead of the date :changelog-tag{type="improvement"}
+
+The "Date" column of the contributions list becomes "Service period": you see at a glance the period invoiced ("October 2026", "Week of 16 November 2026"), with the exact dates when it is not complete.
+
+### Cancelling a simple-membership subscription :changelog-tag{type="fix"}
+
+You can now cancel a simple-membership subscription even if its contributions have already been created: those still pending are deleted with it. A contribution that has already been invoiced or paid prevents cancellation, to preserve your accounting history.
+
+### Bulk invoicing: missing information is flagged :changelog-tag{type="fix"}
+
+No more invoices that never go out: a contribution missing information needed for invoicing can no longer be ticked, and an icon tells you what to complete.
+
+## 16 November 2026
+
+### E-invoicing: connecting to SuperPDP :changelog-tag{type="feature"}
+
+Your organization can authorize Cascade to issue its invoices on its behalf through SuperPDP, the approved platform we chose. Cascade covers the subscription: you have nothing to sign up for. An "E-invoicing" block in the Cascade settings starts the connection and shows where it stands. The connection applies to all of the organization's Cascades. Once SuperPDP has verified the company, Cascade checks that it is indeed yours (same SIREN or BCE number), then checks the connection status every hour.
+
+## 8 November 2026
+
+### Contributions: search by contributor or by model :changelog-tag{type="fix"}
+
+In the contributions list, you can now search for all or part of a contributor's or subscription model's name. When a search or filter returns nothing, every list in the application now shows "No results" instead of the create button.
+
+## 4 November 2026
+
+### Subscription models: turning off proration :changelog-tag{type="feature"}
+
+When a subscription starts or ends mid-period, its first and last contributions are prorated by the day. Some cooperatives want any started period to be due in full instead. A "Prorata" checkbox is therefore added to the "Recurrence" step of recurring models. Unticked, it makes each period due at the full amount, including those of an amendment. It is ticked by default: existing models keep proration, and changing the option does not alter any contribution already created.
+
+### Credit note e-mail :changelog-tag{type="fix"}
+
+A credit note was sent with an invoice e-mail, which contained an incomplete payment sentence ("awaits your payment by ."). The contributor now receives a "New credit note" e-mail, which attaches the credit note and states that no payment is expected. The invoice e-mail is unchanged.
+
 ## 24 October 2026
 
 ### Connecting your Stripe account :changelog-tag{type="feature"}
