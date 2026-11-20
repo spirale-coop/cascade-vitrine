@@ -2,7 +2,7 @@
 title: "Create a subscription model"
 module: "Subscription models"
 moduleSlug: modeles-de-souscription
-order: 4
+order: 5
 actors: ["Manager"]
 enBref: "A subscription model groups the settings shared by several subscriptions: recurrence, sending method, payment method, receipt and, if needed, contract and amendments. The form takes one step with Simple membership, three with a contract."
 where: "Subscription models › Create a model"

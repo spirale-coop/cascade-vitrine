@@ -2,7 +2,7 @@
 title: "Write the contract template (variables in square brackets)"
 module: "Subscription models"
 moduleSlug: modeles-de-souscription
-order: 7
+order: 8
 actors: ["Manager"]
 enBref: "Write the text of a subscription model's contract once; Cascade then replaces the data in square brackets (name, amount, dates…) with each contributor's."
 where: "Subscription models › (the model) › Contrat (Contract) › Modèle de contrat (Contract template)"

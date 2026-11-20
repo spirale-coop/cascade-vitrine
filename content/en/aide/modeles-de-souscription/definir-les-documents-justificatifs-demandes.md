@@ -2,7 +2,7 @@
 title: "Define the supporting documents required"
 module: "Subscription models"
 moduleSlug: modeles-de-souscription
-order: 5
+order: 6
 actors: ["Manager"]
 enBref: "Specify the documents the contributor must upload before signing their contract: you list them once in the subscription model, and they are requested from every contributor."
 where: "Subscription models › (the model) › Contract › Documents"

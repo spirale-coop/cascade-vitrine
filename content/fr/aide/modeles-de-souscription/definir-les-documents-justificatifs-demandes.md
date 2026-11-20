@@ -2,7 +2,7 @@
 title: "Définir les documents justificatifs demandés"
 module: "Modèles de souscription"
 moduleSlug: modeles-de-souscription
-order: 5
+order: 6
 actors: ["Gérant"]
 enBref: "Désigne les documents que le contributeur doit déposer avant de signer son contrat : tu les listes une fois dans le modèle de souscription, et ils sont demandés à chaque contributeur."
 where: "Modèles de souscription › (le modèle) › Contrat › Documents"

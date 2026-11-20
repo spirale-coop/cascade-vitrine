@@ -2,7 +2,7 @@
 title: "Modifier un modèle de souscription"
 module: "Modèles de souscription"
 moduleSlug: modeles-de-souscription
-order: 6
+order: 7
 actors: ["Gérant"]
 enBref: "Change les réglages d'un modèle de souscription déjà créé : TVA, facturation, moyen de paiement par défaut, contrat, avenants… Les souscriptions, contributions et factures existantes ne sont pas réécrites : seule la suite tient compte des nouveaux réglages."
 where: "Modèles de souscription › (le modèle) › Enregistrer les modifications"
