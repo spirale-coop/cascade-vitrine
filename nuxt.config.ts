@@ -13,9 +13,8 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      // The help center (/aide) is published but not linked from the header yet:
-      // flip to true when it is ready for visitors.
-      helpCenterLink: false
+      // Shows the help center (/aide) button in the header and mobile menu.
+      helpCenterLink: true
     }
   },
   nitro: {
