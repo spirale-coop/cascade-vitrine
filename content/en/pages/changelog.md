@@ -19,6 +19,22 @@ description: This document tracks the improvements and fixes made to the applica
 
 No more re-entering your sales in Pennylane every month: Cascade generates the import file from your invoices. Fill in your accounting accounts and analytic codes once in the settings, choose an account and a budget code on your subscription models, then download the export from the new "Exports" screen. Before the download, Cascade flags any missing information with a link to fix it: you always import a complete file.
 
+### SEPA direct debit: contributors give their IBAN online :changelog-tag{type="feature"}
+
+For a subscription paid by direct debit, the contract signature e-mail now includes an "Enter my IBAN" button. The contributor records their SEPA mandate on a secure page, without creating an account, and a single mandate covers all their subscriptions with your organization.
+
+### Automatic direct debit of contributions :changelog-tag{type="feature"}
+
+No more chasing bank transfers: every morning, Cascade debits the contributions that are due from the contributor's account, into your Stripe account. The payment switches to "Paid" or "Failed" by itself, and a debit is never taken twice. If a debit fails, nothing is retried automatically: you stay in control.
+
+### Membership with terms :changelog-tag{type="feature"}
+
+A new membership mode, between the contract and simple membership: the contributor reads and signs your terms, and their membership takes effect straight away, with no countersignature on your side. You write the terms like a contract, with the same bracketed variables.
+
+### E-invoicing: sending and tracking :changelog-tag{type="feature"}
+
+Once your organization is connected to SuperPDP, each new invoice is sent to it automatically, on top of the e-mail with the PDF. A badge next to the invoice number shows where it stands (issued, received, made available…), and an invoice that was not transmitted can be resent in one click.
+
 ### Contributions: the service period instead of the date :changelog-tag{type="improvement"}
 
 The "Date" column of the contributions list becomes "Service period": you see at a glance the period invoiced ("October 2026", "Week of 16 November 2026"), with the exact dates when it is not complete.
