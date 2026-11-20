@@ -2,7 +2,7 @@
 title: "Edit a subscription model"
 module: "Subscription models"
 moduleSlug: modeles-de-souscription
-order: 6
+order: 7
 actors: ["Manager"]
 enBref: "Change the settings of a subscription model that has already been created: VAT, invoicing, default payment method, contract, amendments… Existing subscriptions, contributions and invoices are not rewritten: only what comes next takes the new settings into account."
 where: "Subscription models › (the model) › Enregistrer les modifications (Save changes)"

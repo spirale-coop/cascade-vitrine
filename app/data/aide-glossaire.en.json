@@ -9,7 +9,10 @@
     "values": null,
     "parent": "section-mode-d-adhesion",
     "articles": [
-      "creer-une-souscription"
+      "creer-une-souscription",
+      "generer-automatiquement-les-contributions-recurrentes",
+      "modifier-une-souscription",
+      "consulter-la-liste-des-modeles"
     ]
   },
   {
@@ -67,7 +70,11 @@
       "contresigner-un-contrat",
       "envoyer-un-contrat-en-signature",
       "modifier-un-modele-de-souscription",
-      "ajouter-un-contrat-sans-signature"
+      "ajouter-un-contrat-sans-signature",
+      "consulter-et-filtrer-les-souscriptions",
+      "annuler-une-souscription",
+      "relancer-l-invitation-a-signer",
+      "modifier-une-souscription"
     ]
   },
   {
@@ -87,7 +94,9 @@
       "marquer-une-contribution-comme-payee",
       "ce-que-cascade-fait-chaque-jour",
       "facturer-automatiquement",
-      "configurer-la-facturation-automatique"
+      "configurer-la-facturation-automatique",
+      "envoyer-la-facture-par-e-mail",
+      "consulter-et-filtrer-les-contributions"
     ]
   },
   {
@@ -165,7 +174,14 @@
       "deposer-des-documents-justificatifs",
       "creer-une-souscription",
       "valider-ou-rejeter-des-documents-justificatifs",
-      "modifier-un-modele-de-souscription"
+      "modifier-un-modele-de-souscription",
+      "consulter-et-filtrer-les-souscriptions",
+      "consulter-l-historique-des-versions",
+      "generer-automatiquement-les-contributions-recurrentes",
+      "annuler-une-souscription",
+      "modifier-une-souscription",
+      "inviter-plusieurs-contributeurs-en-masse",
+      "consulter-la-liste-des-modeles"
     ]
   },
   {
@@ -192,7 +208,12 @@
       "configurer-la-facturation-automatique",
       "valider-ou-rejeter-des-documents-justificatifs",
       "ajouter-un-contrat-sans-signature",
-      "rediger-le-modele-de-contrat"
+      "rediger-le-modele-de-contrat",
+      "consulter-et-filtrer-les-souscriptions",
+      "annuler-une-souscription",
+      "modifier-une-souscription",
+      "facturer-des-contributions",
+      "consulter-et-filtrer-les-contributions"
     ]
   },
   {
@@ -219,7 +240,10 @@
       "configurer-la-facturation-automatique",
       "choisir-le-moyen-de-paiement-par-defaut",
       "modifier-un-modele-de-souscription",
-      "ajouter-un-contrat-sans-signature"
+      "ajouter-un-contrat-sans-signature",
+      "envoyer-la-facture-par-e-mail",
+      "consulter-et-filtrer-les-souscriptions",
+      "modifier-une-souscription"
     ]
   },
   {
@@ -250,7 +274,12 @@
       "faire-un-avenant",
       "ce-que-cascade-fait-chaque-jour",
       "configurer-le-modele-d-avenant",
-      "rediger-le-modele-de-contrat"
+      "rediger-le-modele-de-contrat",
+      "consulter-et-filtrer-les-souscriptions",
+      "consulter-l-historique-des-versions",
+      "generer-automatiquement-les-contributions-recurrentes",
+      "modifier-une-souscription",
+      "inviter-plusieurs-contributeurs-en-masse"
     ]
   },
   {
@@ -281,7 +310,12 @@
       "creer-une-souscription",
       "faire-un-avenant",
       "ajouter-un-contrat-sans-signature",
-      "rediger-le-modele-de-contrat"
+      "rediger-le-modele-de-contrat",
+      "consulter-et-filtrer-les-souscriptions",
+      "consulter-l-historique-des-versions",
+      "generer-automatiquement-les-contributions-recurrentes",
+      "modifier-une-souscription",
+      "inviter-plusieurs-contributeurs-en-masse"
     ]
   },
   {
@@ -299,7 +333,8 @@
       "facturer-automatiquement",
       "ce-que-cascade-fait-chaque-jour",
       "choisir-le-moyen-de-paiement-par-defaut",
-      "modifier-un-modele-de-souscription"
+      "modifier-un-modele-de-souscription",
+      "facturer-des-contributions"
     ]
   },
   {
@@ -313,7 +348,9 @@
     "parent": "facture",
     "articles": [
       "facturer-automatiquement",
-      "configurer-la-facturation-automatique"
+      "configurer-la-facturation-automatique",
+      "envoyer-la-facture-par-e-mail",
+      "facturer-des-contributions"
     ]
   },
   {
@@ -333,7 +370,9 @@
       "facturer-automatiquement",
       "configurer-la-facturation-automatique",
       "modifier-un-modele-de-souscription",
-      "rediger-le-modele-de-contrat"
+      "rediger-le-modele-de-contrat",
+      "generer-automatiquement-les-contributions-recurrentes",
+      "modifier-une-souscription"
     ]
   },
   {
@@ -390,7 +429,10 @@
       "envoyer-la-facture-par-e-mail",
       "ce-que-cascade-fait-chaque-jour",
       "choisir-le-moyen-de-paiement-par-defaut",
-      "modifier-un-modele-de-souscription"
+      "modifier-un-modele-de-souscription",
+      "modifier-une-souscription",
+      "consulter-et-filtrer-les-contributions",
+      "consulter-la-liste-des-modeles"
     ]
   },
   {
@@ -435,7 +477,8 @@
     "articles": [
       "creer-une-souscription",
       "inviter-plusieurs-contributeurs-en-masse",
-      "envoyer-un-contrat-en-signature"
+      "envoyer-un-contrat-en-signature",
+      "relancer-l-invitation-a-signer"
     ]
   },
   {
@@ -464,7 +507,9 @@
       "creer-un-modele-de-souscription",
       "facturer-automatiquement",
       "configurer-la-facturation-automatique",
-      "choisir-le-moyen-de-paiement-par-defaut"
+      "choisir-le-moyen-de-paiement-par-defaut",
+      "envoyer-la-facture-par-e-mail",
+      "facturer-des-contributions"
     ]
   },
   {
@@ -481,7 +526,8 @@
       "configurer-le-modele-d-avenant",
       "faire-un-avenant",
       "modifier-un-modele-de-souscription",
-      "rediger-le-modele-de-contrat"
+      "rediger-le-modele-de-contrat",
+      "consulter-l-historique-des-versions"
     ]
   },
   {
@@ -524,7 +570,13 @@
       "choisir-le-moyen-de-paiement-par-defaut",
       "ajouter-un-contrat-sans-signature",
       "configurer-le-modele-d-avenant",
-      "rediger-le-modele-de-contrat"
+      "rediger-le-modele-de-contrat",
+      "envoyer-la-facture-par-e-mail",
+      "consulter-et-filtrer-les-souscriptions",
+      "modifier-une-souscription",
+      "facturer-des-contributions",
+      "inviter-plusieurs-contributeurs-en-masse",
+      "consulter-la-liste-des-modeles"
     ]
   },
   {
@@ -549,7 +601,11 @@
     ],
     "values": null,
     "parent": "section-montant-de-contribution",
-    "articles": []
+    "articles": [
+      "generer-automatiquement-les-contributions-recurrentes",
+      "inviter-plusieurs-contributeurs-en-masse",
+      "consulter-la-liste-des-modeles"
+    ]
   },
   {
     "slug": "montant-ht",
@@ -566,7 +622,12 @@
       "creer-une-contribution-ou-un-avoir",
       "faire-un-avenant",
       "configurer-le-modele-d-avenant",
-      "rediger-le-modele-de-contrat"
+      "rediger-le-modele-de-contrat",
+      "consulter-l-historique-des-versions",
+      "generer-automatiquement-les-contributions-recurrentes",
+      "modifier-une-souscription",
+      "inviter-plusieurs-contributeurs-en-masse",
+      "consulter-et-filtrer-les-contributions"
     ]
   },
   {
@@ -595,7 +656,8 @@
     "articles": [
       "choisir-le-moyen-de-paiement-par-defaut",
       "configurer-la-facturation-automatique",
-      "modifier-un-modele-de-souscription"
+      "modifier-un-modele-de-souscription",
+      "inviter-plusieurs-contributeurs-en-masse"
     ]
   },
   {
@@ -643,7 +705,8 @@
     "parent": null,
     "articles": [
       "marquer-une-contribution-comme-payee",
-      "choisir-le-moyen-de-paiement-par-defaut"
+      "choisir-le-moyen-de-paiement-par-defaut",
+      "consulter-et-filtrer-les-contributions"
     ]
   },
   {
@@ -655,7 +718,10 @@
     ],
     "values": null,
     "parent": "section-recurrence",
-    "articles": []
+    "articles": [
+      "generer-automatiquement-les-contributions-recurrentes",
+      "consulter-la-liste-des-modeles"
+    ]
   },
   {
     "slug": "ponctuel",
@@ -668,7 +734,11 @@
     ],
     "values": null,
     "parent": "section-recurrence",
-    "articles": []
+    "articles": [
+      "generer-automatiquement-les-contributions-recurrentes",
+      "inviter-plusieurs-contributeurs-en-masse",
+      "consulter-la-liste-des-modeles"
+    ]
   },
   {
     "slug": "prefixe",
@@ -725,7 +795,8 @@
     "parent": "section-recurrence",
     "articles": [
       "generer-automatiquement-les-contributions-recurrentes",
-      "ce-que-cascade-fait-chaque-jour"
+      "ce-que-cascade-fait-chaque-jour",
+      "consulter-la-liste-des-modeles"
     ]
   },
   {
@@ -746,7 +817,9 @@
       "creer-une-souscription",
       "envoyer-un-contrat-en-signature",
       "valider-ou-rejeter-des-documents-justificatifs",
-      "ajouter-un-contrat-sans-signature"
+      "ajouter-un-contrat-sans-signature",
+      "consulter-et-filtrer-les-souscriptions",
+      "modifier-une-souscription"
     ]
   },
   {
@@ -776,7 +849,12 @@
       "modifier-un-modele-de-souscription",
       "ajouter-un-contrat-sans-signature",
       "configurer-le-modele-d-avenant",
-      "rediger-le-modele-de-contrat"
+      "rediger-le-modele-de-contrat",
+      "envoyer-la-facture-par-e-mail",
+      "generer-automatiquement-les-contributions-recurrentes",
+      "relancer-l-invitation-a-signer",
+      "consulter-et-filtrer-les-contributions",
+      "consulter-la-liste-des-modeles"
     ]
   },
   {
@@ -823,7 +901,9 @@
       "consulter-l-historique-des-versions",
       "modifier-une-souscription",
       "faire-un-avenant",
-      "configurer-le-modele-d-avenant"
+      "configurer-le-modele-d-avenant",
+      "consulter-et-filtrer-les-souscriptions",
+      "annuler-une-souscription"
     ]
   }
 ]

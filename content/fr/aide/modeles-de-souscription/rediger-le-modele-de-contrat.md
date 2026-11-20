@@ -2,7 +2,7 @@
 title: "Rédiger le modèle de contrat (variables entre crochets)"
 module: "Modèles de souscription"
 moduleSlug: modeles-de-souscription
-order: 7
+order: 8
 actors: ["Gérant"]
 enBref: "Rédige une seule fois le texte du contrat d'un modèle de souscription ; Cascade remplace ensuite les données entre crochets (nom, montant, dates…) par celles de chaque contributeur."
 where: "Modèles de souscription › (le modèle) › Contrat › Modèle de contrat"

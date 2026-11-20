@@ -2,7 +2,7 @@
 title: "Créer un modèle de souscription"
 module: "Modèles de souscription"
 moduleSlug: modeles-de-souscription
-order: 4
+order: 5
 actors: ["Gérant"]
 enBref: "Un modèle de souscription regroupe les réglages communs à plusieurs souscriptions : récurrence, mode d'envoi, moyen de paiement, reçu et, si besoin, contrat et avenants. Le formulaire tient en une étape en Adhésion simple, en trois avec un contrat."
 where: "Modèles de souscription › Créer un modèle"
