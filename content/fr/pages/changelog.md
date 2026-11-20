@@ -19,6 +19,22 @@ description: Ce document retrace les évolutions et corrections apportées à l'
 
 Plus besoin de ressaisir vos ventes dans Pennylane chaque mois : Cascade génère le fichier d'import à partir de vos factures. Renseignez une fois vos comptes comptables et vos codes analytiques dans les réglages, choisissez un compte et un code budget sur vos modèles de souscription, puis téléchargez l'export depuis le nouvel écran « Exports ». Avant le téléchargement, Cascade signale les informations manquantes avec un lien pour les corriger : vous importez toujours un fichier complet.
 
+### Prélèvement SEPA : le contributeur donne son IBAN en ligne :changelog-tag{type="feature"}
+
+Pour une souscription réglée par prélèvement, l'e-mail de signature du contrat contient désormais un bouton « Renseigner mon IBAN ». Le contributeur enregistre son mandat SEPA sur une page sécurisée, sans créer de compte, et un seul mandat sert pour toutes ses souscriptions auprès de votre organisation.
+
+### Prélèvement automatique des contributions :changelog-tag{type="feature"}
+
+Plus besoin de courir après les virements : chaque matin, Cascade prélève les contributions arrivées à échéance sur le compte du contributeur, au profit de votre compte Stripe. Le paiement passe tout seul à « Payé » ou « Échoué », et un prélèvement n'est jamais débité deux fois. En cas d'échec, rien n'est reprélevé automatiquement : vous gardez la main.
+
+### Adhésion sous conditions :changelog-tag{type="feature"}
+
+Un nouveau mode d'adhésion, entre le contrat et l'adhésion simple : le contributeur lit et signe vos conditions, et son adhésion est effective aussitôt, sans contre-signature de votre côté. Vous rédigez les conditions comme un contrat, avec les mêmes variables entre crochets.
+
+### Facture électronique : envoi et suivi :changelog-tag{type="feature"}
+
+Une fois votre organisation connectée à SuperPDP, chaque nouvelle facture lui est transmise automatiquement, en plus de l'e-mail avec le PDF. Une pastille à côté du numéro de facture indique où elle en est (émise, reçue, mise à disposition…), et une facture restée non transmise peut être renvoyée en un clic.
+
 ### Contributions : la période de prestation à la place de la date :changelog-tag{type="improvement"}
 
 La colonne « Date » de la liste des contributions devient « Période de prestation » : vous voyez d'un coup d'œil la période facturée (« Octobre 2026 », « Semaine du 16 novembre 2026 »), avec les dates exactes quand elle n'est pas complète.
